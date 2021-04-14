@@ -71,7 +71,7 @@ var session = pl.create();
 
 function findRecipe(){
   
-  session.consult("recipe(lemon, zest).", {
+  session.consult("/recipes.pl", {
     success:function(){
       session.query("recipe("+ingredientsSaved+", X).", {
         success: function(goal){
