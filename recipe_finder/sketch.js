@@ -23,7 +23,7 @@ function setup() {
   
   // initializes video capture object
   capture = createCapture(VIDEO);
-  
+
   // initializes image classifier object
   ingredientClassifier = ml5.imageClassifier('MobileNet', capture, modelLoaded)
   

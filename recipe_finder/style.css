@@ -5,3 +5,25 @@ html, body {
 canvas {
   display: block;
 }
+
+.project-title{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+
+video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  text-align: center;
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
