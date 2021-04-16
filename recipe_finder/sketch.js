@@ -27,7 +27,7 @@ function setup() {
   capture = createCapture(VIDEO);
 
   // initializes image classifier object
-  ingredientClassifier = ml5.imageClassifier('/model.json', capture, modelLoaded)
+  ingredientClassifier = ml5.imageClassifier('/ingredients_model/model.json', capture, modelLoaded)
   
   // shows loading if model isn't ready yet
   ingredientText = createP('loading...');
