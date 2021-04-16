@@ -14,7 +14,8 @@ let ingredientsSaved = [];
 let search;
 // recipe list object
 let recipeList = {
-  "X = zest.": "https://www.culinaryhill.com/how-to-zest-a-lemon/"
+  "X = zest.": "https://www.culinaryhill.com/how-to-zest-a-lemon/",
+  "X = breadAndNutella.": "https://www.foodnetwork.com/recipes/nutella-and-toast-recipe-1913728"
 };
 // link to recipe to be initialized
 let recipeLink;
@@ -98,7 +99,7 @@ function findRecipe(){
   session.consult("/recipes.pl", {
     success:function(){
       // query recipes.pl with list of ingredients
-      session.query("recipe("+ingredientsSaved+", X).", {
+      session.query("recipe("+ingredientsSaved.sort()+", X).", {
         success: function(goal){
           session.answer({
             success: function(answer){
@@ -116,6 +117,7 @@ function findRecipe(){
 
 // gets called after succesful query of recipes.pl
 function displayRecipe(recipe){
+  console.log(recipe);
   // creates a link to recipe found in recipeList
   recipeLink = createA(recipeList[recipe], 'recipe', '_blank');
   // center the link
