@@ -16,6 +16,8 @@ let search;
 let recipeList = {
   "X = zest.": "https://www.culinaryhill.com/how-to-zest-a-lemon/"
 };
+// link to recipe to be initialized
+let recipeLink;
 
 // function for what happens once project is run
 function setup() {
@@ -25,7 +27,7 @@ function setup() {
   capture = createCapture(VIDEO);
 
   // initializes image classifier object
-  ingredientClassifier = ml5.imageClassifier('MobileNet', capture, modelLoaded)
+  ingredientClassifier = ml5.imageClassifier('/model.json', capture, modelLoaded)
   
   // shows loading if model isn't ready yet
   ingredientText = createP('loading...');
@@ -89,5 +91,6 @@ function findRecipe(){
 }
 
 function displayRecipe(recipe){
-  createA(recipeList[recipe], 'recipe', '_blank');
+  recipeLink = createA(recipeList[recipe], 'recipe', '_blank');
+  recipeLink.center('horizontal');
 }
