@@ -38,17 +38,24 @@ function setup() {
   
   // shows loading if model isn't ready yet
   ingredientText = createP('loading...');
+
+  // create a button div
+  buttonDiv = createDiv();
+  buttonDiv.addClass('button-div');
   
   // create a save button
   button = createButton('save');
+  buttonDiv.child(button);
   button.mousePressed(displayIngredient);
   
   // search button
   search = createButton('search');
+  buttonDiv.child(search);
   search.mousePressed(findRecipe);
 
   // clear button
   clear = createButton('clear');
+  buttonDiv.child(clear)
   clear.mousePressed(clearIngredients);
 
   // create a div for where recipes are to be displayed
