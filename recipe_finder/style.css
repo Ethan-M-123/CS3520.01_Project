@@ -1,0 +1,69 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.project-title{
+  text-align: center;
+  font-size: 3em;
+  font-family: "Rubik", Arial;
+  font-style: italic;
+}
+
+video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  text-align: center;
+  font-size: 2em;
+  font-family: "Rubik", sans-serif;
+}
+
+
+.button-div{
+  display: flex;
+  justify-content: center;
+  column-gap: 2em;
+}
+
+button{
+  font-size: 1rem;
+  padding: 10px 6em;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  font-family: "Rubik", sans-serif;
+  box-shadow: 6px 6px black;
+}
+
+button:hover{
+  animation-name: change-color;
+  animation-duration: 600ms;
+  animation-fill-mode: forwards;
+  font-weight: bold;
+}
+
+@keyframes change-color{
+  100%{
+    box-shadow: none;
+  }
+}
+
+@media(max-width: 915px){
+  .button-div{
+    display: grid;
+    justify-content: center;
+    row-gap: 2em;
+  }
+}
+
+a{
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+}
