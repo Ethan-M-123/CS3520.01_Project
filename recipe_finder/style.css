@@ -63,6 +63,11 @@ button:hover{
   }
 }
 
+.ingredient-div{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
 a{
   font-family: "Rubik", sans-serif;
   font-size: 30px;
