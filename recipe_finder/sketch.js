@@ -15,7 +15,8 @@ let search;
 // recipe list object
 let recipeList = {
   "X = zest.": "https://www.culinaryhill.com/how-to-zest-a-lemon/",
-  "X = breadAndNutella.": "https://www.foodnetwork.com/recipes/nutella-and-toast-recipe-1913728"
+  "X = breadAndNutella.": "https://www.foodnetwork.com/recipes/nutella-and-toast-recipe-1913728",
+  "X = avocadoToast.": "https://feelgoodfoodie.net/recipe/avocado-toast-with-egg-3-ways/"
 };
 // link to recipe to be initialized
 let recipeLink;
@@ -58,8 +59,15 @@ function setup() {
   buttonDiv.child(clear)
   clear.mousePressed(clearIngredients);
 
+  // ingredients list title
+  let ingredientListTitle = createP('Ingredient List:');
+  ingredientListTitle.style('font-size', '2.5em');
+  ingredientListTitle.style('font-weight', 'bold');
+  ingredientListTitle.style('font-style', 'italic');
+
   // create a div for where recipes are to be displayed
   div = createDiv();
+  div.addClass('ingredient-div');
 }
 
 // called when model is ready
@@ -128,7 +136,8 @@ function displayRecipe(recipe){
   // creates a link to recipe found in recipeList
   recipeLink = createA(recipeList[recipe], 'recipe', '_blank');
   // center the link
-  recipeLink.center('horizontal');
+  // recipeLink.center('horizontal');
+  div.child(recipeLink);
 }
 
 // called when user clicks clear
