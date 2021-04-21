@@ -16,7 +16,9 @@ let search;
 let recipeList = {
   "X = zest.": "https://www.culinaryhill.com/how-to-zest-a-lemon/",
   "X = breadAndNutella.": "https://www.foodnetwork.com/recipes/nutella-and-toast-recipe-1913728",
-  "X = avocadoToast.": "https://feelgoodfoodie.net/recipe/avocado-toast-with-egg-3-ways/"
+  "X = avocadoToast.": "https://feelgoodfoodie.net/recipe/avocado-toast-with-egg-3-ways/",
+  "X = quesadilla.": "https://www.simplyrecipes.com/recipes/quesadilla/",
+  "X = eggAndCheeseToast.": "https://toasterovenlove.com/egg-and-cheese-toasts/"
 };
 // link to recipe to be initialized
 let recipeLink;
