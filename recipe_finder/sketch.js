@@ -18,7 +18,8 @@ let recipeList = {
   "X = breadAndNutella.": "https://www.foodnetwork.com/recipes/nutella-and-toast-recipe-1913728",
   "X = avocadoToast.": "https://feelgoodfoodie.net/recipe/avocado-toast-with-egg-3-ways/",
   "X = quesadilla.": "https://www.simplyrecipes.com/recipes/quesadilla/",
-  "X = eggAndCheeseToast.": "https://toasterovenlove.com/egg-and-cheese-toasts/"
+  "X = eggAndCheeseToast.": "https://toasterovenlove.com/egg-and-cheese-toasts/",
+  "X = eggInHole.": "https://www.allrecipes.com/recipe/187850/egg-in-a-hole/"
 };
 // link to recipe to be initialized
 let recipeLink;
