@@ -1,15 +1,13 @@
 // video capture object to be initialized
 let capture;
-// image classifier object to be initialized
-let ingredientClassifier;
+// object detector object to be initialized
+let ingredientDetecor;
 // text of ingredient to be initialized
-let ingredientText;
+let loadingText;
 // button for saving ingredient
 let button;
-// string ingredient name
-let ingredientName= '';
-// ingredients saved array
-let ingredientsSaved = [];
+// ingredients detected array
+let ingredientsDetected = [];
 // search button to search recipe
 let search;
 // recipe list object
@@ -27,85 +25,84 @@ let recipeLink;
 let div;
 // clear button to be intitialized
 let clear;
-// ingredient p array
-let ingredientPArray = [];
+// ingredient array
+let ingredientArray = [];
 
 // function for what happens once project is run
 function setup() {
-  noCanvas();
+  // make a canvas
+  createCanvas(640, 480);
   
   // initializes video capture object
-  capture = createCapture(VIDEO);
-
-  // initializes image classifier object
-  ingredientClassifier = ml5.imageClassifier('/ingredients_model/model.json', capture, modelLoaded)
+  capture = createCapture(VIDEO, videoLoaded);
+  capture.size(640, 480);
+  capture.hide();
   
   // shows loading if model isn't ready yet
-  ingredientText = createP('loading...');
+  loadingText = createP('loading...');
 
   // create a button div
   buttonDiv = createDiv();
   buttonDiv.addClass('button-div');
-  
-  // create a save button
-  button = createButton('save');
-  buttonDiv.child(button);
-  button.mousePressed(displayIngredient);
   
   // search button
   search = createButton('search');
   buttonDiv.child(search);
   search.mousePressed(findRecipe);
 
-  // clear button
-  clear = createButton('clear');
-  buttonDiv.child(clear)
-  clear.mousePressed(clearIngredients);
+  // recipe list title
+  let recipeList = createP('Recipe:');
+  recipeList.style('font-size', '2.5em');
+  recipeList.style('font-weight', 'bold');
+  recipeList.style('font-style', 'italic');
+}
 
-  // ingredients list title
-  let ingredientListTitle = createP('Ingredient List:');
-  ingredientListTitle.style('font-size', '2.5em');
-  ingredientListTitle.style('font-weight', 'bold');
-  ingredientListTitle.style('font-style', 'italic');
+// draw onto canvas
+function draw(){
+  image(capture, 0 ,0);
 
-  // create a div for where recipes are to be displayed
-  div = createDiv();
-  div.addClass('ingredient-div');
+  for(let i = 0; i < ingredientArray.length; i++){
+    const ingredientObject = ingredientArray[i];
+    stroke(0, 255, 0);
+    noFill();
+    rect(ingredientObject['x'], ingredientObject['y'], ingredientObject['width'], ingredientObject['height']);
+    noStroke();
+    fill(255);
+    textSize(24);
+    text(ingredientObject['label'], ingredientObject.x + 10, ingredientObject.y + 24);
+  }
+}
+
+// runs once video element is loaded
+function videoLoaded(){
+  // initializes object detector object
+  ingredientDetector = ml5.objectDetector('cocossd', capture, modelLoaded);
 }
 
 // called when model is ready
 function modelLoaded(){
   console.log('Model Loaded');
-  
+  loadingText.html('')
   // call to classifyIngredient once model is loaded
-  classifyIngredient();
+  detectIngredient();
 }
 
 // predict what ingredient is being shown in the video
-function classifyIngredient(){
+function detectIngredient(){
   // call to classify on ingredientClassifier with callback function gotIngredient
-  ingredientClassifier.classify(gotIngredient);
+  ingredientDetector.detect(ingredientDetected);
 }
 
 // gets called when ingredient is classified
-function gotIngredient(error, ingredients){
-  // display ingredient classified
-  ingredientText.html(ingredients[0].label);
-  ingredientName = ingredients[0].label;
-  // classifyIngredient call again, so it happens continuously
-  classifyIngredient();
-}
-
-// gets called when user clicks save
-function displayIngredient(){
-  // push ingredient onto ingredientsSaved array
-  ingredientsSaved.push(ingredientName);
-  // create a p element with the name of the ingredient
-  let ingredientP = createP(ingredientName);
-  // make the p element a child of the div
-  div.child(ingredientP);
-  // push p element of ingredient onto ingredientPArray
-  ingredientPArray.push(ingredientP);
+function ingredientDetected(error, ingredients){
+  // get food labels from ingredients array
+  ingredientsDetected = ingredients.map(x => x['label'])
+  // print food labels
+  console.log(ingredientsDetected)
+  // ingredientArray refers to ingredients
+  ingredientArray = ingredients
+  // call detectIngredient again
+  detectIngredient();
 }
 
 // start tau prolog sesson
@@ -117,7 +114,7 @@ function findRecipe(){
   session.consult("/recipes.pl", {
     success:function(){
       // query recipes.pl with list of ingredients
-      session.query("recipe("+ingredientsSaved.sort()+", X).", {
+      session.query("recipe("+ingredientsDetected.sort()+", X).", {
         success: function(goal){
           session.answer({
             success: function(answer){
@@ -138,19 +135,6 @@ function displayRecipe(recipe){
   console.log(recipe);
   // creates a link to recipe found in recipeList
   recipeLink = createA(recipeList[recipe], 'recipe', '_blank');
-  // center the link
   // recipeLink.center('horizontal');
   div.child(recipeLink);
-}
-
-// called when user clicks clear
-function clearIngredients(){
-  // make ingredientsSaved array empty
-  ingredientsSaved = [];
-  // delete all the ingredient p elements
-  for(let i = 0; i < ingredientPArray.length; i++){
-    ingredientPArray[i].remove();
-  }
-  // remove recipe link if present
-  recipeLink.remove();
 }
