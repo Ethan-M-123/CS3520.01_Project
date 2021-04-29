@@ -1,7 +1,7 @@
 // video capture object to be initialized
 let capture;
 // object detector object to be initialized
-let ingredientDetecor;
+let ingredientDetector;
 // text of ingredient to be initialized
 let loadingText;
 // button for saving ingredient
