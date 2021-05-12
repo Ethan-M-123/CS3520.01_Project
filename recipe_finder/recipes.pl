@@ -10,53 +10,49 @@ recipe(bread, egg, eggInHole).
 
 
 %Breakfast
-recipe(egg, cheese, sausage, Sausage Omelette).
-recipe(egg, cheese, bacon, Bacon Omelette).
-recipe(egg, cheese, bacon, sausage, Combo Omelette).
-recipe(egg, cheese, Cheese Omelette).
-recipe(egg, bacon, sausage, pancake batter, milk, butter, Super Breakfast).
-recipe(sausage, egg, milk, mustard, bread, shredded cheese, Sausage breakfast Cassarole).
-recipe(flour, sugar, baking powder, egg, milk, butter, strawberry, Strawberry Waffles).
-recipe(bacon, onion, potato, egg, shredded cheese, Sheepherders Breakfast).
-recipe(sausage, egg tortilla, potato, Sausage Breakfast Burrito).
-recipe(bacon, egg tortilla, potato, Bacon Breakfast Burrito).
-recipe(bacon, sausage, egg tortilla, potato, Combo Breakfast Burrito).
-recipe(peanut butter, oatmeal, honey, Peatun Butter Oatmeal).
-recipe(potato, shredded cheese, sour cream, shredded cheese, Cheesy Hash Brown Bake).
-recipe(strawberry, banana, raspberry, blueberry, spinach, Berry Smoothie).
-recipe(butter, sweet potato, garlic, spinach, egg, Sweet Potato and Egg Skillet).
-recipe(potato, bacon, shredded cheese, egg, milk, Hash Brown Egg Bake).
+recipe(egg, cheese, sausage, Sausage_Omelette).
+recipe(egg, cheese, bacon, Bacon_Omelette).
+recipe(egg, cheese, bacon, sausage, Combo_Omelette).
+recipe(egg, cheese, Cheese_Omelette).
+recipe(egg, bacon, sausage, potato, bread, butter, Super_Breakfast).
+recipe(sausage, egg, milk, mustard, bread, shredded cheese, Sausage_breakfast_Cassarole).
+recipe(bacon, onion, potato, egg, shredded cheese, Sheepherders_Breakfast).
+recipe(sausage, egg tortilla, potato, Sausage_Breakfast_Burrito).
+recipe(bacon, egg tortilla, potato, Bacon_Breakfast_Burrito).
+recipe(bacon, sausage, egg tortilla, potato, Combo_Breakfast_Burrito).
+recipe(potato, shredded cheese, milk, shredded cheese, Cheesy_Hash_Brown_Bake).
+recipe(strawberry, banana, blueberry, Berry_Smoothie).
+recipe(butter, sweet potato, garlic, egg, Sweet_Potato_and_Egg_Skillet).
+recipe(potato, bacon, shredded cheese, egg, milk, Hash_Brown_Egg_Bake).
 
 %lunch
-recipe(bread, lunch meat, boring sandwich).
-recipe(bread, lunch meat, cheese, tomato, avocado, fancy sandwich).
-recipe(lettuce, blueberry, almonds, balsamic vinegar, cheese, mustard, oil, Summer Blueberry Almond Salad).
-recipe(potato, sour cream, shredded cheese, Microwave Baked Potato).
-recipe(tortilla, shredded cheese, Cheese Quesadilla).
-recipe(bean, rice, tortilla, Bean and Cheese Burrito).
+recipe(bread, lunch meat, boring_sandwich).
+recipe(bread, lunch meat, cheese, tomato, avocado, fancy_sandwich).
+recipe(lettuce, blueberry, almonds, balsamic vinegar, cheese, mustard, Summer_Blueberry_Almond_Salad).
+recipe(potato, milk, shredded cheese, Baked_Potato).
+recipe(tortilla, shredded cheese, Cheese_Quesadilla).
+recipe(bean, tortilla, Bean and Cheese_Burrito).
 recipe(tortilla, tomato, avocado, lunch meat, Wrap).
-recipe(tuna, mayonnaise, Tuna Salad).
+recipe(lunch meat, lettuce, shredded cheese, Chef_Salad).
 
 
 
 %Dinner
 recipe(ground beef, lasagna noodle, tomato, shredded cheese, Lasagna).
-recipe(noodle, pasta sauce, Spaghetti).
-recipe(pepperoni, bread, shredded cheese, pasta sauce, Pepperoni Pizza).
-recipe(tortilla, chicken, tomato, onion, Chicken Tacos).
-recipe(ramen, bacon, egg, Bacon and Egg Ramen).
-recipe(brocolli, noodle, shredded cheese, milk, Brocolli Mac&Cheese).
-recipe(chicken, tomato, pesto, white cheese, Pesto Chicken Bake).
-recipe(salmon, asparagus, lemon, garlic, Lemon Garlic Salmon).
-recipe(tuna, avocado, tortilla, spinach, carrot, Tuna Wrap).
-recipe(ground beef, onion, tomato, brocolli, sweet potato, ketchup, Meatloaf Dinner).
-recipe(green bean, brocolli, baby corn, mushroom, bell pepper, cucumber, soy sauce, Vegetable Stir Fry).
+recipe(noodle, tomatoes, Spaghetti).
+recipe(bread, shredded cheese, tomatoes, Pizza).
+recipe(tortilla, chicken, tomato, onion, Chicken_Tacos).
+recipe(noodle, bacon, egg, Bacon_and_Egg_Pasta).
+recipe(brocolli, noodle, shredded cheese, milk, Brocolli_Mac&Cheese).
+recipe(chicken, tomato, shredded cheese, Chicken_Bake).
+recipe(chicken, asparagus, lemon, garlic, Lemon_Garlic_Chicken).
+recipe(lunch meat, avocado, tortilla, lettuce, carrot, Hefty_Wrap).
+recipe(ground beef, onion, tomato, brocolli, sweet potato, ketchup, Meatloaf).
+recipe(green bean, brocolli, baby corn, mushroom, bell pepper, cucumber, soy sauce, Vegetable_Stir_Fry).
 
 %dessert
-recipe(cookie, ice cream, ice cream sandwich).
-recipe(milk, strawberry, strawberry milkshake).
-recipe(milk, chocolate, chocolate milkshake).
-recipe(root beer, ice cream, root beer float).
-recipe(peanut butter, oatmeal, honey, Peanut Butter Oatmeal Bars).
+recipe(cookie, ice cream, ice_cream_sandwich).
+recipe(milk, strawberry, strawberry_milkshake).
+recipe(milk, chocolate, chocolate_milkshake).
 recipe(marshmallow, chocolate, smores).
-recipe(pretzels, chocolate, Chocolate Covered Pretzels).
+recipe(apple, chocolate, Chocolate_Covered_Apple).
