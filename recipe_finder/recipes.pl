@@ -45,3 +45,4 @@ recipe(milk, strawberry, strawberry_milkshake).
 recipe(milk, chocolate, chocolate_milkshake).
 recipe(marshmallow, chocolate, smores).
 recipe(apple, chocolate, chocolate_covered_apple).
+recipe(apple, apple_sauce).
