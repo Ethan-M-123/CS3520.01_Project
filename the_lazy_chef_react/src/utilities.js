@@ -1,16 +1,18 @@
+import camera from "./camera.js"
+
 // Define our labelmap
 export const labelMap = {
     0:{name: 'almond'},
     1:{name: 'apple'},
     2:{name: 'asparagus'},
     3:{name: 'avocado'},
-    4:{name: 'baby corn'},
+    4:{name: 'baby_corn'},
     5:{name: 'bacon'},
     6:{name: 'bagel'},
-    7:{name: 'balsamic vinegar'},
+    7:{name: 'balsamic_vinegar'},
     8:{name: 'banana'},
     9:{name: 'bean'},
-    10:{name: 'bell pepper'},
+    10:{name: 'bell_pepper'},
     11:{name: 'blackberry'},
     12:{name: 'blueberry'},
     13:{name: 'bread'},
@@ -21,18 +23,18 @@ export const labelMap = {
     18:{name: 'chicken'},
     19:{name: 'chocolate'},
     20:{name: 'cookie'},
-    21:{name: 'cream cheese'},
+    21:{name: 'cream_cheese'},
     22:{name: 'egg'},
     23:{name: 'garlic'},
-    24:{name: 'green beans'},
+    24:{name: 'green_beans'},
     25:{name: 'ground beef'},
     26:{name: 'ham'},
     27:{name: 'honey'},
-    28:{name: 'ice cream'},
+    28:{name: 'ice_cream'},
     29:{name: 'ketchup'},
-    30:{name: 'lasagna noodle'},
+    30:{name: 'lasagna_noodle'},
     31:{name: 'lettuce'},
-    32:{name: 'lunch meat'},
+    32:{name: 'lunch_meat'},
     33:{name: 'marshmallow'},
     34:{name: 'mayonnaise'},
     35:{name: 'milk'},
@@ -43,10 +45,10 @@ export const labelMap = {
     40:{name: 'onion'},
     41:{name: 'potato'},
     42:{name: 'sausage'},
-    43:{name: 'shredded cheese'},
+    43:{name: 'shredded_cheese'},
     44:{name: 'strawberry'},
     45:{name: 'sugar'},
-    46:{name: 'sweet potatoes'},
+    46:{name: 'sweet_potatoes'},
     47:{name: 'tomato'},
     48:{name: 'tortillas'},
     49:{name: 'yogurt'}
@@ -58,7 +60,12 @@ export const drawRect = (boxes, classes, scores, threshold, imgWidth, imgHeight,
     for(let i = 0; i <= boxes.length; i++){
         if(boxes[i] && classes[i] && scores[i]>threshold){
             // Extract variables
-            const [y,x,height,width] = boxes[i];
+            // const [y,x,height,width] = boxes[i];
+            // const [x,y,width, height] = boxes[i];
+            const x = boxes[i][0];
+            const y = boxes[i][1];
+            const width = boxes[i][2];
+            const height = boxes[i][3];
             const text = classes[i];
 
             // Set styling

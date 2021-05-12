@@ -45,7 +45,9 @@
 }
 
 .search-button{
-  margin-top: 515px;
+  margin-top: 535px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-size: 1rem;
   padding: 10px 6em;
   background-color: white;
@@ -53,6 +55,7 @@
   border-color: black;
   font-family: "Rubik", sans-serif;
   box-shadow: 6px 6px black;
+
 }
 
 .search-button:hover{
@@ -72,3 +75,40 @@
   font-size: 30px;
   font-family: "Rubik", sans-serif;
 }
+
+#video{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+  z-index: 8;
+  left: 0;
+  right: 0;
+
+}
+
+@media(max-width: 578px){
+  #search{
+    margin-top: 15px;
+  }
+}
+
+.app-div{
+  text-align: center;
+}
+
+#canvas{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+  left: 0;
+  right: 0;
+
+  z-index: 9;
+
+}
+
+/* #snap{
+  margin
+} */
