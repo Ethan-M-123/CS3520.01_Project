@@ -1,23 +1,12 @@
-recipe(lemon, zest).
-recipe(bread, nutella, breadAndNutella).
-recipe(avocado, bread, egg, avocadoToast).
-recipe(cheese, tortilla, quesadilla).
-recipe(bread, cheese, egg, eggAndCheeseToast).
-recipe(bread, egg, eggInHole).
-
-
-
-
-
 %Breakfast
 recipe(egg, cheese, sausage, Sausage_Omelette).
 recipe(egg, cheese, bacon, Bacon_Omelette).
-recipe(egg, cheese, bacon, sausage, Combo_Omelette).
+recipe(egg, cheese, bacon, sausage, Lumberjack_Omelette).
 recipe(egg, cheese, Cheese_Omelette).
-recipe(egg, bacon, sausage, potato, bread, butter, Super_Breakfast).
+recipe(egg, bacon, sausage, potato, bread, cheese, butter, milk, Cheesy_Bacon-Sausage-Egg-Hash_Brown_Skillet).
 recipe(sausage, egg, milk, mustard, bread, shredded cheese, Sausage_breakfast_Cassarole).
 recipe(bacon, onion, potato, egg, shredded cheese, Sheepherders_Breakfast).
-recipe(sausage, egg tortilla, potato, Sausage_Breakfast_Burrito).
+recipe(sausage, egg, tortilla, potato, Sausage_Breakfast_Burrito).
 recipe(bacon, egg tortilla, potato, Bacon_Breakfast_Burrito).
 recipe(bacon, sausage, egg tortilla, potato, Combo_Breakfast_Burrito).
 recipe(potato, shredded cheese, milk, shredded cheese, Cheesy_Hash_Brown_Bake).
@@ -26,7 +15,7 @@ recipe(butter, sweet potato, garlic, egg, Sweet_Potato_and_Egg_Skillet).
 recipe(potato, bacon, shredded cheese, egg, milk, Hash_Brown_Egg_Bake).
 
 %lunch
-recipe(bread, lunch meat, boring_sandwich).
+recipe(bread, cheese, Grilled_cheese).
 recipe(bread, lunch meat, cheese, tomato, avocado, fancy_sandwich).
 recipe(lettuce, blueberry, almonds, balsamic vinegar, cheese, mustard, Summer_Blueberry_Almond_Salad).
 recipe(potato, milk, shredded cheese, Baked_Potato).
