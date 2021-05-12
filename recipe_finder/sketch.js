@@ -17,7 +17,55 @@ let recipeList = {
   "X = avocadoToast.": "https://feelgoodfoodie.net/recipe/avocado-toast-with-egg-3-ways/",
   "X = quesadilla.": "https://www.simplyrecipes.com/recipes/quesadilla/",
   "X = eggAndCheeseToast.": "https://toasterovenlove.com/egg-and-cheese-toasts/",
-  "X = eggInHole.": "https://www.allrecipes.com/recipe/187850/egg-in-a-hole/"
+  "X = eggInHole.": "https://www.allrecipes.com/recipe/187850/egg-in-a-hole/",
+  
+  %breakfast
+  "X = Sausage_Omelette.": "https://www.emerils.com/123033/pork-sausage-and-cheese-omelette",
+  "X = Bacon_Omelette.": "https://www.recipetips.com/recipe-cards/t--37341/bacon-and-cheese-omelette.asp",
+  "X = Lumberjack_Omelette.": "https://www.keyingredient.com/recipes/852875039/lumberjack-omelet/",
+  "X = Cheese_Omelette.": "https://www.epicurious.com/recipes/food/views/cheese-omelette-51262180",
+  "X = Cheesy_Bacon-Sausage-Egg-Hash_Brown_Skillet.": "https://www.allrecipes.com/recipe/261541/cheesy-bacon-sausage-egg-hash-brown-skillet/",
+  "X = Sausage_breakfast_Cassarole.": "https://www.simplyrecipes.com/recipes/sausage_breakfast_casserole/",
+  "X = Sheepherders_Breakfast.": "https://www.tasteofhome.com/recipes/sheepherder-s-breakfast/",
+  "X = Sausage_Breakfast_Burrito.": "https://www.tasteofhome.com/recipes/sausage-breakfast-burritos/",
+  "X = Bacon_Breakfast_Burrito.": "https://peasandcrayons.com/2019/03/bacon-breakfast-burrito.html",
+  "X = Combo_Breakfast_Burrito.": "https://tasty.co/recipe/bacon-sausage-egg-wrapped-breakfast-burrito",
+  "X = Cheesy_Hash_Brown_Bake.": "https://www.tasteofhome.com/recipes/cheesy-hash-brown-bake/",
+  "X = Berry_Smoothie.": "https://www.dinneratthezoo.com/mixed-berry-smoothie/",
+  "X = Sweet_Potato_and_Egg_Skillet.": "https://www.tasteofhome.com/recipes/sweet-potato-and-egg-skillet/",
+  "X = Hash_Brown_Egg_Bake.": "https://www.tasteofhome.com/recipes/hash-brown-egg-bake/",
+  
+  
+  %lunch
+  "X = grilled_cheese.": "https://www.spendwithpennies.com/the-best-grilled-cheese-sandwich/",
+  "X = fancy_sandwich.": "https://californiaavocado.com/recipe/fresh-california-avocado-and-turkey-sandwich/",
+  "X = Summer_Blueberry_Almond_Salad.": "https://www.food.com/recipe/greens-with-blueberries-feta-and-almonds-301425",
+  "X = Baked_Potato.": "https://www.gimmesomeoven.com/baked-potato/",
+  "X = Cheese_Quesadilla.": "https://www.simplyrecipes.com/recipes/quesadilla/",
+  "X = Bean_and_Cheese_Burrito.": "https://www.isabeleats.com/bean-and-cheese-burritos/",
+  "X = Meat_Wrap.": "https://lmld.org/turkey-bacon-ranch-wraps/",
+  "X = Chef_Salad.": "https://www.spendwithpennies.com/chefs-salad/",
+  
+  %dinner
+  "X = Lasagna.": "https://www.spendwithpennies.com/easy-homemade-lasagna/",
+  "X = Spaghetti.": "https://www.thewholesomedish.com/spaghetti/",
+  "X = Pizza.": "https://www.abeautifulplate.com/the-best-homemade-margherita-pizza/",
+  "X = Chicken_Tacos.": "https://damndelicious.net/2019/08/06/easy-chicken-tacos/",
+  "X = Bacon_and_Egg_Pasta.": "https://www.foodnetwork.com/recipes/food-network-kitchen/bacon-and-egg-spaghetti-7232463",
+  "X = Brocolli_Mac&Cheese.": "https://www.dinneratthezoo.com/broccoli-mac-and-cheese/",
+  "X = Chicken_Bake.": "https://easyfamilyrecipes.com/million-dollar-chicken-bake/",
+  "X = Lemon_Garlic_Chicken.": "https://rasamalaysia.com/lemon-garlic-chicken/",
+  "X = Hefty_Wrap.": "https://www.withablast.net/deli-wraps/",
+  "X = Meatloaf.": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "X = Vegetable_Stir_Fry.": "https://www.dinneratthezoo.com/vegetable-stir-fry/",
+  
+  %dessert
+  "X = ice_cream_sandwich.": "https://www.ifyougiveablondeakitchen.com/cookie-ice-cream-sandwich/",
+  "X = strawberry_milkshake.": "https://www.foodnetwork.com/recipes/fresh-strawberry-milkshakes-3644067",
+  "X = chocolate_milkshake.": "https://www.bettycrocker.com/recipes/chocolate-milkshakes/7b7f7d41-4e3f-4bfa-b148-f29cc2a6b135",
+  "X = smores.": "https://www.allrecipes.com/recipe/22146/smores/",
+  "X = Chocolate_Covered_Apple.": "https://www.allrecipes.com/recipe/63150/chocolate-dipped-apples/"
+
 };
 // link to recipe to be initialized
 let recipeLink;
