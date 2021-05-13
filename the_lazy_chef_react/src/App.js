@@ -527,10 +527,11 @@ function App(){
 
     //   drawRect(newerBoxes, newerClasses, newerScores, 0.1, 480, 360, ctx)
     // camera.takeSnapshot();
-    drawRect(result[0], result[2], result[1], 0.4, width,height, camera.getCtx())
+    drawRect(result[0], result[2], result[1], 0.25, width,height, camera.getCtx())
       
       // console.log(output(result[0], result[2], result[1], 0.4));
-    setIngredients(output(result[0], result[2], result[1], 0.4));
+    setIngredients(output(result[0], result[2], result[1], 0.25));
+    
     // camera.takeSnapshot();
   //      for(let i = 0; i<document.getElementsByClassName('video').length; i++){
   //     document.getElementsByClassName('video')[i].pause();
@@ -609,59 +610,54 @@ function Recipe(props){
   const [recipe, setRecipe] = React.useState("");
 
   let lookup = {
-    "X = zest.": "https://www.culinaryhill.com/how-to-zest-a-lemon/",
-    "X = breadAndNutella.": "https://www.foodnetwork.com/recipes/nutella-and-toast-recipe-1913728",
-    "X = avocadoToast.": "https://feelgoodfoodie.net/recipe/avocado-toast-with-egg-3-ways/",
-    "X = quesadilla.": "https://www.simplyrecipes.com/recipes/quesadilla/",
-    "X = eggAndCheeseToast.": "https://toasterovenlove.com/egg-and-cheese-toasts/",
-    "X = eggInHole.": "https://www.allrecipes.com/recipe/187850/egg-in-a-hole/",
     
-    // %breakfast
-    "X = Sausage_Omelette.": "https://www.emerils.com/123033/pork-sausage-and-cheese-omelette",
-    "X = Bacon_Omelette.": "https://www.recipetips.com/recipe-cards/t--37341/bacon-and-cheese-omelette.asp",
-    "X = Lumberjack_Omelette.": "https://www.keyingredient.com/recipes/852875039/lumberjack-omelet/",
-    "X = Cheese_Omelette.": "https://www.epicurious.com/recipes/food/views/cheese-omelette-51262180",
-    "X = Cheesy_Bacon-Sausage-Egg-Hash_Brown_Skillet.": "https://www.allrecipes.com/recipe/261541/cheesy-bacon-sausage-egg-hash-brown-skillet/",
-    "X = Sausage_breakfast_Cassarole.": "https://www.simplyrecipes.com/recipes/sausage_breakfast_casserole/",
-    "X = Sheepherders_Breakfast.": "https://www.tasteofhome.com/recipes/sheepherder-s-breakfast/",
-    "X = Sausage_Breakfast_Burrito.": "https://www.tasteofhome.com/recipes/sausage-breakfast-burritos/",
-    "X = Bacon_Breakfast_Burrito.": "https://peasandcrayons.com/2019/03/bacon-breakfast-burrito.html",
-    "X = Combo_Breakfast_Burrito.": "https://tasty.co/recipe/bacon-sausage-egg-wrapped-breakfast-burrito",
-    "X = Cheesy_Hash_Brown_Bake.": "https://www.tasteofhome.com/recipes/cheesy-hash-brown-bake/",
-    "X = Berry_Smoothie.": "https://www.dinneratthezoo.com/mixed-berry-smoothie/",
-    "X = Sweet_Potato_and_Egg_Skillet.": "https://www.tasteofhome.com/recipes/sweet-potato-and-egg-skillet/",
-    "X = Hash_Brown_Egg_Bake.": "https://www.tasteofhome.com/recipes/hash-brown-egg-bake/",
+    "X = sausage_omelette.": "https://www.emerils.com/123033/pork-sausage-and-cheese-omelette",
+    "X = bacon_omelette.": "https://www.recipetips.com/recipe-cards/t--37341/bacon-and-cheese-omelette.asp",
+    "X = lumberjack_omelette.": "https://www.keyingredient.com/recipes/852875039/lumberjack-omelet/",
+    "X = cheese_omelette.": "https://www.epicurious.com/recipes/food/views/cheese-omelette-51262180",
+    "X = cheesy_bacon-sausage-egg-hash_brown_skillet.": "https://www.allrecipes.com/recipe/261541/cheesy-bacon-sausage-egg-hash-brown-skillet/",
+    "X = sausage_breakfast_cassarole.": "https://www.simplyrecipes.com/recipes/sausage_breakfast_casserole/",
+    "X = sheepherders_breakfast.": "https://www.tasteofhome.com/recipes/sheepherder-s-breakfast/",
+    "X = sausage_breakfast_burrito.": "https://www.tasteofhome.com/recipes/sausage-breakfast-burritos/",
+    "X = bacon_breakfast_burrito.": "https://peasandcrayons.com/2019/03/bacon-breakfast-burrito.html",
+    "X = combo_breakfast_burrito.": "https://tasty.co/recipe/bacon-sausage-egg-wrapped-breakfast-burrito",
+    "X = cheesy_hash_brown_bake.": "https://www.tasteofhome.com/recipes/cheesy-hash-brown-bake/",
+    "X = berry_smoothie.": "https://www.dinneratthezoo.com/mixed-berry-smoothie/",
+    "X = sweet_potato_and_egg_skillet.": "https://www.tasteofhome.com/recipes/sweet-potato-and-egg-skillet/",
+    "X = hash_brown_egg_bake.": "https://www.tasteofhome.com/recipes/hash-brown-egg-bake/",
+    "X = egg_sandwich.": "https://recipes.timesofindia.com/us/recipes/egg-sandwich/rs60018142.cms",
+    "X = hard_boiled_egg.": "https://www.simplyrecipes.com/recipes/how_to_make_perfect_hard_boiled_eggs/",
+    "X = toast.": "https://spicedblog.com/toast/",  
+    "X = buttered_toast.": "https://jerryjamesstone.com/recipe/best-toast-with-butter/",
     
     
-    // %lunch
     "X = grilled_cheese.": "https://www.spendwithpennies.com/the-best-grilled-cheese-sandwich/",
     "X = fancy_sandwich.": "https://californiaavocado.com/recipe/fresh-california-avocado-and-turkey-sandwich/",
-    "X = Summer_Blueberry_Almond_Salad.": "https://www.food.com/recipe/greens-with-blueberries-feta-and-almonds-301425",
-    "X = Baked_Potato.": "https://www.gimmesomeoven.com/baked-potato/",
-    "X = Cheese_Quesadilla.": "https://www.simplyrecipes.com/recipes/quesadilla/",
-    "X = Bean_and_Cheese_Burrito.": "https://www.isabeleats.com/bean-and-cheese-burritos/",
-    "X = Meat_Wrap.": "https://lmld.org/turkey-bacon-ranch-wraps/",
-    "X = Chef_Salad.": "https://www.spendwithpennies.com/chefs-salad/",
+    "X = summer_blueberry_almond_salad.": "https://www.food.com/recipe/greens-with-blueberries-feta-and-almonds-301425",
+    "X = baked_potato.": "https://www.gimmesomeoven.com/baked-potato/",
+    "X = cheese_quesadilla.": "https://www.simplyrecipes.com/recipes/quesadilla/",
+    "X = bean_and_cheese_burrito.": "https://www.isabeleats.com/bean-and-cheese-burritos/",
+    "X = wrap.": "https://lmld.org/turkey-bacon-ranch-wraps/",
+    "X = chef_salad.": "https://www.spendwithpennies.com/chefs-salad/",
     
-    // %dinner
-    "X = Lasagna.": "https://www.spendwithpennies.com/easy-homemade-lasagna/",
-    "X = Spaghetti.": "https://www.thewholesomedish.com/spaghetti/",
-    "X = Pizza.": "https://www.abeautifulplate.com/the-best-homemade-margherita-pizza/",
-    "X = Chicken_Tacos.": "https://damndelicious.net/2019/08/06/easy-chicken-tacos/",
-    "X = Bacon_and_Egg_Pasta.": "https://www.foodnetwork.com/recipes/food-network-kitchen/bacon-and-egg-spaghetti-7232463",
-    "X = Brocolli_Mac&Cheese.": "https://www.dinneratthezoo.com/broccoli-mac-and-cheese/",
-    "X = Chicken_Bake.": "https://easyfamilyrecipes.com/million-dollar-chicken-bake/",
-    "X = Lemon_Garlic_Chicken.": "https://rasamalaysia.com/lemon-garlic-chicken/",
-    "X = Hefty_Wrap.": "https://www.withablast.net/deli-wraps/",
-    "X = Meatloaf.": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "X = Vegetable_Stir_Fry.": "https://www.dinneratthezoo.com/vegetable-stir-fry/",
+    "X = lasagna.": "https://www.spendwithpennies.com/easy-homemade-lasagna/",
+    "X = spaghetti.": "https://www.thewholesomedish.com/spaghetti/",
+    "X = pizza.": "https://www.abeautifulplate.com/the-best-homemade-margherita-pizza/",
+    "X = chicken_tacos.": "https://damndelicious.net/2019/08/06/easy-chicken-tacos/",
+    "X = bacon_and_egg_pasta.": "https://www.foodnetwork.com/recipes/food-network-kitchen/bacon-and-egg-spaghetti-7232463",
+    "X = brocolli_mac&cheese.": "https://www.dinneratthezoo.com/broccoli-mac-and-cheese/",
+    "X = chicken_bake.": "https://easyfamilyrecipes.com/million-dollar-chicken-bake/",
+    "X = lemon_garlic_chicken.": "https://rasamalaysia.com/lemon-garlic-chicken/",
+    "X = hefty_wrap.": "https://www.withablast.net/deli-wraps/",
+    "X = meatloaf.": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "X = vegetable_stir_fry.": "https://www.dinneratthezoo.com/vegetable-stir-fry/",
     
-    // %dessert
     "X = ice_cream_sandwich.": "https://www.ifyougiveablondeakitchen.com/cookie-ice-cream-sandwich/",
     "X = strawberry_milkshake.": "https://www.foodnetwork.com/recipes/fresh-strawberry-milkshakes-3644067",
     "X = chocolate_milkshake.": "https://www.bettycrocker.com/recipes/chocolate-milkshakes/7b7f7d41-4e3f-4bfa-b148-f29cc2a6b135",
     "X = smores.": "https://www.allrecipes.com/recipe/22146/smores/",
-    "X = Chocolate_Covered_Apple.": "https://www.allrecipes.com/recipe/63150/chocolate-dipped-apples/"
+    "X = chocolate_covered_apple.": "https://www.allrecipes.com/recipe/63150/chocolate-dipped-apples/",
+    "X = baked_egg_in_avocado.": "https://damndelicious.net/2016/10/05/baked-eggs-in-avocado/"
   }
 
 
@@ -673,59 +669,69 @@ function Recipe(props){
     var session = pl.create();
     // load recipes.pl file
     const prolog = `
-    %Breakfast
-    recipe(egg, cheese, sausage, Sausage_Omelette).
-    recipe(egg, cheese, bacon, Bacon_Omelette).
-    recipe(egg, cheese, bacon, sausage, Lumberjack_Omelette).
-    recipe(egg, cheese, Cheese_Omelette).
-    recipe(egg, bacon, sausage, potato, bread, cheese, butter, milk, Cheesy_Bacon-Sausage-Egg-Hash_Brown_Skillet).
-    recipe(sausage, egg, milk, mustard, bread, shredded cheese, Sausage_breakfast_Cassarole).
-    recipe(bacon, onion, potato, egg, shredded cheese, Sheepherders_Breakfast).
-    recipe(sausage, egg, tortilla, potato, Sausage_Breakfast_Burrito).
-    recipe(bacon, egg tortilla, potato, Bacon_Breakfast_Burrito).
-    recipe(bacon, sausage, egg tortilla, potato, Combo_Breakfast_Burrito).
-    recipe(potato, shredded cheese, milk, shredded cheese, Cheesy_Hash_Brown_Bake).
-    recipe(strawberry, banana, blueberry, Berry_Smoothie).
-    recipe(butter, sweet potato, garlic, egg, Sweet_Potato_and_Egg_Skillet).
-    recipe(potato, bacon, shredded cheese, egg, milk, Hash_Brown_Egg_Bake).
-    
-    %lunch
-    recipe(bread, cheese, Grilled_cheese).
-    recipe(bread, lunch meat, cheese, tomato, avocado, fancy_sandwich).
-    recipe(lettuce, blueberry, almonds, balsamic vinegar, cheese, mustard, Summer_Blueberry_Almond_Salad).
-    recipe(potato, milk, shredded cheese, Baked_Potato).
-    recipe(tortilla, shredded cheese, Cheese_Quesadilla).
-    recipe(bean, tortilla, Bean and Cheese_Burrito).
-    recipe(tortilla, tomato, avocado, lunch meat, Wrap).
-    recipe(lunch meat, lettuce, shredded cheese, Chef_Salad).
-    
-    
-    
-    %Dinner
-    recipe(ground beef, lasagna noodle, tomato, shredded cheese, Lasagna).
-    recipe(noodle, tomatoes, Spaghetti).
-    recipe(bread, shredded cheese, tomatoes, Pizza).
-    recipe(tortilla, chicken, tomato, onion, Chicken_Tacos).
-    recipe(noodle, bacon, egg, Bacon_and_Egg_Pasta).
-    recipe(brocolli, noodle, shredded cheese, milk, Brocolli_Mac&Cheese).
-    recipe(chicken, tomato, shredded cheese, Chicken_Bake).
-    recipe(chicken, asparagus, lemon, garlic, Lemon_Garlic_Chicken).
-    recipe(lunch meat, avocado, tortilla, lettuce, carrot, Hefty_Wrap).
-    recipe(ground beef, onion, tomato, brocolli, sweet potato, ketchup, Meatloaf).
-    recipe(green bean, brocolli, baby corn, mushroom, bell pepper, cucumber, soy sauce, Vegetable_Stir_Fry).
-    
-    %dessert
-    recipe(cookie, ice cream, ice_cream_sandwich).
+    recipe(egg, cheese, sausage, sausage_omelette).
+    recipe(egg, cheese, bacon, bacon_omelette).
+recipe(egg, cheese, bacon, sausage, lumberjack_omelette).
+recipe(egg, cheese, cheese_omelette).
+recipe(egg, bacon, sausage, potato, bread, cheese, butter, milk, cheesy_bacon_sausage_egg_hash_brown_skillet).
+recipe(sausage, egg, milk, mustard, bread, shredded_cheese, sausage_breakfast_cassarole).
+recipe(bacon, onion, potato, egg, shredded_cheese, sheepherders_breakfast).
+recipe(sausage, egg, tortilla, potato, sausage_breakfast_burrito).
+recipe(bacon, egg, tortilla, potato, bacon_breakfast_burrito).
+recipe(bacon, sausage, egg, tortilla, potato, combo_breakfast_burrito).
+recipe(potato, shredded_cheese, milk, shredded_cheese, cheesy_hash_brown_bake).
+recipe(strawberry, banana, blueberry, berry_smoothie).
+recipe(butter, sweet_potato, garlic, egg, sweet_potato_and_egg_skillet).
+recipe(potato, bacon, shredded_cheese, egg, milk, hash_brown_egg_bake).
+
+
+      recipe(bread, cheese, grilled_cheese).
+      recipe(bread, lunch_meat, cheese, tomato, avocado, fancy_sandwich).
+      recipe(lettuce, blueberry, almonds, balsamic_vinegar, cheese, mustard, summer_blueberry_almond_salad).
+      recipe(potato, milk, shredded_cheese, baked_potato).
+      recipe(tortilla, shredded_cheese, cheese_quesadilla).
+      recipe(bean, tortilla, bean_and_cheese_burrito).
+      recipe(tortilla, tomato, avocado, lunch_meat, wrap).
+      recipe(lunch_meat, lettuce, shredded_cheese, chef_salad).
+
+
+
+
+    recipe(ground_beef, lasagna_noodle, tomato, shredded_cheese, lasagna).
+    recipe(noodle, tomatoes, spaghetti).
+    recipe(bread, shredded_cheese, tomatoes, pizza).
+    recipe(tortilla, chicken, tomato, onion, chicken_tacos).
+    recipe(noodle, bacon, egg, bacon_and_egg_pasta).
+    recipe(brocolli, noodle, shredded_cheese, milk, brocolli_mac&cheese).
+    recipe(chicken, tomato, shredded_cheese, chicken_bake).
+    recipe(chicken, asparagus, lemon, garlic, lemon_garlic_chicken).
+    recipe(lunch_meat, avocado, tortilla, lettuce, carrot, hefty_wrap).
+    recipe(ground_beef, onion, tomato, brocolli, sweet_potato, ketchup, meatloaf).
+    recipe(green_bean, brocolli, baby_corn, mushroom, bell_pepper, cucumber, soy_sauce, vegetable_stir_fry).
+
+
+    recipe(cookie, ice_cream, ice_cream_sandwich).
     recipe(milk, strawberry, strawberry_milkshake).
     recipe(milk, chocolate, chocolate_milkshake).
     recipe(marshmallow, chocolate, smores).
-    recipe(apple, chocolate, Chocolate_Covered_Apple).
-    recipe(apple, strawberry, something).
+    recipe(apple, chocolate, chocolate_covered_apple).
+    recipe(egg, bread, egg_sandwich).
+    recipe(egg, hard_boiled_egg).
+    recipe(bread, toast).
+    recipe(bread, butter, buttered_toast).
     `
-    session.consult(prolog, {
+    const egg = `
+      recipe(egg, hard_boiled_egg).
+      recipe(bread, egg, egg_sandwich).
+      recipe(bread, toast).
+      recipe(bread, cheese, grilled_cheese).
+      recipe(avocado, egg, baked_egg_in_avocado).
+    `
+
+    session.consult(egg, {
       success:function(){
         // query recipes.pl with list of ingredients
-        session.query("recipe("+ingredientArray.sort()+", X).", {
+        session.query("recipe("+[ingredientArray].sort()+", X).", {
           success: function(goal){
             session.answer({
               success: function(answer){
@@ -738,7 +744,7 @@ function Recipe(props){
         })
       },
       error: function(err){
-        console.log("didn't work")
+        console.log(err)
       }
     });
   }

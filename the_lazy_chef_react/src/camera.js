@@ -42,7 +42,7 @@ const camera = function () {
     
     
                 (function (video) {
-                    navigator.mediaDevices.getUserMedia({ video: { facingMode: { exact: "environment" } } }).then(function (stream) {
+                    navigator.mediaDevices.getUserMedia({ video: 'true' }).then(function (stream) {
                         video.srcObject = stream;
                         video.play();
                     });
