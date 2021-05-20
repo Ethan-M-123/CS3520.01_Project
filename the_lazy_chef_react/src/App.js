@@ -1,616 +1,134 @@
 // Import dependencies
 import React, { useRef, useState, useEffect } from "react";
-import * as tf from "@tensorflow/tfjs";
-import Webcam from "react-webcam";
 import "./App.css";
-import camera from "./camera.js"
+import camera from "./camera.js";
 import * as cvstfjs from '@microsoft/customvision-tfjs';
-import { useMediaQuery } from 'react-responsive'
-// 2. TODO - Import drawing utility here
-// e.g. import { drawRect } from "./utilities";
-import {output, drawRect} from "./utilities"
+import { useMediaQuery } from 'react-responsive';
+import {output, drawRect} from "./utilities";
+
+// initialize tau-prolog object
 var pl = require("tau-prolog");
 
-//     const videoConstraints = {
-//       facingMode: { exact: "environment" }
-//     };
-//     tf.ENV.set('WEBGL_CONV_IM2COL', false);
-console.log(document.getElementById('root').clientWidth)
-// if(window.screen.width <= 655){
-//   camera.startCamera(window.screen.width-20,360);
-// }else{
-//   camera.startCamera(480,360);
-// }
-
-// function App() {
-//   const webcamRef = useRef(null);
-//   const canvasRef = useRef(null);
-//   const [ingredients, setIngredients] = React.useState([]);
-  
-//   // const backend = tf.backend();
-
-//   // Main function
-//   const runCoco = async () => {
-//     // 3. TODO - Load network 
-//     // e.g. const net = await cocossd.load();
-//     // https://raw.githubusercontent.com/Ethan-M-123/ObjDetectModel/main/cvai%20model/model.json
-//     // https://tensorflowjsrealtimemodel.s3.au-syd.cloud-object-storage.appdomain.cloud/model.json
-//     // https://raw.githubusercontent.com/hugozanini/TFJS-object-detection/master/models/kangaroo-detector/model.json
-//     // const net = await tf.loadGraphModel('https://raw.githubusercontent.com/SaschaDittmann/tfjs-cv-objectdetection/master/static/model/model.json');
-//     // https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json
-//     const net = await tf.loadGraphModel('https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json');
-    
-//     //  Loop and detect hands
-//     setInterval(() => {
-//       detect(net);
-//     }, 16.7);
-
-
-
-    
-//   };
-
-//   // function _logistic(x) {
-//   //   if (x > 0) {
-//   //       return (1 / (1 + Math.exp(-x)));
-//   //   } else {
-//   //       const e = Math.exp(x);
-//   //       return e / (1 + e);
-//   //   }
-//   // }
-
-//   const detect = async (net) => {
-    
-    
-//     // let model = new cvstfjs.ObjectDetectionModel();
-//     // await model.loadModelAsync('https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json');
-//     // const image = document.getElementById('video');
-//     // const result = await model.executeAsync(image);
-//     // console.log(result);
-
-//     // Check data is available
-//     if (
-//       typeof webcamRef.current !== "undefined" &&
-//       webcamRef.current !== null &&
-//       webcamRef.current.video.readyState === 4
-//     ) {
-//     //   // Get Video Properties
-//       const video = webcamRef.current.video;
-//       const videoWidth = webcamRef.current.video.videoWidth;
-//       const videoHeight = webcamRef.current.video.videoHeight;
-
-//     //   // Set video width
-//       webcamRef.current.video.width = videoWidth;
-//       webcamRef.current.video.height = videoHeight;
-
-//     //   // Set canvas height and width
-//       canvasRef.current.width = videoWidth;
-//       canvasRef.current.height = videoHeight;
-
-//     //   // const backend = tf.backend();
-
-//     //   const ANCHORS = [0.573, 0.677, 1.87, 2.06, 3.34, 5.47, 7.88, 3.53, 9.77, 9.17];
-//     //   // tf.engine().startScope();
-//     //   // 4. TODO - Make Detections
-//       const img = tf.browser.fromPixels(video);
-//     //   let outputs = tf.tidy( () =>{
-//     //     let img = tf.browser.fromPixels(video);
-//     //     // const resized = tf.image.resizeBilinear(img, [640,480]);
-//         const resized = tf.image.resizeBilinear(img, [416,416]);
-//     //     // let newImg = tf.image.resizeBilinear(img.expandDims().toFloat(), [416,416]);
-//     //     // const casted = resized.cast('int32');
-//         const casted = resized.cast('float32');
-//         // const expanded = casted.expandDims(0);
-//     //     const newImg = casted.expandDims(0);
-//     //     // try{
-//     //       // return await net.execute(newImg);
-//     //       return net.execute(newImg);
-//     //   })
-      
-//     //     // const obj = await net.execute(expanded);
-//     //     // const tensor = await obj.arraySync();
-//     //     const arrays = !Array.isArray(outputs) ? outputs.array() : Promise.all(outputs.map(t => t.array()));
-//     //     let predictions = await arrays;
-      
-//     //     // console.log(outputs);
-        
-        
-//     //       const num_anchor = ANCHORS.length / 2;
-//     //       const channels = predictions[0][0][0].length;
-//     //       const height = predictions[0].length;
-//     //       const width = predictions[0][0].length;
-
-//     //       const num_class = channels / num_anchor - 5;
-
-// 		//       let boxes = [];
-// 	  //     	let scores = [];
-// 		//       let classes = [];
-
-//     //       // for (var grid_y = 0; grid_y < height; grid_y++) {
-//     //       //   for (var grid_x = 0; grid_x < width; grid_x++) {
-//     //       //     let offset = 0;
-      
-//     //       //     for (var i = 0; i < num_anchor; i++) {
-//     //       //       let x = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_x) / width;
-//     //       //       let y = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_y) / height;
-//     //       //       let w = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2] / width;
-//     //       //       let h = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2 + 1] / height;
-      
-//     //       //       let objectness = tf.scalar(_logistic(predictions[0][grid_y][grid_x][offset++]));
-//     //       //       let class_probabilities = tf.tensor1d(predictions[0][grid_y][grid_x].slice(offset, offset + num_class)).softmax();
-//     //       //       offset += num_class;
-      
-//     //       //       class_probabilities = class_probabilities.mul(objectness);
-//     //       //       let max_index = class_probabilities.argMax();
-//     //       //       boxes.push([x - w / 2, y - h / 2, x + w / 2, y + h / 2]);
-//     //       //       scores.push(class_probabilities.max().dataSync()[0]);
-//     //       //       classes.push(max_index.dataSync()[0]);
-//     //       //     }
-//     //       //   }
-//     //       // }
-           
-           
-//     //       let newStuff = tf.tidy(()=>{
-//     //       for(let j = 0; j < height*width; j++){
-//     //         var grid_y = Math.floor(j / width);
-//     //         var grid_x = j % width;
-            
-//     //         let offset = 0;
-      
-//     //           for (var i = 0; i < num_anchor; i++) {
-//     //             tf.tidy(()=>{
-//     //               let x = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_x) / width;
-//     //               let y = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_y) / height;
-//     //               let w = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2] / width;
-//     //               let h = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2 + 1] / height;
-        
-//     //               let objectness = tf.scalar(_logistic(predictions[0][grid_y][grid_x][offset++]));
-//     //               let class_probabilities = tf.tensor1d(predictions[0][grid_y][grid_x].slice(offset, offset + num_class)).softmax();
-//     //               offset += num_class;
-        
-//     //               class_probabilities = class_probabilities.mul(objectness);
-//     //               tf.dispose(objectness)
-//     //               let max_index = class_probabilities.argMax();
-//     //               boxes.push([x - w / 2, y - h / 2, x + w / 2, y + h / 2]);
-//     //               scores.push(class_probabilities.max().dataSync()[0]);
-//     //               classes.push(max_index.dataSync()[0]);
-//     //               tf.dispose(class_probabilities)
-//     //               }
-//     //             )
-//     //           }
-
-//     //       }
-
-//     //       let new_boxes = tf.tensor2d(boxes);
-// 		//       let new_scores = tf.tensor1d(scores);
-// 		//       let new_classes = tf.tensor1d(classes);
-//     //         return [new_boxes, new_scores, new_classes]}
-//     //       )
-
-//     //       const selected_indices = await tf.image.nonMaxSuppressionAsync(newStuff[0], newStuff[1], 10);
-//     //       let box_index = await newStuff[0].gather(selected_indices);
-//     //       let score_index = await newStuff[1].gather(selected_indices);
-//     //       let class_index = await newStuff[2].gather(selected_indices)
-// 		//       let newPredictions = [box_index.array(), score_index.array(), class_index.array()];
-
-//     //       // const selected_indices = tf.image.nonMaxSuppression(boxes, scores, 10)[1];
-// 		//       // predictions = [boxes.gather(selected_indices).array()[1], scores.gather(selected_indices).array()[1], classes.gather(selected_indices).array()[1]];
-//     //       // predictions = [await boxes.gather(selected_indices).arraySync(), await scores.gather(selected_indices).arraySync(), await classes.gather(selected_indices).arraySync()];
-//         let model = new cvstfjs.ObjectDetectionModel();
-//         await model.loadModelAsync('https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json');
-//         // const image = document.getElementById('video');
-//         // const result = await model.executeAsync(image);
-//         const result = await model.executeAsync(video);
-//         console.log(result);
-        
-
-//     //     // console.log(predictions);
-
-//         let newerBoxes = await result[0];
-//         let newerClasses = await result[2];
-//         let newerScores = await result[1];
-
-//     //     // const boxes = await obj[0];
-//     //     // const classes = await obj[5];
-//     //     // const scores = await obj[4];
-
-  
-
-//         console.log("boxes: " + newerBoxes);
-//         console.log("Classes: " + newerClasses);
-//         console.log("Scores: "+ newerScores);
-
-//     //     // Draw mesh
-//     //     const ctx = canvasRef.current.getContext("2d");
-//         const ctx = camera.getCtx();
-
-//     //     // 5. TODO - Update drawing utility
-//     //     // drawSomething(obj, ctx)  
-//         requestAnimationFrame(()=>{drawRect(newerBoxes, newerClasses, newerScores, 0.1, 480, 360, ctx)});
-
-//         setIngredients(output(newerBoxes, newerClasses, newerScores, 0.1));
-
-//     //     // tf.dispose(img);
-//     //     // tf.dispose(newImg);
-//     //     // tf.dispose(resized);
-//     //     // tf.dispose(casted);
-//     //     // tf.dispose(expanded);
-//     //     // tf.dispose(obj);
-//     //     // tf.dispose(new_boxes);
-//     //     // tf.dispose(new_scores);
-//     //     // tf.dispose(new_classes);
-//     //     // tf.dispose(box_index);
-//     //     // tf.dispose(score_index);
-//     //     // tf.dispose(class_index);
-//     //     // tf.dispose(outputs);
-//     //     tf.dispose(selected_indices);
-//     //     tf.dispose(arrays);
-//     //     // tf.engine().endScope()
-
-
-//     //        tf.dispose(boxes);
-//     //     tf.dispose(scores);
-//     //     tf.dispose(classes);
-//     //     tf.dispose(newerBoxes);
-//     //     tf.dispose(newerScores);
-//     //     tf.dispose(newerClasses);
-//     //       tf.dispose(box_index);
-//     //     tf.dispose(score_index);
-//     //     tf.dispose(class_index);
-//     //     tf.dispose(selected_indices);
-//     //     tf.dispose(newStuff);
-//     //     tf.dispose(predictions);
-//     //     tf.dispose(newPredictions);
-//     //     tf.dispose(arrays);
-//     //     tf.dispose(outputs);
-//     //     // console.log(tf.memory().numTensors)
-//     //   // } catch(error){
-//     //     // // tf.dispose(img);
-//     //     // // tf.dispose(arrays);
-//     //     // tf.dispose(newImg);
-//     //     // tf.dispose(resized);
-//     //     // tf.dispose(casted);
-//     //     // // tf.dispose(expanded);
-//     //     // // tf.engine().endScope();
-//     //     // console.log(error);
-//     //   // }
-//     }
-//   };
-
-//   useEffect(()=>{runCoco()},[]);
-
-//   return (
-//     <div className="App">
-//       {/* <header className="App-header"> */}
-//         <h1 className="project-title">The Lazy Chef</h1>
-//         <Webcam
-//           ref={webcamRef}
-//           videoConstraints={videoConstraints}
-//           muted={true} 
-//           style={{
-//             position: "absolute",
-//             marginLeft: "auto",
-//             marginRight: "auto",
-
-//             left: 0,
-//             right: 0,
-//             textAlign: "center",
-//             zindex: 9,
-//             width: 640,
-//             height: 480,
-//           }}
-//         />
-
-//         <canvas
-//           ref={canvasRef}
-//           style={{
-//             position: "absolute",
-//             marginLeft: "auto",
-//             marginRight: "auto",
-//             left: 0,
-//             right: 0,
-//             textAlign: "center",
-//             zindex: 8,
-//             width: 640,
-//             height: 480,
-//           }}
-//         />
-//       {/* </header> */}
-//         <Recipe ing={ingredients}/>
-//     </div>
-//   );
-// }
-
+/** 
+ * React functional component App
+ * where the ingredient object detection takes place
+ */
 function App(){
-//   const ANCHORS = [0.573, 0.677, 1.87, 2.06, 3.34, 5.47, 7.88, 3.53, 9.77, 9.17];
-//   const NEW_OD_OUTPUT_TENSORS = ['detected_boxes', 'detected_scores', 'detected_classes'];
-//   let model;
-//   let tensor;
-//   let thePredictions;
+    // naming variables width and height to be used in the scope of the function
     let width;
     let height;
+
+    // initialize states for ingredients, loading, and detectedSomething
     const [ingredients, setIngredients] = React.useState([]);
+    const [loading, setLoading] = React.useState(false);
+    const [detectedSomething, setdetectedSomething] = React.useState("not yet");
 
-    React.useEffect(()=>{
-    // const [ingredients, setIngredients] = React.useState([]);
-    console.log(document.getElementById('root').clientWidth)
-    if(document.getElementById('root').clientWidth <= 595){
-      width = document.getElementById('root').clientWidth-50;
-      height = (480*width)/640
-      camera.startCamera(width,height);
-    }else{
-      width = 640;
-      height = 480;
-      camera.startCamera(width, height);
-    }}, [])
+    // code within this block runs when the component has be renders to the DOM
+    React.useEffect(() => {
+      // set video and canvas size depending on window size
+      if(document.getElementById('root').clientWidth <= 595) {
+        // making the video and canvas dimensions smaller because the window is not wide
+        width = document.getElementById('root').clientWidth-50;
+        height = (480*width)/640;
+        camera.startCamera(width,height);
+      } else {
+        // making the video and canvas dimensions 640x480 when the window is wide enough
+        width = 640;
+        height = 480;
+        camera.startCamera(width, height);
+      }
+    }, [])
 
-//   function _logistic(x) {
-// 	if (x > 0) {
-// 	    return (1 / (1 + Math.exp(-x)));
-// 	} else {
-// 	    const e = Math.exp(x);
-// 	    return e / (1 + e);
-// 	}
-// }
-
-//   camera.startCamera();
-//   const detect = async ()=>{
-//     model = await tf.loadGraphModel('https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json')
-//     let image = tf.tidy(()=>{
-      // const pixels = camera.videoElement();
-//       const input_size = model.inputs[0].shape[1];
-//       // console.log(input_size);
-//       let image = tf.browser.fromPixels(pixels, 3);
-//       image = tf.image.resizeBilinear(image.expandDims().toFloat(), [input_size, input_size])
-//       return image;
-//     });
-//     // const resized = tf.image.resizeBilinear(img, [640,480])
-//     // const casted = resized.cast('int32')
-//     // const expanded = casted.expandDims(0)
-//     // const obj = await net.executeAsync(expanded)
-//     // console.log(img);
-//     // tf.dispose(model);
-//     console.log("model in detect(): "+model)
-//     tensor = image;
-//     console.log("image: "+image)
-//     return image;
-//     let model = new cvstfjs.ObjectDetectionModel();
-//     await model.loadModelAsync('https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json');
-//     const image = document.getElementById('video');
-//     const result = await model.executeAsync(image);
-//     console.log(result);
-//   };
-
-//   const predictIngredients= async (inputs)=>{
-//     if(typeof model == "undefined"){
-//       model = await tf.loadGraphModel('https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json')
-//     }
-//     console.log("model: "+model);
-//     console.log("inputs: "+inputs)
-//     // console.log("Number of tensors: "+tf.memory().numTensors)
-//     console.log();
-//     inputs = tensor;
-//     const outputs = await model.executeAsync(inputs);
-// 	  const arrays = !Array.isArray(outputs) ? outputs.array() : Promise.all(outputs.map(t => t.array()));
-// 	  let predictions = await arrays;
-
-//     const num_anchor = ANCHORS.length / 2;
-// 		const channels = predictions[0][0][0].length;
-// 		const height = predictions[0].length;
-// 		const width = predictions[0][0].length;
-
-// 		const num_class = channels / num_anchor - 5;
-
-// 		let boxes = [];
-// 		let scores = [];
-// 		let classes = [];
-
-// 		for (var grid_y = 0; grid_y < height; grid_y++) {
-// 			for (var grid_x = 0; grid_x < width; grid_x++) {
-// 				let offset = 0;
-
-// 				for (var i = 0; i < num_anchor; i++) {
-// 					let x = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_x) / width;
-// 					let y = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_y) / height;
-// 					let w = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2] / width;
-// 					let h = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2 + 1] / height;
-
-// 					let objectness = tf.scalar(_logistic(predictions[0][grid_y][grid_x][offset++]));
-// 					let class_probabilities = tf.tensor1d(predictions[0][grid_y][grid_x].slice(offset, offset + num_class)).softmax();
-// 					offset += num_class;
-
-// 					class_probabilities = class_probabilities.mul(objectness);
-// 					let max_index = class_probabilities.argMax();
-// 					boxes.push([x - w / 2, y - h / 2, x + w / 2, y + h / 2]);
-// 					scores.push(class_probabilities.max().dataSync()[0]);
-// 					classes.push(max_index.dataSync()[0]);
-// 				}
-// 			}
-// 		}
-
-//     boxes = tf.tensor2d(boxes);
-// 		scores = tf.tensor1d(scores);
-// 		classes = tf.tensor1d(classes);
-
-// 		const selected_indices = await tf.image.nonMaxSuppressionAsync(boxes, scores, 10);
-// 		predictions = [await boxes.gather(selected_indices).array(), await scores.gather(selected_indices).array(), await classes.gather(selected_indices).array()];
-
-//     thePredictions = predictions;
-//     // console.log(thePredictions)
-//     return predictions;
-//   }
-
-  // async function highlightResults(predictions) {
-  //   console.log( "Highlighting results..." );
-  //   await $('.progress-bar').html("Highlighting results").promise();
-  
-  //   removeHighlights();
-    
-  //   for (let n = 0; n < predictions[0].length; n++) {
-  //     // Check scores
-  //     if (predictions[1][n] > 0.66) {
-  //       const p = document.createElement('p');
-  //       p.innerText = TARGET_CLASSES[predictions[2][n]]  + ': ' 
-  //         + Math.round(parseFloat(predictions[1][n]) * 100) 
-  //         + '%';
-        
-  //       bboxLeft = (predictions[0][n][0] * selectedImage.width) + 10;
-  //       bboxTop = (predictions[0][n][1] * selectedImage.height) - 10;
-  //       bboxWidth = (predictions[0][n][2] * selectedImage.width) - bboxLeft + 20;
-  //       bboxHeight = (predictions[0][n][3] * selectedImage.height) - bboxTop + 10;
-        
-  //       p.style = 'margin-left: ' + bboxLeft + 'px; margin-top: '
-  //         + (bboxTop - 10) + 'px; width: ' 
-  //         + bboxWidth + 'px; top: 0; left: 0;';
-  //       const highlighter = document.createElement('div');
-  //       highlighter.setAttribute('class', 'highlighter');
-  //       highlighter.style = 'left: ' + bboxLeft + 'px; top: '
-  //         + bboxTop + 'px; width: ' 
-  //         + bboxWidth + 'px; height: '
-  //         + bboxHeight + 'px;';
-  //       imageOverlay.appendChild(highlighter);
-  //       imageOverlay.appendChild(p);
-  //       children.push(highlighter);
-  //       children.push(p);
-  //     }
-  //   }
-  // }
-
-  // const loadImage = async () => {
-  //   return await detect();
-  // }
-
-  // const predictingIngredients = async (image) => {
-  //   return await predictIngredients(image);
-  // }
-
-  // // const resultsHighlight = async (predictions) =>{
-  // //   return await highlightResults(predictions)
-  // // }
-
-  // const theClass = async (predictions) =>{
-  //     return await predictions[2];
-  //   }
-  //   const theBox = async (predictions) =>{
-  //       return await predictions[0];
-  //     }
-  //     const theScore = async (predictions) =>{
-  //         return await predictions[1];
-  //       }
-
-  //       const arrayS = async (array) =>{
-  //         return await array;
-  //       }
-
-  // const predictAsync = (predictions) =>{
-  //   console.log(predictions);
-  //   thePredictions = predictions;
-  // }
-
+  // asynchronous callback function for when the user clicks the detect button 
   async function detectIngredients(){
+    // set loading state to true
+    setLoading(true);
+
+    // pause the video feed
     camera.takeSnapshot();
-  //   for(let i = 0; i<document.getElementsByClassName('video').length; i++){
-  //     document.getElementsByClassName('video')[i].pause();
-  // }
+
+    // detect objects using the customvision dependency
     let model = new cvstfjs.ObjectDetectionModel();
     await model.loadModelAsync(process.env.REACT_APP_MODEL_URL);
-    // const image = document.getElementById('canvas');
     const image = document.getElementById('video');
     const result = await model.executeAsync(image);
+
+    // output classes, scores, and bounding boxes from the object detection
     console.log(result);
-    // let newerBoxes = result[0];
-    //   let newerClasses = result[2];
-    //   let newerScores = result[1];
-
-    //   const ctx = camera.getCtx();
-
-
-    //   drawRect(newerBoxes, newerClasses, newerScores, 0.1, 480, 360, ctx)
-    // camera.takeSnapshot();
-    drawRect(result[0], result[2], result[1], 0.25, width,height, camera.getCtx())
-      
-      // console.log(output(result[0], result[2], result[1], 0.4));
-    setIngredients(output(result[0], result[2], result[1], 0.25));
     
-    // camera.takeSnapshot();
-  //      for(let i = 0; i<document.getElementsByClassName('video').length; i++){
-  //     document.getElementsByClassName('video')[i].pause();
-  // }
+    // draw the bounding boxes
+    drawRect(result[0], result[2], result[1], 0.25, width,height, camera.getCtx());
+      
+    // set the ingredient state to the array of ingredients detected
+    setIngredients(output(result[0], result[2], result[1], 0.25));
+
+    // set loading state to false
+    setLoading(false);
+
+    // set detected something to "yes" if something was detected, otherwise set it to "no"
+    setdetectedSomething(output(result[0], result[2], result[1], 0.25).length > 0 ? "yes": "no");
   }
-    // camera.takeSnapshot();
-    // const image = loadImage();
-    // console.log(image)
-    // const predictions = predictingIngredients(image);
-    // predictions.then((array)=>{
-    //   console.log(array);
-      // let newerBoxes = result[0];
-      // let newerClasses = result[2];
-      // let newerScores = result[1];
+   
+  // intialize media query object for smaller screens
+  const isMobile = useMediaQuery({query: '(max-width: 578px)'});
 
-      // const ctx = camera.getCtx();
-
-      // drawRect(newerBoxes, newerClasses, newerScores, 0.3, 480, 360, ctx)
-      // console.log("boxes: " + newerBoxes);
-      //         console.log("Classes: " + newerClasses);
-      //         console.log("Scores: "+ newerScores);
-    // });
-    // console.log(predictions);
-
-    // console.log("The Predictions: " +predictions);
-    // const arrays = Promise.all(predictions);
-	  // let thePredictions = arrayS()
-    // console.log("The Predictions: " +thePredictions);
-
-        // let newerBoxes = theBox(predictions);
-        // let newerClasses = theClass(predictions);
-        // let newerScores = theScore(predictions);
-        // let newerBoxes = await newPredictions[0];
-        //          let newerClasses = await newPredictions[2];
-        //          let newerScores = await newPredictions[1];
-  
-
-        // console.log(newerBoxes);
-        // console.log(newerClasses);
-        // console.log(newerScores);
-    // resultsHighlight();
-    // console.log("Number of tensors: "+tf.memory().numTensors)
-  // }
-  const isMobile = useMediaQuery({query: '(max-width: 578px)'})
+  // variables theHeight and theWidth to be used in the scope of the App component
   let theHeight;
-  let theWidth
-  if(document.getElementById('root').clientWidth <= 595){
-    theWidth = document.getElementById('root').clientWidth-50;
-    // height = (480*width)/640
-  
-  }else{
-    theWidth = 640;
-    // height = 480;
+  let theWidth;
 
+  // set theWidth depending on window size
+  if(document.getElementById('root').clientWidth <= 595) {
+    // set theWidth to root element client width minus 50
+    theWidth = document.getElementById('root').clientWidth-50;
+  } else {
+    // set theWidth to 640
+    theWidth = 640;
   }
+
+  /**
+   * if the window width is small, 
+   * the height is modified according to a 640x480 ratio, 
+   * otherwise the height is 535
+   */
   isMobile? theHeight =(480*theWidth)/640+70 : theHeight = 535;
 
+  // marginTop for the button is set to theHeight
   let mobile = {
     marginTop: `${theHeight}px`
   }
 
+  /**
+   * Render the JSX to the DOM
+   * Displays title of the app
+   * Displays detect button that can trigger object detection
+   * Renders recipe component with the App states passed down as props
+   */
   return(
     <div id="div" className="app-div">
       <h1 className="project-title">The Lazy Chef</h1>
       <button style={mobile}className="search-button" onClick={detectIngredients}>
-        Snapshot
+        Detect
       </button>
-      <Recipe ing={ingredients}/>
+      <Recipe ing={ingredients} detecting={loading} detected={detectedSomething}/>
   </div>
   );
 
 }
 
+/** 
+ * React functional Recipe component
+ * Performs search for recipe using tau-prolog
+*/
 function Recipe(props){
-  console.log("Recipe: "+props.ing)
+  // output ingredients detected
+  console.log("ingredients: "+props.ing);
+
+  // intialize recipe state
   const [recipe, setRecipe] = React.useState("");
 
+  // object containing recipe links corresponding to successful prolog unification results
   let lookup = {
-    
+    "sorry, we didn't find any recipes for those ingredients :(": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
     "X = sausage_omelette.": "https://www.emerils.com/123033/pork-sausage-and-cheese-omelette",
     "X = bacon_omelette.": "https://www.recipetips.com/recipe-cards/t--37341/bacon-and-cheese-omelette.asp",
     "X = lumberjack_omelette.": "https://www.keyingredient.com/recipes/852875039/lumberjack-omelet/",
@@ -629,8 +147,6 @@ function Recipe(props){
     "X = hard_boiled_egg.": "https://www.simplyrecipes.com/recipes/how_to_make_perfect_hard_boiled_eggs/",
     "X = toast.": "https://spicedblog.com/toast/",  
     "X = buttered_toast.": "https://jerryjamesstone.com/recipe/best-toast-with-butter/",
-    
-    
     "X = grilled_cheese.": "https://www.spendwithpennies.com/the-best-grilled-cheese-sandwich/",
     "X = fancy_sandwich.": "https://californiaavocado.com/recipe/fresh-california-avocado-and-turkey-sandwich/",
     "X = summer_blueberry_almond_salad.": "https://www.food.com/recipe/greens-with-blueberries-feta-and-almonds-301425",
@@ -639,88 +155,80 @@ function Recipe(props){
     "X = bean_and_cheese_burrito.": "https://www.isabeleats.com/bean-and-cheese-burritos/",
     "X = wrap.": "https://lmld.org/turkey-bacon-ranch-wraps/",
     "X = chef_salad.": "https://www.spendwithpennies.com/chefs-salad/",
-    
     "X = lasagna.": "https://www.spendwithpennies.com/easy-homemade-lasagna/",
     "X = spaghetti.": "https://www.thewholesomedish.com/spaghetti/",
     "X = pizza.": "https://www.abeautifulplate.com/the-best-homemade-margherita-pizza/",
     "X = chicken_tacos.": "https://damndelicious.net/2019/08/06/easy-chicken-tacos/",
     "X = bacon_and_egg_pasta.": "https://www.foodnetwork.com/recipes/food-network-kitchen/bacon-and-egg-spaghetti-7232463",
-    "X = brocolli_mac&cheese.": "https://www.dinneratthezoo.com/broccoli-mac-and-cheese/",
+    "X = brocolli_mac_and_cheese.": "https://www.dinneratthezoo.com/broccoli-mac-and-cheese/",
     "X = chicken_bake.": "https://easyfamilyrecipes.com/million-dollar-chicken-bake/",
     "X = lemon_garlic_chicken.": "https://rasamalaysia.com/lemon-garlic-chicken/",
     "X = hefty_wrap.": "https://www.withablast.net/deli-wraps/",
     "X = meatloaf.": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "X = vegetable_stir_fry.": "https://www.dinneratthezoo.com/vegetable-stir-fry/",
-    
     "X = ice_cream_sandwich.": "https://www.ifyougiveablondeakitchen.com/cookie-ice-cream-sandwich/",
     "X = strawberry_milkshake.": "https://www.foodnetwork.com/recipes/fresh-strawberry-milkshakes-3644067",
     "X = chocolate_milkshake.": "https://www.bettycrocker.com/recipes/chocolate-milkshakes/7b7f7d41-4e3f-4bfa-b148-f29cc2a6b135",
     "X = smores.": "https://www.allrecipes.com/recipe/22146/smores/",
     "X = chocolate_covered_apple.": "https://www.allrecipes.com/recipe/63150/chocolate-dipped-apples/",
     "X = baked_egg_in_avocado.": "https://damndelicious.net/2016/10/05/baked-eggs-in-avocado/"
-  }
+  };
 
+  /**
+   * call back function for when user clicks "Search"
+   * finds recipe using prolog
+   */
+  function consultKnowledgeBase(e){
+    // initialize ingredientArray to the array of detected ingredients
+    let ingredientArray = props.ing;
 
-
-  function displayInfo(e){
-    let ingredientArray = props.ing
-    console.log("displayInfo: "+ingredientArray)
-         // start tau prolog sesson
+    // output what ingredientArray is
+    console.log("consultKnowledgeBase: "+ingredientArray)
+    
+    // start tau prolog sesson
     var session = pl.create();
-    // load recipes.pl file
-    const prolog = `
-    recipe(egg, cheese, sausage, sausage_omelette).
-    recipe(egg, cheese, bacon, bacon_omelette).
-recipe(egg, cheese, bacon, sausage, lumberjack_omelette).
-recipe(egg, cheese, cheese_omelette).
-recipe(egg, bacon, sausage, potato, bread, cheese, butter, milk, cheesy_bacon_sausage_egg_hash_brown_skillet).
-recipe(sausage, egg, milk, mustard, bread, shredded_cheese, sausage_breakfast_cassarole).
-recipe(bacon, onion, potato, egg, shredded_cheese, sheepherders_breakfast).
-recipe(sausage, egg, tortilla, potato, sausage_breakfast_burrito).
-recipe(bacon, egg, tortilla, potato, bacon_breakfast_burrito).
-recipe(bacon, sausage, egg, tortilla, potato, combo_breakfast_burrito).
-recipe(potato, shredded_cheese, milk, shredded_cheese, cheesy_hash_brown_bake).
-recipe(strawberry, banana, blueberry, berry_smoothie).
-recipe(butter, sweet_potato, garlic, egg, sweet_potato_and_egg_skillet).
-recipe(potato, bacon, shredded_cheese, egg, milk, hash_brown_egg_bake).
 
-
-      recipe(bread, cheese, grilled_cheese).
-      recipe(bread, lunch_meat, cheese, tomato, avocado, fancy_sandwich).
-      recipe(lettuce, blueberry, almonds, balsamic_vinegar, cheese, mustard, summer_blueberry_almond_salad).
-      recipe(potato, milk, shredded_cheese, baked_potato).
-      recipe(tortilla, shredded_cheese, cheese_quesadilla).
+    
+    // the prolog knowldege base with headless horn clauses that signify the relation between ingredients and recipe 
+    const knowledgeBase = `
+      recipe(bread, butter, buttered_toast).
+      recipe(avocado, bread, cheese, lunch_meat, tomato, fancy_sandwich).
+      recipe(almonds, balsamic_vinegar, blueberry, cheese, lettuce, mustard, summer_blueberry_almond_salad).     
+      recipe(milk, potato, shredded_cheese, baked_potato).
+      recipe(shredded_cheese, tortilla, cheese_quesadilla).
       recipe(bean, tortilla, bean_and_cheese_burrito).
-      recipe(tortilla, tomato, avocado, lunch_meat, wrap).
-      recipe(lunch_meat, lettuce, shredded_cheese, chef_salad).
-
-
-
-
-    recipe(ground_beef, lasagna_noodle, tomato, shredded_cheese, lasagna).
-    recipe(noodle, tomatoes, spaghetti).
-    recipe(bread, shredded_cheese, tomatoes, pizza).
-    recipe(tortilla, chicken, tomato, onion, chicken_tacos).
-    recipe(noodle, bacon, egg, bacon_and_egg_pasta).
-    recipe(brocolli, noodle, shredded_cheese, milk, brocolli_mac&cheese).
-    recipe(chicken, tomato, shredded_cheese, chicken_bake).
-    recipe(chicken, asparagus, lemon, garlic, lemon_garlic_chicken).
-    recipe(lunch_meat, avocado, tortilla, lettuce, carrot, hefty_wrap).
-    recipe(ground_beef, onion, tomato, brocolli, sweet_potato, ketchup, meatloaf).
-    recipe(green_bean, brocolli, baby_corn, mushroom, bell_pepper, cucumber, soy_sauce, vegetable_stir_fry).
-
-
-    recipe(cookie, ice_cream, ice_cream_sandwich).
-    recipe(milk, strawberry, strawberry_milkshake).
-    recipe(milk, chocolate, chocolate_milkshake).
-    recipe(marshmallow, chocolate, smores).
-    recipe(apple, chocolate, chocolate_covered_apple).
-    recipe(egg, bread, egg_sandwich).
-    recipe(egg, hard_boiled_egg).
-    recipe(bread, toast).
-    recipe(bread, butter, buttered_toast).
-    `
-    const egg = `
+      recipe(avocado, lunch_meat, tomato, tortilla, wrap).
+      recipe(lettuce, lunch_meat, shredded_cheese, chef_salad).
+      recipe(ground_beef, lasagna_noodle, shredded_cheese, tomato, lasagna).
+      recipe(noodle, tomatoes, spaghetti).
+      recipe(bread, shredded_cheese, tomatoes, pizza).
+      recipe(chicken, tomato, tortilla, onion, chicken_tacos).
+      recipe(bacon, egg, noodle, bacon_and_egg_pasta).
+      recipe(brocolli, milk, noodle, shredded_cheese, brocolli_mac_and_cheese).
+      recipe(chicken, shredded_cheese, tomato, chicken_bake).
+      recipe(asparagus, chicken, garlic, lemon, lemon_garlic_chicken).
+      recipe(avocado, carrot, lettuce, lunch_meat, tortilla, hefty_wrap).
+      recipe(brocolli, ground_beef, ketchup, onion, sweet_potato, tomato, meatloaf).
+      recipe(baby_corn, bell_pepper, brocolli, cucumber, green_bean, mushroom, soy_sauce, vegetable_stir_fry).
+      recipe(cookie, ice_cream, ice_cream_sandwich).
+      recipe(milk, strawberry, strawberry_milkshake).
+      recipe(chocolate, milk, chocolate_milkshake).
+      recipe(chocolate, marshmallow, smores).
+      recipe(apple, chocolate, chocolate_covered_apple).
+      recipe(cheese, egg, sausage, sausage_omelette).
+      recipe(bacon, cheese, egg, bacon_omelette).
+      recipe(bacon, cheese, egg, sausage, lumberjack_omelette).
+      recipe(cheese, egg, cheese_omelette).
+      recipe(bacon, bread, butter, cheese, egg, milk, potato, sausage, cheesy_bacon_sausage_egg_hash_brown_skillet).
+      recipe(bread, egg, milk, mustard, shredded_cheese, sausage, sausage_breakfast_cassarole).
+      recipe(bacon, egg, onion, potato, shredded_cheese, sheepherders_breakfast).
+      recipe(egg, potato, sausage, tortilla, sausage_breakfast_burrito).
+      recipe(bacon, egg, potato, tortilla, bacon_breakfast_burrito).
+      recipe(bacon, egg, sausage, tortilla, potato, combo_breakfast_burrito).
+      recipe(milk, potato, shredded_cheese, cheesy_hash_brown_bake).
+      recipe(banana, blueberry, strawberry, berry_smoothie).
+      recipe(butter, egg, garlic, sweet_potato, sweet_potato_and_egg_skillet).
+      recipe(bacon, egg, milk, potato, shredded_cheese, hash_brown_egg_bake).
       recipe(egg, hard_boiled_egg).
       recipe(bread, egg, egg_sandwich).
       recipe(bread, toast).
@@ -728,365 +236,63 @@ recipe(potato, bacon, shredded_cheese, egg, milk, hash_brown_egg_bake).
       recipe(avocado, egg, baked_egg_in_avocado).
     `
 
-    session.consult(egg, {
-      success:function(){
-        // query recipes.pl with list of ingredients
+    // consulting the knowledge base
+    session.consult(knowledgeBase, {
+      success:function() {
+        // query knowledgeBase with the sorted list of detected ingredients
         session.query("recipe("+[ingredientArray].sort()+", X).", {
-          success: function(goal){
+          success: function(goal) {
             session.answer({
-              success: function(answer){
+              success: function(answer) {
+                // output result of the query
                 console.log(session.format_answer(answer));
-                // call display recipe with result of query
+
+                // set recipe state to the result of query
                 setRecipe(session.format_answer(answer));
               }
             });
           }
         })
       },
-      error: function(err){
-        console.log(err)
+      error: function(err) {
+        // throw error message if there is an error
+        console.log("error: "+err);
+
+        // set recipe state to empty string
+        setRecipe("");
       }
     });
+
+    // set recipe state to the sorry message if recipe state is the empty string
+    if(recipe.length == 0){
+      setRecipe("sorry, we didn't find any recipes for those ingredients :(");
+    }
+    
   }
 
-
+  /**
+   * Render the JSX elements to  the DOM
+   * Queries knowledge base with the detected ingredients to find recipe
+   * Conditionally renders loading or unsuccesful event elements
+   */
   return(
     <>
-      <button id="search" className="search-button" onClick={displayInfo}>
+      <button id="search" className="search-button" onClick={consultKnowledgeBase}>
         Search
       </button>
       <div style={{height: 30}}></div>
       <a className="link" target="_blank" href={lookup[recipe]} >{recipe}</a>
+      {props.detecting &&
+      <>
+        <div className="spinner"/>
+        <p className="link">looking for ingredients...</p>
+      </>
+      }
+      {props.detected === "no" && <p className="link">sorry, nothing was detected :(</p>}
       <div style={{height: 30}}></div>
     </>
   )
 }
 
-// export default App;
-
-// Import dependencies
-// import React, { useRef, useState, useEffect } from "react";
-// import * as tf from "@tensorflow/tfjs";
-// import Webcam from "react-webcam";
-// import * as cvstfjs from '@microsoft/customvision-tfjs';
-// import "./App.css";
-// // 2. TODO - Import drawing utility here
-// // e.g. import { drawRect } from "./utilities";
-// import {output, drawRect} from "./utilities"
-// var pl = require("tau-prolog");
-
-//     const videoConstraints = {
-//       facingMode: { exact: "user" }
-//     };
-//     tf.ENV.set('WEBGL_CONV_IM2COL', false);
-
-
-// function App() {
-//   const webcamRef = useRef(null);
-//   const canvasRef = useRef(null);
-//   const [ingredients, setIngredients] = React.useState([]);
-
-//   // const backend = tf.backend();
-
-//   // Main function
-//   const runCoco = async () => {
-//     // 3. TODO - Load network 
-//     // e.g. const net = await cocossd.load();
-//     // https://raw.githubusercontent.com/Ethan-M-123/ObjDetectModel/main/cvai%20model/model.json
-//     // https://tensorflowjsrealtimemodel.s3.au-syd.cloud-object-storage.appdomain.cloud/model.json
-//     // https://raw.githubusercontent.com/hugozanini/TFJS-object-detection/master/models/kangaroo-detector/model.json
-//     // const net = await tf.loadGraphModel('https://raw.githubusercontent.com/SaschaDittmann/tfjs-cv-objectdetection/master/static/model/model.json');
-//     // https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json
-//     const net = await tf.loadGraphModel('https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json');
-    
-//     //  Loop and detect hands
-//     // setInterval(() => {
-//     //   detect(net);
-//     // }, 16.7);
-
-//     setInterval(() => {
-//       detect(net);
-//     }, 10);
-//   };
-
-//   // function _logistic(x) {
-//   //   if (x > 0) {
-//   //       return (1 / (1 + Math.exp(-x)));
-//   //   } else {
-//   //       const e = Math.exp(x);
-//   //       return e / (1 + e);
-//   //   }
-//   // }
-
-//   const detect = async (net) => {
-//     // Check data is available
-//     if (
-//       typeof webcamRef.current !== "undefined" &&
-//       webcamRef.current !== null &&
-//       webcamRef.current.video.readyState === 4
-//     ) {
-//       // Get Video Properties
-//       const video = webcamRef.current.video;
-//       const videoWidth = webcamRef.current.video.videoWidth;
-//       const videoHeight = webcamRef.current.video.videoHeight;
-
-//       // Set video width
-//       webcamRef.current.video.width = videoWidth;
-//       webcamRef.current.video.height = videoHeight;
-
-//       // Set canvas height and width
-//       canvasRef.current.width = videoWidth;
-//       canvasRef.current.height = videoHeight;
-
-//       // const backend = tf.backend();
-
-//       // const ANCHORS = [0.573, 0.677, 1.87, 2.06, 3.34, 5.47, 7.88, 3.53, 9.77, 9.17];
-//       // tf.engine().startScope();
-//       // 4. TODO - Make Detections
-//       // const img = tf.browser.fromPixels(video);
-//       let img = tf.browser.fromPixels(video);
-//       // const resized = tf.image.resizeBilinear(img, [640,480]);
-//       const resized = tf.image.resizeBilinear(img, [416,416]);
-//       // img = tf.image.resizeBilinear(img.expandDims().toFloat(), [416,416]);
-//       // const casted = resized.cast('int32');
-//       const casted = resized.cast('float32');
-//       const expanded = casted.expandDims(0);
-//       try{
-//         // const outputs = await net.execute(img);
-//         // const obj = await net.execute(expanded);
-//         // const tensor = await obj.arraySync();
-//         // const arrays = !Array.isArray(outputs) ? outputs.array() : Promise.all(outputs.map(t => t.array()));
-//         // let predictions = await arrays;
-//         // console.log(outputs);
-        
-        
-//           // const num_anchor = ANCHORS.length / 2;
-//           // const channels = predictions[0][0][0].length;
-//           // const height = predictions[0].length;
-//           // const width = predictions[0][0].length;
-
-//           // const num_class = channels / num_anchor - 5;
-
-// 		      // let boxes = [];
-// 	      	// let scores = [];
-// 		      // let classes = [];
-
-//           // for (var grid_y = 0; grid_y < height; grid_y++) {
-//           //   for (var grid_x = 0; grid_x < width; grid_x++) {
-//           //     let offset = 0;
-      
-//           //     for (var i = 0; i < num_anchor; i++) {
-//           //       let x = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_x) / width;
-//           //       let y = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_y) / height;
-//           //       let w = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2] / width;
-//           //       let h = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2 + 1] / height;
-      
-//           //       let objectness = tf.scalar(_logistic(predictions[0][grid_y][grid_x][offset++]));
-//           //       let class_probabilities = tf.tensor1d(predictions[0][grid_y][grid_x].slice(offset, offset + num_class)).softmax();
-//           //       offset += num_class;
-      
-//           //       class_probabilities = class_probabilities.mul(objectness);
-//           //       let max_index = class_probabilities.argMax();
-//           //       boxes.push([x - w / 2, y - h / 2, x + w / 2, y + h / 2]);
-//           //       scores.push(class_probabilities.max().dataSync()[0]);
-//           //       classes.push(max_index.dataSync()[0]);
-//           //     }
-//           //   }
-//           // }
-
-//           // for(let j = 0; j < height*width; j++){
-//           //   var grid_y = Math.floor(j / width);
-//           //   var grid_x = j % width;
-            
-//           //   let offset = 0;
-      
-//           //     for (var i = 0; i < num_anchor; i++) {
-//           //       let x = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_x) / width;
-//           //       let y = (_logistic(predictions[0][grid_y][grid_x][offset++]) + grid_y) / height;
-//           //       let w = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2] / width;
-//           //       let h = Math.exp(predictions[0][grid_y][grid_x][offset++]) * ANCHORS[i * 2 + 1] / height;
-      
-//           //       let objectness = tf.scalar(_logistic(predictions[0][grid_y][grid_x][offset++]));
-//           //       let class_probabilities = tf.tensor1d(predictions[0][grid_y][grid_x].slice(offset, offset + num_class)).softmax();
-//           //       offset += num_class;
-      
-//           //       class_probabilities = class_probabilities.mul(objectness);
-//           //       tf.dispose(objectness)
-//           //       let max_index = class_probabilities.argMax();
-//           //       boxes.push([x - w / 2, y - h / 2, x + w / 2, y + h / 2]);
-//           //       scores.push(class_probabilities.max().dataSync()[0]);
-//           //       classes.push(max_index.dataSync()[0]);
-//           //       tf.dispose(class_probabilities)
-//           //     }
-
-//           // }
-
-//           // boxes = tf.tensor2d(boxes);
-// 		      // scores = tf.tensor1d(scores);
-// 		      // classes = tf.tensor1d(classes);
-
-//           // const selected_indices = await tf.image.nonMaxSuppressionAsync(boxes, scores, 10);
-// 		      // predictions = [await boxes.gather(selected_indices).array(), await scores.gather(selected_indices).array(), await classes.gather(selected_indices).array()];
-
-//           // const selected_indices = tf.image.nonMaxSuppression(boxes, scores, 10)[1];
-// 		      // predictions = [boxes.gather(selected_indices).array()[1], scores.gather(selected_indices).array()[1], classes.gather(selected_indices).array()[1]];
-//           // predictions = [await boxes.gather(selected_indices).arraySync(), await scores.gather(selected_indices).arraySync(), await classes.gather(selected_indices).arraySync()];
-
-//         let model = new cvstfjs.ObjectDetectionModel();
-//         await model.loadModelAsync('https://the-lazy-chef.s3.us-east.cloud-object-storage.appdomain.cloud/model.json');
-//         // const image = document.getElementById('video');
-//         const result = await model.executeAsync(expanded);
-//         console.log(result);
-
-//         // console.log(predictions);
-
-//         let boxes = await result[0];
-//         let classes = await result[2];
-//         let scores = await result[1];
-
-//         // const boxes = await obj[0];
-//         // const classes = await obj[5];
-//         // const scores = await obj[4];
-
-  
-
-//         // console.log("boxes[0]: " + boxes[0]);
-//         // console.log("Classes[0][0]: " + classes[0]);
-//         // console.log("Scores: "+ scores[0]);
-
-//         // Draw mesh
-//         const ctx = canvasRef.current.getContext("2d");
-
-//         // 5. TODO - Update drawing utility
-//         // drawSomething(obj, ctx)  
-//         requestAnimationFrame(()=>{drawRect(boxes, classes, scores, 0.1, videoWidth, videoHeight, ctx)});
-
-//         setIngredients(output(boxes, classes, scores, 0.1));
-
-//         tf.dispose(img);
-//         tf.dispose(resized);
-//         tf.dispose(casted);
-//         tf.dispose(expanded);
-//         // tf.dispose(obj);
-//         // tf.dispose(outputs);
-//         // tf.dispose(selected_indices);
-//         // tf.dispose(backend);
-//         console.log(tf.memory().numTensors)
-//         // tf.engine().endScope()
-//       } catch(error){
-//         tf.dispose(img);
-//         // tf.dispose(backend);
-//         tf.dispose(img);
-//         tf.dispose(resized);
-//         tf.dispose(casted);
-//         tf.dispose(expanded);
-//         // tf.engine().endScope();
-//         console.log(error);
-//       }
-//     }
-//   };
-
-//   useEffect(()=>{runCoco()},[]);
-
-//   return (
-//     <div className="App">
-//       {/* <header className="App-header"> */}
-//         <h1 className="project-title">The Lazy Chef</h1>
-//         <Webcam
-//           ref={webcamRef}
-//           videoConstraints={videoConstraints}
-//           muted={true} 
-//           style={{
-//             position: "absolute",
-//             marginLeft: "auto",
-//             marginRight: "auto",
-
-//             left: 0,
-//             right: 0,
-//             textAlign: "center",
-//             zindex: 9,
-//             width: 640,
-//             height: 480,
-//           }}
-//         />
-
-//         <canvas
-//           ref={canvasRef}
-//           style={{
-//             position: "absolute",
-//             marginLeft: "auto",
-//             marginRight: "auto",
-//             left: 0,
-//             right: 0,
-//             textAlign: "center",
-//             zindex: 8,
-//             width: 640,
-//             height: 480,
-//           }}
-//         />
-//       {/* </header> */}
-//         <Recipe ing={ingredients}/>
-//     </div>
-//   );
-// }
-
-// function Recipe(props){
-//   console.log(props.ing)
-//   const [recipe, setRecipe] = React.useState("");
-
-//   let lookup = {
-//      "X = zest.": "https://www.culinaryhill.com/how-to-zest-a-lemon/",
-//     "X = nothing.": "https://www.allrecipes.com/"
-//   }
-
-
-
-//   function displayInfo(e){
-//     let ingredientArray = props.ing
-//     console.log(ingredientArray)
-//          // start tau prolog sesson
-//     var session = pl.create();
-//     // load recipes.pl file
-//     const prolog = `
-//       recipe(lemon, zest).
-//       recipe(bread, nutella, breadAndNutella).
-//       recipe(avocado, bread, egg, avocadoToast).
-//       recipe(cheese, tortilla, quesadilla).
-//       recipe(bread, cheese, egg, eggAndCheeseToast).
-//       recipe(bread, egg, eggInHole).
-    
-//       recipe(hello, no, nothing).
-//     `
-//     session.consult(prolog, {
-//       success:function(){
-//         // query recipes.pl with list of ingredients
-//         session.query("recipe("+ingredientArray.sort()+", X).", {
-//           success: function(goal){
-//             session.answer({
-//               success: function(answer){
-//                 console.log(session.format_answer(answer));
-//                 // call display recipe with result of query
-//                 setRecipe(session.format_answer(answer));
-//               }
-//             });
-//           }
-//         })
-//       },
-//       error: function(err){
-//         console.log("didn't work")
-//       }
-//     });
-//   }
-
-//   return(
-//     <>
-//       <button className="search-button" onClick={displayInfo}>
-//         Search
-//       </button>
-//       <div style={{height: 30}}></div>
-//       <a className="link" target="_blank" href={lookup[recipe]} >{recipe}</a>
-//     </>
-//   )
-// }
-
+// export the App component
 export default App;
