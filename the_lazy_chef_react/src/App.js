@@ -1,3 +1,11 @@
+/**
+ * Our group used Nicholas Renotte's React Computer Vision Template from GitHub for this project.
+ * We modified the template and added our own code for our specific use case.
+ * Adapted from: Nicholas Renotte--ReactComputerVisionTemplate
+ * URL: https://github.com/nicknochnack/ReactComputerVisionTemplate
+ * Retrieved: 5/8/2021
+ */ 
+
 // Import dependencies
 import React, { useRef, useState, useEffect } from "react";
 import "./App.css";

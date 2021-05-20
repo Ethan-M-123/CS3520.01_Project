@@ -1,6 +1,12 @@
-import camera from "./camera.js"
+/**
+ * Our group used Nicholas Renotte's drawRect function from a YouTube video of his.
+ * We modified the function and added our own code for our specific use case.
+ * Adapted from: Nicholas Renotte--"Building a Real Time Sign Language Detection App with React.JS and Tensorflow.JS | Deep Learning"
+ * URL: https://youtu.be/ZTSRZt04JkY?t=2335
+ * Retrieved: 5/8/2021
+ */
 
-// Define our labelmap
+// labelMap of ingredients
 export const labelMap = {
     0:{name: 'almond'},
     1:{name: 'apple'},
@@ -56,12 +62,9 @@ export const labelMap = {
 
 // Define a drawing function
 export const drawRect = (boxes, classes, scores, threshold, imgWidth, imgHeight, ctx) => {
-    let signs = []
-    for(let i = 0; i <= boxes.length; i++){
-        if(boxes[i] && classes[i] && scores[i]>threshold){
+    for(let i = 0; i <= boxes.length; i++) {
+        if(boxes[i] && classes[i] && scores[i]>threshold) {
             // Extract variables
-            // const [y,x,height,width] = boxes[i];
-            // const [x,y,width, height] = boxes[i];
             const x = boxes[i][0];
             const y = boxes[i][1];
             const width = boxes[i][2];
@@ -74,13 +77,9 @@ export const drawRect = (boxes, classes, scores, threshold, imgWidth, imgHeight,
             ctx.fillStyle = 'white';
             ctx.font = '30px Arial';
 
-            signs.push(labelMap[text]['name']);
-            // console.log(labelMap[text]['name']);
-
             // DRAW!!
             ctx.beginPath();
             ctx.fillText(labelMap[text]['name']+ ' - ' +Math.round(scores[i]*100)/100, x*imgWidth, y*imgHeight-10);
-            // ctx.fillText("something", x*imgWidth, y*imgHeight-10);
             ctx.rect(x*imgWidth, y*imgHeight, width*imgWidth/2, height*imgHeight/1.5);
             ctx.stroke();
         }
@@ -88,6 +87,7 @@ export const drawRect = (boxes, classes, scores, threshold, imgWidth, imgHeight,
     
 }
 
+// return an array of detected ingredients
 export const output = (boxes, classes, scores, threshold) => {
     let signs = []
     for(let i = 0; i <= boxes.length; i++){

@@ -1,5 +1,12 @@
-// import { constraints } from "@tensorflow/tfjs-layers";
+/**
+ * Our group found this camera function on a StackOverflow reply by user Dalibor.
+ * We modified it to fit our needs.
+ * Adapted from: Dalibor--Reply to "How can I take a picture in React web application (not native)"
+ * URL: https://stackoverflow.com/questions/58806971/how-can-i-take-a-picture-in-react-web-application-not-native
+ * Retrieved: 5/11/2021
+ */
 
+// sets up webcam video feed and contains functions for video feed
 const camera = function () {
     let width = 0;
     let height = 0;
@@ -51,18 +58,17 @@ const camera = function () {
             }
         },
     
+        // pauses video feed
         takeSnapshot: function () {
-            // this.canvas.width = width;
-            // this.canvas.height = height;
-            // this.context.drawImage(this.video, 0, 0, width, height);
-            this.video.pause()
+            this.video.pause();
         },
 
+        // gets video feed height
         videoElement: function() {
-            console.log(this.video.height)
-            return this.video
+            return this.video;
         },
 
+        // get canvas context
         getCtx: function(){
             return this.canvas.getContext('2d');
         }
@@ -70,4 +76,5 @@ const camera = function () {
     }
     }();
     
+    // export camera
     export default camera;
