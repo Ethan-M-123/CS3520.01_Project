@@ -179,7 +179,13 @@ function Recipe(props){
     "X = chocolate_milkshake.": "https://www.bettycrocker.com/recipes/chocolate-milkshakes/7b7f7d41-4e3f-4bfa-b148-f29cc2a6b135",
     "X = smores.": "https://www.allrecipes.com/recipe/22146/smores/",
     "X = chocolate_covered_apple.": "https://www.allrecipes.com/recipe/63150/chocolate-dipped-apples/",
-    "X = baked_egg_in_avocado.": "https://damndelicious.net/2016/10/05/baked-eggs-in-avocado/"
+    "X = baked_egg_in_avocado.": "https://damndelicious.net/2016/10/05/baked-eggs-in-avocado/",
+    "X = apple_avocado_salad.": "https://www.food.com/recipe/avocado-and-apple-salad-367163",
+    "X = bell_pepper_omelette.": "https://www.thespruceeats.com/vegetarian-omelette-with-bell-peppers-3376569",
+    "X = egg_butter.": "https://www.food.com/recipe/munavoi-finnish-egg-butter-180624",
+    "X = scrambled_egg_with_sausage.": "https://sevensons.net/recipes/quick-and-simple-scrambled-eggs-with-sausage-and-cheese",
+    "X = egg_and_onion.": "https://mondaymorningcookingclub.com.au/recipe/egg-and-onion-or-e-o/",
+    "X = garlic_fried_eggs.": "https://www.thespruceeats.com/garlic-fried-eggs-recipe-2355700"
   };
 
   /**
@@ -191,7 +197,7 @@ function Recipe(props){
     let ingredientArray = props.ing;
 
     // output what ingredientArray is
-    console.log("consultKnowledgeBase: "+ingredientArray)
+    console.log("consultKnowledgeBase(sorted): "+ingredientArray.sort());
     
     // start tau prolog sesson
     var session = pl.create();
@@ -242,6 +248,12 @@ function Recipe(props){
       recipe(bread, toast).
       recipe(bread, cheese, grilled_cheese).
       recipe(avocado, egg, baked_egg_in_avocado).
+      recipe(apple, avocado, apple_avocado_salad).
+      recipe(bell_pepper, egg, bell_pepper_omelette).
+      recipe(butter, egg, egg_butter).
+      recipe(egg, sausage, scrambled_egg_with_sausage).
+      recipe(egg, onion, egg_and_onion).
+      recipe(egg, garlic, garlic_fried_eggs).
     `
 
     // consulting the knowledge base
