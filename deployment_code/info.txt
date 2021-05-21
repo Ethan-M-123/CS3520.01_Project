@@ -1,0 +1,3 @@
+This directory contains the deployment(gh-pages) code for this project.
+The deployed app can be found at: https://airpiazza.github.io/the-lazy-chef-deploy-this/
+The gh-pages repository(which is where the code in this directory comes from) for the deployed app can be found at: https://github.com/airpiazza/the-lazy-chef-deploy-this
