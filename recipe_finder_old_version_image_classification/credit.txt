@@ -1,0 +1,6 @@
+Libraries used:
+ml5.js
+p5.js
+tau-prolog
+google fonts
+teachable machine
