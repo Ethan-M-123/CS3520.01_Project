@@ -1,1 +1,2 @@
-customvision.ai
+customvision.ai : https://www.customvision.ai/ : used to make and train computer vision model
+youtube.com : https://www.youtube.com/watch?v=7gOYpT732ow&feature=youtu.be : TensorFlow object detection made easy
