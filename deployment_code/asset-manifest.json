@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/the-lazy-chef-deploy-this/static/css/main.edf53e03.chunk.css",
+    "main.js": "/the-lazy-chef-deploy-this/static/js/main.7d066789.chunk.js",
+    "main.js.map": "/the-lazy-chef-deploy-this/static/js/main.7d066789.chunk.js.map",
+    "runtime-main.js": "/the-lazy-chef-deploy-this/static/js/runtime-main.3020b152.js",
+    "runtime-main.js.map": "/the-lazy-chef-deploy-this/static/js/runtime-main.3020b152.js.map",
+    "static/js/2.457cb57b.chunk.js": "/the-lazy-chef-deploy-this/static/js/2.457cb57b.chunk.js",
+    "static/js/2.457cb57b.chunk.js.map": "/the-lazy-chef-deploy-this/static/js/2.457cb57b.chunk.js.map",
+    "index.html": "/the-lazy-chef-deploy-this/index.html",
+    "precache-manifest.b930d00d74521b9ac134484b1efb28be.js": "/the-lazy-chef-deploy-this/precache-manifest.b930d00d74521b9ac134484b1efb28be.js",
+    "service-worker.js": "/the-lazy-chef-deploy-this/service-worker.js",
+    "static/css/main.edf53e03.chunk.css.map": "/the-lazy-chef-deploy-this/static/css/main.edf53e03.chunk.css.map",
+    "static/js/2.457cb57b.chunk.js.LICENSE.txt": "/the-lazy-chef-deploy-this/static/js/2.457cb57b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3020b152.js",
+    "static/js/2.457cb57b.chunk.js",
+    "static/css/main.edf53e03.chunk.css",
+    "static/js/main.7d066789.chunk.js"
+  ]
+}
