@@ -1,0 +1,34 @@
+Nicks contributions: 
+	Nick wrote most of the code. He delt with the merging of the CustomVision model with the knowledge base together. He worked really hard on this project and was extremely 
+excited and motivated. When we had discussed this starting this project, we literally woke up the next day to a message from nick saying that with the help of some information 
+he found online, he already had a working model. Me and Ethan were astonished and blown away. That was for the 1st iteration. through out the rest of the iterations, 
+the person writing most of the code personally was Nick although Ethan and myself were in a video call with him collaboratively discussing issues and possible solutions. 
+Worked on the paper.
+Nick is the man. 
+
+
+
+Ethans contributions: 
+	Ethans contributions include the training of the CustomVision Model, and labeling hundreds of images for the 50 ingredients(items) that customvision would allow on their
+free account version. Scrubbed for additional images to continue to train the model. He created the main template for the powerpoint presentation and did quite a few of the slides.
+Also created the initial template for the paper as well as added to the paper.
+Ethan, too, is also the man.
+
+
+
+Brandons contributions:
+	The idea for this project came from me and I was super excited to work on this with Etan and Nick. Unfortunately, in the beginning I was having personal 
+issues at home so I wasnt able to contribute much to the initial 1st iteration of the code the Nick had written.After my personal affairs had calmed down, 
+it was just a matter of trying to do whatever I could. In the beginning this began with me trying to find a way to automate the downloading of images, 
+the labelling of the images, the training of the model, and the collection of recipes. Initially i was able to scrub and create a useable list of over 
+1000 ingredients, i was able to create a python script that allowed me to scrub and auto-download images from google image searches, but then we had found out that the 
+method/ model that was being used would only allow 50 classes/items. I then proceesed to search for and test alternative methods to utilize for training object detection models.
+Eventually, I was unable to move forward in that direction as initial time constraints were approaching. So I switched over to adding recipes to the prolog database.
+I'll be honest, using the initial template that Nick had created, this was extremely easy once I actually had the recipes. Obtaining and creating recipes based on ingredients that had 
+already been used to train the model was something else I did. I also added the relevent lines of code into the project so that the URLs where the recipe could be found would be 
+findable by the program. Since our availability became scattered, I put together the youtube video presentation by just asking them to send an audio file of their portion and I
+spliced it all together. I also did a few slides on the powerpoint as well as added to the final paper.
+
+
+Overall, I feel like while I unfortunately was unable to work directly on a lot of the coding aspect for this project, I hope I was able to do enough to not feel like a burden 
+to my partners. Overall, I could not have asked for better group mated for this semester!
