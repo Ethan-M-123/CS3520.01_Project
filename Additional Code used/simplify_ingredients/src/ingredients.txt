@@ -1,0 +1,3881 @@
+Salt	758	
+Sugar	656	
+Water	554	
+Oil and fat	518	
+Flavouring	506	
+Dairy	486	
+Vegetable oil and fat	476	
+Cereal	415	
+Vegetable	385	
+Fruit	343	
+Flour	334	
+Wheat	317	
+Root vegetable	301	
+Vegetable oil	296	
+Glucose	294	
+Starch	284	
+Cereal flour	263	
+Milk	257	
+Natural flavouring	252	
+Emulsifier	250	
+Spice	248	
+Wheat flour	246	
+E330	226	
+Herb	196	
+Seed	189	
+Sunflower oil	187	
+Colour	185	
+Preservative	180	
+Cocoa	179	
+Acid	173	
+E322	171	
+Plant	163	
+Onion	157	
+Antioxidant	157	
+Egg	154	
+Dextrose	153	
+Thickener	152	
+Milk powder	151	
+E322i	143	
+Yeast	140	
+Rapeseed oil	136	
+Garlic	134	
+Glucose syrup	133	
+Pepper	133	
+Stabiliser	133	
+Citrus fruit	123	
+Animal	119	
+Protein	117	
+Tomato	116	
+Nut	114	
+Corn starch	113	
+Fruit juice	113	
+Palm oil and fat	112	
+Cocoa butter	112	
+Acidity regulator	112	
+Cream	110	
+Soya lecithin	109	
+Cocoa paste	108	
+Raising agent	107	
+Vinegar	105	
+E500	103	
+Meat	103	
+Skimmed milk powder	102	
+Rice	97	
+E300	97	
+Modified starch	96	
+Colza oil	94	
+Ferment	92	
+Pork	91	
+Fat	90	
+Malt	88	
+Tree nut	86	
+Lemon	86	
+Sea salt	84	
+E415	83	
+Cocoa powder	82	
+Corn	81	
+E412	80	
+Lactose	80	
+E250	80	
+Pork meat	78	
+Carrot	78	
+E471	77	
+Soya	75	
+Palm oil	75	
+Milk proteins	73	
+Animal protein	73	
+Cheese	73	
+Butter	72	
+Potato starch	71	
+Apple	71	
+E450	70	
+Cane sugar	70	
+Chocolate	69	
+Malted barley	68	
+Whole milk powder	68	
+Olive oil	67	
+Fructose	66	
+Microbial culture	66	
+Berries	65	
+Lactic ferments	63	
+E407	62	
+Whey	62	
+Fish	61	
+E440a	61	
+Maltodextrins	59	
+Glucose-fructose syrup	59	
+Milkfat	57	
+Legume	57	
+Enzyme	57	
+Parsley	56	
+Vanilla flavouring	55	
+Gluten	55	
+Fat reduced cocoa powder	55	
+Mustard	54	
+Alcohol	54	
+Gelling agent	52	
+Potato	51	
+E202	51	
+Vitamins	51	
+Vegetable fat	50	
+Rice flour	48	
+E500ii	47	
+Whole milk	47	
+Coagulating enzyme	47	
+Concentrated lemon juice	46	
+Yeast extract	46	
+Butterfat	46	
+Vegetable protein	46	
+Natural vanilla flavouring	46	
+Orange	45	
+Rennet	45	
+Modified corn starch	44	
+Almond	43	
+Virgin olive oil	42	
+Hazelnut	42	
+E301	42	
+Minerals	42	
+Skimmed milk	42	
+Honey	41	
+Palm fat	41	
+Oat	41	
+E410	40	
+fr:Fruits des bois	40	
+Flavour enhancer	40	
+Extra virgin olive oil	40	
+Chili pepper	38	
+Grape	38	
+Celery	37	
+Black pepper	37	
+Vanilla	37	
+Purée	37	
+Poultry	37	
+Sweetener	36	
+Sugar syrup	36	
+E503	36	
+Sunflower lecithin	35	
+Oily fish	35	
+Invert sugar	35	
+Sunflower	34	
+Spice extract	34	
+E160a	34	
+Durum wheat	34	
+Fiber	34	
+Bell pepper	34	
+Mustard seed	34	
+Lemon juice	32	
+Wheat gluten	32	
+Semolina	32	
+Durum wheat semolina	32	
+E621	32	
+Barley	31	
+Basil	31	
+Egg yolk	31	
+Invert sugar syrup	31	
+E270	31	
+Egg white	31	
+Coconut	31	
+Thyme	31	
+Wholemeal flour	30	
+Vegetable fiber	30	
+Barley malt extract	29	
+Tapioca starch	29	
+E422	29	
+Rice starch	29	
+Glazing agent	29	
+Beef	29	
+Iodised salt	29	
+Hops	29	
+Palm	28	
+Hydrolysed vegetable protein	28	
+E160c	28	
+Wheat starch	28	
+Unrefined sugar	28	
+Whey powder	28	
+Raspberry	28	
+Yogurt	28	
+E428	27	
+E120	27	
+Corn flour	27	
+Unrefined cane sugar	27	
+Carob seeds	27	
+Wine	27	
+E414	27	
+Cinnamon	26	
+Cow's milk	26	
+Coriander	26	
+E290	26	
+Dough	26	
+Paprika	25	
+Coconut oil	25	
+Peanut	25	
+Poultry meat	25	
+Soy protein	25	
+E420	25	
+Oat flakes	24	
+Tomato concentrate	24	
+Sesame	24	
+E375	24	
+Vanilla extract	24	
+Alcohol vinegar	24	
+E950	24	
+Carob seed flour	24	
+E450i	24	
+Chopped tomatoes	23	
+Tomato purée	23	
+Mango	23	
+Orange juice	23	
+Sauce	23	
+E466	23	
+Vitamin D	23	
+Spirit vinegar	23	
+Coating	23	
+Oregano	22	
+Thiamin	22	
+E316	22	
+Whole egg	22	
+E150a	21	
+Fresh cream	21	
+E331	21	
+Wine vinegar	21	
+E101	21	
+Chicken	21	
+Turmeric	21	
+E150	21	
+Whole wheat flour	21	
+Sulfite	21	
+Peach	21	
+Rosemary	20	
+Mineral water	20	
+Pasteurised milk	20	
+Apple juice	20	
+Garlic powder	20	
+Nutmeg	20	
+Mushroom	20	
+Animal fat	20	
+E296	20	
+Folate	19	
+Baker's yeast	19	
+White pepper	19	
+Fresh egg	19	
+Beef meat	19	
+Herbs and spices	19	
+E903	19	
+E955	19	
+Folic acid	19	
+Humectant	19	
+Strawberry	19	
+White wine	19	
+Vitamin B6	18	
+Iron	18	
+Smoke	18	
+Soya flour	18	
+Blueberry	18	
+E211	18	
+E1404	18	
+Milk chocolate	18	
+E100	18	
+E341	17	
+Natural lemon flavouring	17	
+Pineapple	17	
+E503ii	17	
+E160ai	17	
+Lemon juice concentrate	17	
+Ham	16	
+Ginger	16	
+Shellfish	16	
+E392	16	
+Crushed tomato	16	
+Sunflower seed	16	
+Lactose and milk proteins	16	
+Blackcurrant	16	
+Chicken meat	16	
+Soya bean	16	
+Leek	15	
+Beans	15	
+Pear	15	
+Shallot	15	
+Cream powder	15	
+Tea	15	
+Condensed milk	15	
+Cumin seeds	15	
+Fat reduced cocoa	15	
+Margarine	15	
+Semi-skimmed milk	15	
+E163	15	
+Broth	15	
+Lard	15	
+E252	15	
+Carbonated water	15	
+Bacon	15	
+Chocolate powder	14	
+Sodium	14	
+Cucumber	14	
+Flour treatment agent	14	
+Rye flour	14	
+Salt from Guérande	14	
+E306	14	
+E282	14	
+Natural mineral water	14	
+Anti-caking agent	14	
+Bread crumbs	14	
+Banana	14	
+Palm kernel oil and fat	14	
+Coconut fat	14	
+Onion powder	14	
+Rye	14	
+Clove	13	
+Modified tapioca starch	13	
+Tomato powder	13	
+Courgette	13	
+E464	13	
+Red bell pepper	13	
+Bay leaf	13	
+E262	13	
+E224	13	
+E951	13	
+Fruit pectin	13	
+Chives	12	
+Pantothenic Acid	12	
+Champignon	12	
+Malted wheat flour	12	
+Sweet whey	12	
+Vanillin	12	
+Filling	12	
+Beetroot	12	
+Agave syrup	12	
+Caramelised sugar	12	
+Elder	12	
+Vitamin E	12	
+Vitamin B12	12	
+White fish	12	
+Coffee	12	
+Apricot	12	
+Sodium citrate	12	
+Palm kernel oil	12	
+Vitamin C	12	
+Tomato juice	12	
+Rapeseed	11	
+Salad	11	
+Microbial rennet	11	
+E160	11	
+Brown rice	11	
+Safflower	11	
+Chocolate pieces	11	
+Shea butter	11	
+E160b	11	
+Dill	11	
+Concentrated apple juice	11	
+E170	11	
+Fresh milk	11	
+Salmon	11	
+Spinach	11	
+Vegetarian rennet	11	
+Raisin	11	
+Pumpkin	11	
+Cashew nuts	11	
+Cornmeal	11	
+Smoke flavouring	11	
+Sweet whey powder	11	
+Fruit juice concentrate	11	
+Pasteurized cream	10	
+Barley flour	10	
+Tuna	10	
+E451	10	
+Raw milk	10	
+Sucrose	10	
+Blackberry	10	
+Caramel syrup	10	
+E170i	10	
+Fennel	10	
+Raspberry puree	10	
+Powdered egg white	10	
+Olives	10	
+Mango puree	10	
+Vitamin A	10	
+E965	10	
+E171	10	
+Orange zest	10	
+E476	10	
+Dijon mustard	10	
+Syrup	10	
+E150d	10	
+E200	10	
+Soy sauce	10	
+Lentils	9	
+Fresh whole milk	9	
+E509	9	
+Mozzarella	9	
+Beech wood smoke	9	
+E917	9	
+Emulsifying salts	9	
+Dark chocolate	9	
+E260	9	
+E501	9	
+Flax seed	9	
+Gherkin	9	
+Mollusc	9	
+Sesame seeds	9	
+Must	9	
+Mint	9	
+E452	9	
+Natural orange flavouring	9	
+Crustacean	9	
+Wheat bran	9	
+Condensed skimmed milk	9	
+Anchovy	9	
+Grape sugar	9	
+Passion fruit	9	
+Sourdough	9	
+Turkey	9	
+Marjoram	9	
+E327	8	
+E472e	8	
+Atlantic salmon	8	
+Poultry fat	8	
+ro:condimente	8	*
+Reconstituted skimmed milk	8	
+Cholecalciferol	8	
+Pumpkin seed	8	
+Hazelnut paste	8	
+Cheese powder	8	
+Molasses	8	
+Turkey meat	8	
+E901	8	
+Atlantic herring	8	
+Duck	8	
+Biotin	8	
+E339	8	
+E401	8	
+E631	8	
+Chickpea	8	
+Herring	8	
+Pasteurised cow's milk	8	
+Double concentrated tomato	8	
+E338	8	
+Bulking agent	8	
+Wheat glucose syrup	8	
+Liquorice	8	
+Pea	8	
+Brown sugar	8	
+Apple fiber	8	
+E161b	8	
+Potato flakes	8	
+Orange juice from concentrate	8	
+Casing	8	
+E904	7	
+Black tea	7	
+Dehydrated onion	7	
+E133	7	
+Animal-based rennet	7	
+Green lentils	7	
+Walnut	7	
+E1103	7	
+Herring fillets	7	
+Raw cow's milk	7	
+E1105	7	
+Soya oil	7	
+Natural raspberry flavouring	7	
+Breast	7	
+E461	7	
+Pasta	7	
+E223	7	
+Pea protein	7	
+Whey product	7	
+Green peas	7	
+Emmental	7	
+Aubergine	7	
+Wheat malt	7	
+Pork breast	7	
+Lime juice	7	
+Wheat protein	7	
+Spirulina	7	
+White wine vinegar	7	
+E524	7	
+E511	7	
+Alaska pollock	7	
+Whey protein	7	
+Green olives	7	
+Vegetable juice	7	
+Raspberry juice	7	
+Zinc	7	
+Chicken egg	7	
+Grapefruit	6	
+Corn syrup	6	
+E445	6	
+Chicken fat	6	
+Rice syrup	6	
+Herb extract	6	
+Toasted hazelnut	6	
+E460	6	
+Pork gelatin	6	
+Flavouring preparation	6	
+Gum base	6	
+Whole powdered egg	6	
+Pineapple juice	6	
+Buttermilk powder	6	
+E110	6	
+E385	6	
+Apple juice from concentrate	6	
+Lemongrass	6	
+Pork liver	6	
+Elderberry	6	
+Buckwheat flour	6	
+Cranberry	6	
+Wheat flakes	6	
+Caffeine	6	
+Green bean	6	
+Concentrated grape must	6	
+Milk fat substitute	6	
+E627	6	
+Cooking water	6	
+Glaze	6	
+Wheat fiber	6	
+Dehydrated glucose syrup	6	
+E102	6	
+Strawberry puree	6	
+Passion fruit juice	6	
+Corn flakes	6	
+Buttermilk	6	
+Green pepper	6	
+Baking powder	6	
+Cayenne pepper	6	
+High oleic sunflower oil	6	
+Green bell pepper	6	
+E334	6	
+Lardon	6	
+Red chili pepper	6	
+Curry powder	6	
+Wholemeal rye flour	6	
+Mild yogurt	6	
+Mustard powder	6	
+E304	6	
+Peach juice	6	
+Natural pepper flavouring	5	
+Whipped cream	5	
+E551	5	
+Egg powder	5	
+de:tr	5	*
+Coagulant	5	
+Cherry	5	
+Grape juice	5	
+Smoked lardoons	5	
+Blackcurrant juice	5	
+Capers	5	
+Pyridoxine hydrochloride	5	
+Fruit concentrates	5	
+Cheddar	5	
+Melted cheese	5	
+E262i	5	
+Summer savory	5	
+Bread	5	
+Oil	5	
+de:Joghurterzeugnis	5	
+Cyanocobalamin	5	
+Whole yogurt	5	
+Refined sunflower oil	5	
+E326	5	
+E472b	5	
+E967	5	
+Apple purée	5	
+Duck liver	5	
+E516	5	
+Red beetroot	5	
+fr:allergenes-presents	5	*
+E333	5	
+E141	5	
+Tofu	5	
+E332	5	
+Juice	5	
+Crushed peeled tomato	5	
+Caramelised sugar syrup	5	
+E500i	5	
+E420ii	5	
+E162	5	
+Coconut flakes	5	
+Lysozyme from eggs	5	
+Hop extract	5	
+E472c	5	
+E1510	5	
+Herbes de Provence	5	
+Oat flour	5	
+Inulin	5	
+E470b	5	
+Cooked rice	5	
+Cardamom	5	
+Banana puree	5	
+Acerola	5	
+Lactic and aging ferments	5	
+Sheeps casing	5	
+Condiment	5	
+Collagen	5	
+Superior quality durum wheat semolina	5	
+Edam	5	
+Natural vanilla extract	5	
+E153	5	
+Vermouth	5	
+Concentrated orange juice	5	
+Radish	4	
+E406	4	
+Sweetcorn	4	
+Cherry tomato	4	
+ru:молоко-нормализованное	4	*
+E350	4	
+Fleur de sel	4	
+Canola oil	4	
+E635	4	
+Concentrate	4	
+Beef fat	4	
+Tamarind	4	
+Redcurrant	4	
+E481	4	
+Tomato pulp	4	
+Fructose syrup	4	
+Iodine	4	
+ro:slănină	4	*
+Fruit and plant concentrates	4	
+Mackerel fillet	4	
+Poultry skin	4	
+Malted wholemeal rye flour	4	
+Calcium	4	
+Reconstituted lime juice	4	
+Veal	4	
+E325	4	
+Pork by-product	4	
+Coconut milk	4	
+Corn dextrose	4	
+Lemon oil	4	
+Rye sourdough	4	
+Bourbon vanilla	4	
+Pork rind	4	
+Wheat dextrose	4	
+Essential oil	4	
+Thiamin mononitrate	4	
+Grana Padano	4	
+Fromage blanc	4	
+E150b	4	
+E1400	4	
+fr:Denrée alimentaire colorante	4	
+E220	4	
+Fruit extract	4	
+Brandy	4	
+Rapeseed lecithin	4	
+es:aceite-de-semillas	4	*
+Caraway	4	
+Wheat germ	4	
+E1442	4	
+Sage	4	
+de:mango-chutney	4	*
+de:Zwiebeln gegrillt	4	
+fr:l	4	*
+Cabbage	4	
+E320	4	
+Pasteurised whole milk	4	
+fr:Fond de porc	4	
+Coriander leaves	4	
+Table vinegar	4	
+Milk minerals	4	
+Guava	4	
+Plant concentrates	4	
+Nigari	4	
+Parboiled rice	4	
+Asparagus	4	
+de:Würze	4	
+fr:Jus de pêche à base de concentré	4	
+Aniseed	4	
+Barley malt flour	4	
+Peach puree	4	
+Mackerel	4	
+E965ii	4	
+Fleur de sel from Guérande	4	
+Quark	4	
+Malt extract	4	
+Quinoa	4	
+Goat's milk	4	
+Concentrated pineapple juice	4	
+Spelt	4	
+Vanilla pod	4	
+Potato powder	4	
+Curry	4	
+Parmesan	4	
+fr:Matière grasse de lait anhydre	4	
+E475	4	
+es:aceite-de-semillas-y-sal	4	*
+E952	4	
+Sherry vinegar	4	
+Cod	4	
+Biscuit	4	
+E131	4	
+Cane sugar syrup	4	
+Sweet peppers	4	
+Chestnut	4	
+de:fett-i	4	*
+E307a	3	
+E504	3	
+Concentrated plant colour	3	
+Whole grain oat flakes	3	
+fr:ingredients	3	*
+Plantain	3	
+Natural mint flavouring	3	
+Pine nuts	3	
+Mint flavouring	3	
+Carrot juice	3	
+Palm kernel fat	3	
+Chickpea flour	3	
+hu:vörösbab	3	*
+burnt-sugar	3	*
+UHT pasteurised whole milk	3	
+Algae	3	
+Lactobacillus	3	
+Plant extracts	3	
+Corn oil	3	
+Hydrogenated oil	3	
+Grated coconut	3	
+Hydrogenated vegetable oil	3	
+Cognac	3	
+Chokeberry	3	
+E160aii	3	
+E1100	3	
+Celery seed	3	
+Blackcurrant juice from concentrate	3	
+Melon	3	
+fr:en-poudre	3	*
+Zinc sulfate	3	
+de:Weichweizenmehl	3	
+ingredients	3	*
+Lemon peel	3	
+Sodium chloride	3	
+Enhancer	3	
+fr:Chair de poisson	3	
+E473	3	
+Ground hazelnuts	3	
+ru:Закваска на кефирных грибках	3	
+Parsnip	3	
+Vegetable margarine	3	
+Sweet potato	3	
+Natural sheep casing	3	
+Single cream	3	
+Unrefined sea salt	3	
+fr:Levain de seigle dévitalisé	3	
+Yellow bell pepper	3	
+E920	3	
+Potato protein	3	
+Lobster	3	
+Brown flax seeds	3	
+Reconstituted passion fruit juice	3	
+Dry roasted almonds	3	
+Shrimp	3	
+Liquorice extract	3	
+Elderberry extract	3	
+E413	3	
+fr:b1	3	*
+Green tea	3	
+Aromatic caramel	3	
+Deactivated yeast	3	
+Sugar beet syrup	3	
+Garlic puree	3	
+Parboiled long grain rice	3	
+ro:stabilizatori	3	*
+E460i	3	
+Acacia honey	3	
+Bone	3	
+Pure vanilla extract	3	
+Plum	3	
+Buckwheat	3	
+E332ii	3	
+Liqueur wine	3	
+Roasted peanuts	3	
+Sour cream	3	
+Pasteurized skimmed milk	3	
+Wheat glucose-fructose syrup	3	
+Carbonated natural mineral water	3	
+E508	3	
+Lovage	3	
+Squid	3	
+Duck foie gras	3	
+Pear juice	3	
+Corn kernel	3	
+Red wine	3	
+Sardine	3	
+Pomace brandy	3	
+Peppermint	3	
+Cocoa solids	3	
+Icing sugar	3	
+E501i	3	
+E251	3	
+Hydrolysed pea protein	3	
+Roselle flower	3	
+Belgian endive	3	
+E350ii	3	
+Poppy seed	3	
+Armagnac	3	
+esters-of-fatty-acids-and-polyglycerol	3	*
+Broad bean flour	3	
+Rice bran	3	
+E442	3	
+Mashed potato	3	
+Pork fillet	3	
+White beans	3	
+Egg yolk powder	3	
+White chocolate	3	
+fr:eau-des-alpes	3	*
+Lemon powder	3	
+Chicory	3	
+Rice semolina	3	
+Pork collagen	3	
+Hydrolysed proteins	3	
+Dehydrated parsley	3	
+Orange extract	3	
+Cooked ham	3	
+fr:1-de-matiere-grasse	3	*
+Veal meat	3	
+Potassium iodide	3	
+Milk solids	3	
+Date	3	
+fr:Farine d'orge malté toasté	3	
+E530	3	
+Port	3	
+ru:Комплексная пищевая добавка	3	
+Blend of honeys	3	
+Natural basil flavouring	3	
+Reduced iron	3	
+Bifidus	3	
+Tea extract	3	
+Extract	3	
+Rooibos	3	
+UHT pasteurised milk	3	
+Ricotta	3	
+E421	3	
+Tarragon	3	
+Non-hydrogenated sunflower oil	3	
+fr:Lait demi écrémé uht	3	
+Shiitake	3	
+Lactobacillus bulgaricus	3	
+Rye malt	3	
+Firming agent	3	
+fr:1	3	*
+Brazil nut	3	
+Psyllium	3	
+Concentrated carrot juice	3	
+fr:Éclats de noisettes	3	
+fr:Additifs alimentaires	3	
+Long grain rice	3	
+Special bread	3	
+Natural colours	3	
+Sterilised milk	3	
+Low-fat milk	3	
+ru:e1414	3	*
+Superior cooked ham	3	
+fr:Purée et purée concentrée	3	
+Cracked black pepper	3	
+Deodorized sunflower oil	3	
+330	3	*
+Lettuce	3	
+Strawberry juice	3	
+Red wine vinegar	3	
+carob-germ-flour	3	*
+Filtered water	3	
+Chili extract	3	
+fr:Boyau naturel de porc	3	
+Black olive	3	
+ru:молокосвертывающий-фермент	3	
+Cep	3	
+Fig	3	
+Free range eggs	3	
+Concentrated purée	3	
+E575	3	
+Noodle	3	
+fr:Fumet de poisson	3	
+Bourbon vanilla extract	3	
+sucre	3	*
+Streptococcus thermophilus	3	
+Hot chili peppers	3	
+de:Aroma Vanillin	2	
+Canola	2	
+fr:controlee	2	*
+Balsamic vinegar	2	
+Tapioca flour	2	
+Pineapple juice from concentrate	2	
+de:verdickungsmittel-johannisbrotkernmehl-und-pektin	2	*
+Cornflower	2	
+de:Weizenvollkornflocken	2	
+Oyster mushroom	2	
+fr:Ferments d'affinage	2	
+de:ammoniumcarbonate	2	*
+Dried fruits	2	
+ro:ingrediente	2	*
+processed-with-alkali	2	*
+E535	2	
+Beef gelatin	2	
+hu:fűszerkeverék	2	*
+Ground coffee	2	
+Brown rice syrup	2	
+fr:Blanc d'œuf liquide pasteurisé	2	
+Salami	2	
+E1422	2	
+E640	2	
+de:frauenmantel	2	*
+Lupin flour	2	
+E960	2	
+Concentrated raspberry juice	2	
+fr:Couenne de porc	2	
+Beetroot juice concentrate	2	
+E235	2	
+Wholemeal oat	2	
+Millet	2	
+Tomato sauce	2	
+fr:Légume déshydraté	2	
+E336	2	
+Zinc gluconate	2	
+Kiwi	2	
+Cane invert syrup	2	
+de:kulturchampignons	2	*
+Duck meat	2	
+Acacia fibre	2	
+Atlantic mackerel	2	
+Pasteurised goat milk	2	
+fr:Cornet biscuit	2	
+ro:emulsificatori	2	*
+Fenugreek	2	
+Papaya	2	
+Linseed seeds	2	
+Gouda	2	
+Pea fiber	2	
+Star anise	2	
+ro:proteină-animală	2	*
+fr:Pétales de bleuet	2	
+Watermelon	2	
+Chicken skin	2	
+Soy milk	2	
+de:süßlupinensamen-gekocht	2	*
+Ferric diphosphate	2	
+Red beetroot juice	2	
+Natural blackcurrant flavouring	2	
+E341iii	2	
+E407a	2	
+fr:sure	2	*
+Grapefruit juice	2	
+fr:Maïs doux en grains	2	
+Couscous	2	
+Palm olein	2	
+Unsalted butter	2	
+Wheat sourdough	2	
+fr:Jus de framboise à base de concentré	2	
+ru:солод-ячменный-светлый	2	*
+hu:bőrös-baromfizsiradék	2	*
+Boiled egg	2	
+nl:bio-ui	2	*
+it:sucre	2	*
+Vegetable broth	2	
+Concentrated whey protein	2	
+Pepper extract	2	
+Mountain honey	2	
+Zante currant	2	
+Lychee	2	
+Black carrot	2	
+Butter flavouring	2	
+E492	2	
+zh:調味劑	2	*
+Yellowfin tuna	2	
+Semi-whole durum wheat semolina	2	
+Bread improver	2	
+Mustard oil	2	
+Neapolitan wafer	2	
+Microbial coagulating enzyme	2	
+de:Joghurtpulver	2	
+de:Hühnerei-Trockeneiweiß	2	
+Aloe vera	2	
+ro:ficat-de-gâscă	2	*
+fr:Lait écrémé reconstitué	2	
+Beef broth	2	
+Cider vinegar	2	
+E468	2	
+E503i	2	
+Superior quality long grain parboiled rice	2	
+Juniper berry	2	
+Buffalo milk	2	
+de:past	2	*
+de:verdickungsmittel-johannisbrotkernmehl	2	*
+Spiny lobster	2	
+Brewer's yeast	2	
+Wholemeal rye	2	
+Small white onions	2	
+Smoked bacon	2	
+Dried apricots	2	
+Ground almonds	2	
+Bechamel sauce	2	
+fr:si-necessaire-pour-reguler-l-acidite	2	*
+fr:Jus concentré de fruits rouges	2	
+de:Feine Milchschokolade	2	
+Atlantic cod	2	
+de:vollkornweizen-crispies	2	*
+Basmati rice	2	
+Spinach powder	2	
+Marc de Champagne	2	
+Soy sauce powder	2	
+Natural flavor of turmeric	2	
+E341ii	2	
+Whole liquid pasteurised egg	2	
+E319	2	
+fr:filets-de-limande-du-nord	2	*
+sel	2	*
+E536	2	
+Fennel seed	2	
+296	2	*
+ru:зелень-сельдерея	2	*
+Acacia honey from France	2	
+ru:морская-капуста	2	*
+fr:Amidons modifiés de maïs et de pomme de terre	2	
+fr:Lactose et minéraux du lait	2	
+fr:Moût de raisin cuit	2	
+E262ii	2	
+Sweetened condensed milk	2	
+Pea starch	2	
+E261	2	
+Fresh butter	2	
+Brine	2	
+Spirulina concentrate	2	
+Millet flour	2	
+Thai rice	2	
+ro:agenți-gelatinizanți	2	*
+Cottonseed oil	2	
+ro:ulei-vegetal-de-floarea-soarelui	2	*
+E321	2	
+Pink peppercorn	2	
+E172	2	
+Chicken thigh	2	
+Fortified wheat flour	2	
+fr:fromage-blanc-au-lait-entier-pasteurise	2	*
+Allspice	2	
+Celery powder	2	
+fr:huiles-vegetales-vierges	2	*
+Chicken liver	2	
+fr:jus-de-citron-issu-de-concentre	2	*
+de:natürliche-bourbon-vanille-aromen	2	*
+Rum	2	
+it:vitamine-c-ed-e	2	*
+Blend of EU and non-EU honeys	2	
+Gluten free oats	2	
+Mayonnaise	2	
+Magnesium	2	
+White cabbage	2	
+Blackcurrant puree	2	
+Duck fat	2	
+Guar flour	2	
+E472a	2	
+Modified rice starch	2	
+Barley malt syrup	2	
+Mace	2	
+de:natron	2	*
+Prune	2	
+hydroxypropyl-methyl-cellulose-cellulose-gum	2	*
+Puffed rice	2	
+Concentrated tomato purée	2	
+ro:potențator-de-aromă	2	*
+Powdered sugar	2	
+Beer	2	
+it:corretore-di-acidita	2	*
+Rose petals	2	
+Potassium	2	
+Wholemeal oat flour	2	
+Strawberry flavouring	2	
+fr:Épaississant e415	2	
+Natural citrus flavouring	2	
+ro:aromatizant	2	*
+Pre fried onions	2	
+Corn maltodextrin	2	
+Pork bone	2	
+fr:Dextrine de blé	2	
+fr:oignons-frits-et-sauce-gout-barbecue	2	*
+Fruit vinegar	2	
+Apricot purée	2	
+Beetroot juice	2	
+Exhausted vanilla pod	2	
+Pulp	2	
+de:homogenisiert	2	*
+b12	2	*
+Norway lobster	2	
+Dehydrated soy protein	2	
+E141ii	2	
+fr:specialite-panee-au-poulet	2	*
+Albacore	2	
+fr:contient-des-sucres-naturellement-presents	2	*
+Chia	2	
+Quinine	2	
+Welsh onion	2	
+E553	2	
+Citrus flavouring	2	
+Soy preparation	2	
+Skimmed milk yogurt powder	2	
+Pasteurized crème fraîche	2	
+High fructose corn syrup	2	
+Marinade	2	
+Unrefined sea salt from the Atlantic	2	
+de:Fruchtzubereitung	2	
+E525	2	
+Concentrated juice	2	
+Yeast extract powder	2	
+E451i	2	
+Wholemeal cereal	2	
+Guava puree	2	
+Dried apple	2	
+de:Putenfleisch	2	
+de:pasteurisiert	2	*
+Beet sugar	2	
+Raw ham	2	
+Soy base	2	
+Natural oregano flavouring	2	
+es:Sirope de glucosa de maíz	2	
+fr:Haricots blancs secs trempés	2	
+de:paprika-rot	2	*
+fr:carotene-et-extraits-de-paprika-et-de-curcuma	2	*
+Cream from Normandy	2	
+Chocolate filling	2	
+de:gekochter-hinterschinken	2	*
+Chili puree	2	
+de:kann-sellerie	2	*
+Salted butter	2	
+Concentrated grape juice	2	
+Free range chicken eggs	2	
+fr:Bleuets	2	
+fr:sucre-de-canne-roux-d-amerique-du-sud	2	*
+fr:Décor au cacao maigre	2	
+fr:Mélange de salades	2	
+Cocoa butter substitute	2	
+Liquid egg white	2	
+Red lentils	2	
+Wheat flour type 0	2	
+Powdered almonds	2	
+Rehydrated onion	2	
+ru:восстановленная-молочная-сыворотка	2	*
+Cinnamon powder	2	
+fr:thym-poudre	2	*
+E553b	2	
+E953	2	
+Lupin	2	
+ro:zer-praf	2	*
+Exhausted ground vanilla pod	2	
+Whole durum wheat semolina	2	
+fr:aubergines-du-sud-ouest	2	*
+and-sunflower-oil	2	*
+Orange essential oil	2	
+E339ii	2	
+Flax	2	
+ro:amidon-din-porumb	2	*
+fr:ferments-lactiques-et-flore-de-surface	2	*
+Nectarine	2	
+Chromium	2	
+E504i	2	
+Whole grain oats	2	
+Red beans	2	
+fr:certains-ingredients-ne-sont-pas-francais	2	*
+fr:maigre	2	*
+Clementine	2	
+fr:et-100-du-total-des-ingredients-sont	2	*
+de:Hähnchenfleisch	2	
+Totally hydrogenated palm fat	2	
+fr:qualite-sans-arete	2	*
+fr:vin-de-riz-de-cuisine	2	*
+cultured-grade-a-non-fat-milk	2	*
+Calvados	2	
+Skipjack tuna	2	
+ru:жир-заменитель-какао-масла	2	*
+Natural apple flavouring	2	
+fr:Cacao minimum	2	
+Potato flour	2	
+Menthol	2	
+Apricot kernels	2	
+Grated emmental cheese	2	
+Milk mineral concentrate	2	
+fr:laurier-poudre	2	*
+fr:des-ingredients	2	*
+E433	2	
+es:aceitunas-rellenas	2	*
+Mung bean	2	
+E340	2	
+Grape must	2	
+Thiamin hydrochloride	2	
+Red onion	2	
+Nibbed and ground hazelnuts	2	
+Fruit preservative	2	
+Pasteurized semi-skimmed milk	2	
+Lime	2	
+Instant coffee	2	
+Strawberry juice concentrate	2	
+Sheeps milk	2	
+Mixed spices	2	
+Natural garlic flavouring	2	
+Maltose	2	
+fr:acide-lactique-l	2	*
+Xanthan gum and guar gum	2	
+fr:Ail séché	2	
+White asparagus	2	
+ru:e170	2	*
+Liquid smoke	2	
+Goat cheese	2	
+Juniper	2	
+Light cream	2	
+fr:Eau minérale naturelle gazéifiée	2	
+fr:gorge-et-foie-de-porc	2	*
+de:zutaten	2	*
+Coffee extract	2	
+Natural lime flavouring	2	
+fr:Salade composée	2	
+Honey from France	2	
+poudre-de-cacao	1	*
+ja:調味料（アミノ酸等）	1	*
+fr:acidophilus	1	*
+fr:pour-agneau-rogan-josh	1	*
+Orange blossom flavouring	1	
+fr:crabe-vert	1	*
+de:skipjack	1	*
+cs:švestkový-destilát	1	*
+fr:de-chene-et-de-caryer	1	*
+it:contient-gluten	1	*
+Mature cheddar	1	
+fr:potimarrons-du-val-de-loire	1	*
+rosemary-seasoning	1	*
+Chicken broth	1	
+piment-vinaigre	1	*
+E900a	1	
+fr:Riz thaï long grain de qualité supérieure	1	
+ru:натуральный-краситель-бета-каротин	1	*
+fr:sel-vinaigre-de-cidre-de-pomme	1	*
+fr:melkeiwitt	1	*
+fr:anis-2-o	1	*
+tatal-hardness-39-656-mg	1	*
+acesulfame	1	*
+fr:issue-de-fruits	1	*
+Quail	1	
+fr:Aiguillette de poulet	1	
+Pork sausage	1	
+nl:bio-kippenvet	1	*
+fr:gesier-de-canard-maigre	1	*
+Coconut milk powder	1	
+fr:lait-de-brebis-a-3-de-matieres-grasses	1	*
+zh:小麥澱粉	1	*
+es:callos-y-patas-de-vacuno	1	*
+Fish gelatine	1	
+vegetable-soy-and-corn-hydrolysate	1	*
+ru:рафинированные-растительные-масла	1	*
+fr:origanum-vulgare	1	*
+de:l	1	*
+Broad bean	1	
+de:hergestellt-mit-mikrobiellem-lab	1	*
+es:y-aroma-natural-de-verduras	1	*
+ja:エビとたっぷり野菜	1	*
+de:flüssiger-kaffee	1	*
+Exhausted vanilla seeds	1	
+de:kakaocremefüllung	1	*
+Crab	1	
+hu:vitamins	1	*
+fr:b-carotene	1	*
+Smoked cooked lardoons	1	
+de:arome	1	*
+fr:ce-produit-ne-convient-pas-aux-personnes-atteintes-de-galactosemie	1	*
+de:Natursauerteig	1	
+fr:stqfe-ln-best-oefore	1	*
+fr:extrait-de-racine-d-angelique	1	*
+ru:улучшитель-теста	1	*
+fr:Épices moulues	1	
+ja:パプリカ色素	1	*
+hu:szárazbab	1	*
+Lean duck liver	1	
+fr:dan-on-com	1	*
+de:keka-ttver	1	*
+fr:melange-de-fruits-exotiques	1	*
+ro:batoane-de-vanilie-bourbon	1	*
+cs:Smažený lilek	1	
+fr:21	1	*
+ru:вкусоароматическая-добавка-сливочная	1	*
+fr:arome-naturel-de-homard	1	*
+zh:脂肪酸甘油脂	1	*
+ru:бета	1	*
+de:kohlensaure	1	*
+fr:extrait-d-olive	1	*
+fr:colin	1	*
+de:emulgator-sojalecithin	1	*
+nl:gebroken-rogge	1	*
+Egg protein	1	
+fr:batonnet-sorbet-mangue-jus-de-la-passion-enrobage-fruits-exotiques	1	*
+Vitamin K	1	
+Wild rice	1	
+fr:algue-arame	1	*
+Organic tomato	1	
+hu:komló-készítmények	1	*
+zh:砂糖	1	*
+fr:peche-en-atlantique-nord-ouest	1	*
+fr:les-personnes-souffrant-d-hypertension-doivent-eviter-toute-consommation-excessive	1	*
+emulsifiants-et-aromes	1	*
+de:natürliches-zitronen	1	*
+fr:appellation-cotes-du-rhone-certifiee	1	*
+tum-all	1	*
+ro:carne-de-gâscă	1	*
+Poultry liver	1	
+nestle-milo-breakfast-cereal	1	*
+nutrition-information-typical-value-energy-fat	1	*
+ro:pudră-de-tomate	1	*
+Black pepper extract	1	
+Non-hydrogenated vegetable fats	1	
+Cooked potato	1	
+Cooked green lentils	1	
+Round rice	1	
+fr:Échalote déshydratée	1	
+ru:вещество-для-обработки-муки	1	*
+fr:Poudre au beurre	1	
+colour-160a	1	*
+de:schafgarbe	1	*
+fr:aardbei	1	*
+fr:flocons-d-orge-flocons-de-ble-malte-grilles	1	*
+Butter natural flavouring	1	
+su	1	*
+fr:marrons-glaces	1	*
+Angus beef	1	
+zh:維生素-c-鈉監	1	*
+fr:300	1	*
+energy-280-kj	1	*
+Shelled sunflower seeds	1	
+lemon-curd	1	*
+Peanut flour	1	
+Fresh onions	1	
+fr:Miel de sapin récolté en France	1	
+de:karamellisierte-und-gezuckerte-kondensmilch	1	*
+ja:魚粉	1	*
+Natural yeast	1	
+fr:salz	1	*
+de:getrocknete-berberitzen	1	*
+fr:extrait-sec-min	1	*
+E132	1	
+fr:lait-thermise-de-chevre-entier	1	*
+potato-starch-and-powdered-cellulose-added-to-prevent-caking	1	*
+fr:cola-totalement-hydrogene	1	*
+Apple extract	1	
+de:vollbier	1	*
+de:kakaonmasse	1	*
+fr:Miel de sapin	1	
+fr:Purée de pruneaux	1	
+fr:nitrate-de-potassium-et-nitrite-de-sodium-ferments	1	*
+de:Karottenpulver	1	
+de:säuerungsmittel-äpfelsäure-farbstoff-e171	1	*
+fr:pepites-a-base-de-fruits	1	*
+fr:edulcolorants	1	*
+fr:remplacez-l-agneau-par-des-blancs-de-poulet-eminces	1	*
+fr:45	1	*
+ru:сок-яблочный-концентрированный	1	*
+Manganese	1	
+fr:mini-cone-chocolat	1	*
+ru:nacl	1	*
+de:natürliches-minzenaroma	1	*
+Pecan nut	1	
+fr:vanille-naturelle-bourbon	1	*
+Chicory root	1	
+fr:Base aromatisante fromage	1	
+fr:lecithines-de-soja-cacao-maigre-en-poudre	1	*
+it:granuli-di-patata	1	*
+Dandelion	1	
+Ergocalciferol	1	
+fr:Plantes aromatiques déshydratées	1	
+fr:traces-eventuelles-d-ceufs	1	*
+fr:elabore-et-mis-en-bouteilleenv-france-dingswaarde	1	*
+fr:noirmoutier-et-guerande	1	*
+fr:farce-aux-legumes	1	*
+Broccoli	1	
+E1201	1	
+sv:fiber-från-sockerbeta	1	*
+fr:groseille-1-granules-de-jus-de-cerise	1	*
+Whole almonds	1	
+cream-milk	1	*
+Walnut kernel	1	
+de:vollmilchpuiver	1	*
+it:fermenti-lattici-specifici-vivi	1	*
+fr:icorrespond-a-13-de-noisettes-broyees-dans-la-pate-de-noisettescacao	1	*
+ru:улучшитель-хлебопекарная	1	*
+fr:Jaune d'œuf liquide pasteurisé	1	
+exhausteuide-conservateur	1	*
+fr:black-mulberries	1	*
+fr:se-conserve-3-jours-ouverture-au-refrigerateur	1	*
+fr:conservation	1	*
+fr:se-conserve-deuxjours-au	1	*
+ro:citrațl-de-sodiu	1	*
+de:mikrokrista-line-cellulose	1	*
+ru:влагоудерживающий-aгент	1	*
+Water chestnut	1	
+de:kräutertee	1	*
+Mascarpone	1	
+benefiber-guarantees-your-salistaction-and-vour-monay-har	1	*
+fr:nahowertdeklaraton	1	*
+Bourbon vanilla beans	1	
+fr:france	1	*
+fr:fromage-suisse-a-pate-molle	1	*
+fr:enveloppe-comestible	1	*
+Horse meat	1	
+fr:noir	1	*
+fr:geroosterde-honing	1	*
+es:composicion-centesimal	1	*
+fr:petali-di-fiordaliso	1	*
+hydrolysed-maize-and-soya-protein	1	*
+hard-ripened-cheeses	1	*
+flacour	1	*
+ja:ビタミンｂ２	1	*
+Citrus fibre	1	
+ru:эм-р-e472e	1	*
+de:såuerungsmittel	1	*
+fr:fourrage-confiture-de-myrtille	1	*
+fr:lait-ecreme-de-vache	1	*
+fr:raclette-fondue	1	*
+it:preparazione-al-gusto-di-vaniglia	1	*
+E510	1	
+fr:creme-issue-de-lait-de-vache	1	*
+comme-arabique	1	*
+made-from-corn	1	*
+sorbitan-sesquioleate	1	*
+nl:bio-mosterd-zaad	1	*
+fr:gras	1	*
+ru:сок-клюквенный	1	*
+de:füllung-mit-vanillegeschmack	1	*
+nb:vaniljefrø	1	*
+fr:sels-mineraux-des-eaux-du-bassin-de-vichy	1	*
+Wild garlic	1	
+zh:無籽葡萄乾	1	*
+it:a-consommer-de-preference-avant-le	1	*
+Hydrogenated fat	1	
+sv:jalapeñopeppar	1	*
+ro:esteri-ai-acidului-acetic-cu-mono-si-digliceride	1	*
+liquid-whey-concentrate	1	*
+Black tea extract	1	
+ru:гyаровая-камедь	1	*
+fr:indispensables-pour-lier-les-ingredients	1	*
+500	1	*
+fr:ceufs-de-lompe	1	*
+Whole grain brown rice	1	
+fr:lait-entier-pasteurise-de-nos-vaches	1	*
+onion-white-pepper	1	*
+ro:ciocolată-amăruie-8-în-cremă	1	*
+de:dl-alpha-tocopherc	1	*
+fr:Coulis de tomates	1	
+Concentrated celery juice	1	
+fr:peche-en-pacifique-nord-est	1	*
+fr:ferments-iactiques	1	*
+fr:du-sel-dans-les-cubes-chevre	1	*
+Unrefined salt	1	
+fr:keta	1	*
+451	1	*
+ro:grăsime-vegetală-total-hidrogenată-de-cocos	1	*
+fr:D'élevage en plein air	1	
+zh:碳酸氫鈉	1	*
+sv:engelsk-sirap	1	*
+Lime juice concentrate	1	
+fr:sauce-d-assaisonnement-mixee	1	*
+ru:печень-трески	1	*
+ja:ゴボウ	1	*
+fr:se-turmeric	1	*
+Marshmallow	1	
+fr:infusions-de-plantes	1	*
+ru:протеаза-и-альфа-амилаза	1	*
+fr:sauce-a-la-parisienne	1	*
+Marc de Bourgogne	1	
+Pork belly	1	
+Algae extract	1	
+fr:lai-cru-entier-de-brebis	1	*
+de:molkefermenten	1	*
+fr:tef-f-ogts-et-gefere	1	*
+fr:ei-50d	1	*
+fr:gras-de-porc-francais	1	*
+Spices and spices extracts	1	
+Bran	1	
+baby-chard	1	*
+Wild rocket	1	
+place-s-on-o-rack	1	*
+de:schafssaitling	1	*
+fr:25-a	1	*
+de:vollkornhaferflocken-kleinblatt	1	*
+fr:poivron-bicolore-cal-70	1	*
+fr:ce-produit-contient-60-de-pate-et-40-de-garniture	1	*
+es:aceite-de-semillas-y-oliva	1	*
+Turmeric powder	1	
+1	*
+Ginger purée	1	
+de:gluko-sesirup	1	*
+de:jodiertes-speisezalz	1	*
+fr:Agent crémeux	1	
+de:piri-piri-pfefferschoten	1	*
+cow-s-pasteurized-milk	1	*
+de:pflanzentette	1	*
+fr:creme-de-lactoserum	1	*
+fr:Crevettes décortiquées	1	
+fr:2-5-tansforme-de-mais	1	*
+fr:grappa	1	*
+eau-de-source	1	*
+lecithine-de-soja	1	*
+Syrah	1	
+ro:extract-de-țelină-și-praz	1	*
+de:modifizierte-starke	1	*
+hu:konjak	1	*
+valeyr-nutritive-movepne-pat	1	*
+fr:boyau-comestible-de-porc	1	*
+fr:contient-des-sucres-naturellement-presents-idees-recettes	1	*
+fr:epautre-souffle	1	*
+Firmed mozzarella	1	
+fr:liquide-de-couverture	1	*
+Almond flour	1	
+pure-milk-fat	1	*
+fr:poulet-separe-desossee-mecaniquement	1	*
+it:lactoserum-en-poudre	1	*
+Crocant	1	
+nl:bio-paprika	1	*
+fr:carbonatesd-ammonium	1	*
+de:ricotta-käse	1	*
+Kefir	1	
+Fried onion	1	
+safety	1	*
+fr:sungold-new-zeoland	1	*
+fr:a-la-mise-en-oeuvre	1	*
+fr:viande-e-boeuf	1	*
+de:jalapeno-chili	1	*
+fr:conjonctif-de-canard	1	*
+pl:kluski-ryżowe	1	*
+fr:marrube	1	*
+it:famigliola-gialla	1	*
+it:sui-prodotto-finito	1	*
+synthetic-beeswax	1	*
+fr:sauce-soja-sans-gluten	1	*
+koolhydraten-970-dont-sucres	1	*
+Dried cranberries	1	
+fr:90-mm-cat-1	1	*
+ru:оваренная-ля-сыра-с-ветчиной	1	*
+E1101	1	
+es:y-aroma-sabor-jamon	1	*
+Ketchup	1	
+de:aus-mitch	1	*
+processed-in-citric-acid-and-sodium-benzoate	1	*
+fr:heidelbeere	1	*
+white-tea	1	*
+fr:Graisse de porc	1	
+ro:legume-deshidratate	1	*
+Cheese flavouring	1	
+fr:infusion-de-the-vert-a-base-d-infusion-forte	1	*
+de:sesamsirup	1	*
+E155	1	
+fr:contient-des-ingredients-du-ble-et-de-l-orge	1	*
+fr:huilde-de-tournesol	1	*
+hu:chili-paprika	1	*
+it:succhi-e-puree-di-frutta	1	*
+fr:jus-concentre-de-pommes	1	*
+fr:chaluts	1	*
+fr:fromage-italien	1	*
+ru:мука-пшеничная-о-назначения-типа-м55-23	1	*
+fr:non-reference-avant-ie	1	*
+es:masa-para-empanar-condimentada	1	*
+Coconut extract	1	
+fr:piments-mixndes	1	*
+fr:pectine-de-fruits-jus-de-citron-concentre	1	*
+de:wassel	1	*
+Pink salmon	1	
+fr:billes-de-cereales-croustillantes	1	*
+de:dinatriumguanyat	1	*
+buttermilk-powder-from-milk	1	*
+fr:monophosphate-de-calcium	1	*
+Beef extract	1	
+Whole kefir	1	
+pl:suszona-kolendra	1	*
+Rosé wine	1	
+fr:pain-moelleux-garni-d-une-saucisse-de-strasbourg-accompagnee-d-oignons-frits	1	*
+de:nativ	1	*
+epaissjssants	1	*
+kelel	1	*
+de:erfrischungsgetränk-mit-citrusgeschmack	1	*
+Mate	1	
+fr:Purée de tomates reconstituée	1	
+protein-blend	1	*
+fr:sale-a	1	*
+fr:fromage-de-chevre-affine	1	*
+ja:大豆食物繊維）	1	*
+fr:jus-concentre-de-peche	1	*
+it:fratelli	1	*
+fr:irlandia	1	*
+fr:cafe-moulu-en-dosettes-individuelles-souples	1	*
+ru:молокосвёртывающего-фермента-животного-происхождения	1	*
+fr:Œufs extra-frais	1	
+Concentrated white grape juice	1	
+fr:vanillie	1	*
+fr:iagredients	1	*
+American lobster	1	
+fr:porto-ruby	1	*
+fr:lait-de-brebis-et-chevre-pasteurise	1	*
+fr:cuisse-et-filet-de-poulet	1	*
+de:tomatenpaprikastreifen	1	*
+fr:zonnebloemolie	1	*
+fr:vinaigre-de-vin-rouge-eleve-en-fut-de-chene	1	*
+de:malve	1	
+fr:lait-bovin	1	*
+zh:調味粉	1	*
+fr:Bonbon au cacao maigre	1	
+vit	1	*
+de:l-histidin	1	*
+de:rote-bete-saft-1	1	*
+fr:soe-farine-complete	1	*
+de:dont-jambon	1	*
+de:kase-brotzeitbeißer-werden-aus-111-g-schweinefleisch-und-14g-emmentaler-hergestellt	1	*
+fr:rouge	1	*
+fr:farine-deble-poudre-de-lact-entier	1	*
+fr:Marinade barbecue	1	
+whey-milk	1	*
+fr:acidfiant	1	*
+fr:el	1	*
+fr:fonds-de-tarte-et-crumbles	1	*
+sv:med-emulgeringsmedel-sojalecitin	1	*
+ru:Концентрат квасного сусла	1	
+fr:jus-lacto-fermentes-de	1	*
+Selenium	1	
+fr:plata-base-de-haricots-aux-tomates-et-piments-fumes-0-lngredienetomates	1	*
+zh:鹿角菜膠	1	*
+butteroil-from-milk	1	*
+fr:Viande de porc traitée en salaison	1	
+fr:billettes-de-riz-soufflees	1	*
+ru:гидрокарбонат-натрия	1	*
+de:bestreuung-in-veränderlichen-gewichtsanteilen	1	*
+fr:Poulet traité en salaison	1	
+fr:epaissisants	1	*
+fr:lltte-qae-tica-n	1	*
+ro:fibră-vegetală-de-bambus	1	*
+Lasagne	1	
+their-products	1	*
+Black carrot juice	1	
+pickles-flavour	1	*
+fr:sucre-57-ngredienten	1	*
+fr:n20	1	*
+apple-filling	1	*
+fr:sel-marin-gris-alimentaire	1	*
+fr:pate-de-mure	1	*
+fr:levain-de-seigle-deshydrate-desactive	1	*
+fr:polyglycerides-d-acides-gras	1	*
+Citrus fruit extract	1	
+nl:farine-complète-de-blé	1	*
+fr:sans-sucres-ajoutes-conformement-a-la	1	*
+fr:Fond de veau	1	
+Mixed condiments	1	
+de:verdickungsmtel	1	*
+fr:jeunes-pousses	1	*
+fr:royaume-uni	1	*
+Bitter almond	1	
+fr:semoule-semi-complete-de-ble-dur	1	*
+de:weinbranntweinessig	1	*
+fr:Farine de châtaigne	1	
+fr:b3	1	*
+fr:foule-de-manioc	1	*
+E1441	1	
+ru:экстракт-перца-черного	1	*
+ru:e133	1	*
+Caramel flavouring	1	
+Bifidobacterium lactis	1	
+fr:miels-d-acacia-originaires-et-non-originaires-de-l-ue	1	*
+hu:gabonaőrlemények	1	*
+it:acido-iattico	1	*
+fr:2-raisins-presses	1	*
+the-equivalent-of-426ml-of-fresh-liquid-milk-in-every-227g-of-milk-chocolate	1	*
+fr:salade-verte	1	*
+fr:rocamadour	1	*
+it:sul-prodotto-finito	1	*
+fr:pommes-de-terre-du-val-de-loire	1	*
+Celery juice	1	
+collegno	1	*
+Provitamin A	1	
+de:geliermitteln	1	*
+de:grüner-mateextrakt	1	*
+and-yeast	1	*
+fr:amidon-content	1	*
+ro:fosfați-de-potasiu	1	*
+diglycerides-of-fatty-acids	1	*
+ro:agenți-de-afânare	1	*
+de:edamer-40-fett-i	1	*
+ro:făină-albă-de-grâu-650	1	*
+fr:agent-epaissisants	1	*
+de:wasser-sojasauce	1	*
+fr:huile-essentielle-de-citron-vert	1	*
+fr:cal-100	1	*
+ro:lapte-de-vaca-pasteurizat	1	*
+fr:irlande-et-chlamys-albidus	1	*
+Smoked salt	1	
+fr:sirop-de-fructose-de-mais	1	*
+fr:farine-de-cookie	1	*
+fr:aromi	1	*
+canola-in-varying-proportions	1	*
+fr:0-5-kiwi-mixe	1	*
+it:dextrose	1	*
+fr:farine-complete-de-segle	1	*
+ro:tapioca	1	*
+fr:james-s-gate	1	*
+fr:vert	1	*
+fr:un-arome-naturel-de-fromage-dans-les-cubes-chevre	1	*
+zh:麥芽糊精	1	*
+fr:ingredients-viande-de-boeuf	1	*
+de:sübmolkenpulver	1	*
+de:entialten	1	*
+sodium-energy-fat-suitable-for-vegetarians-benzoate	1	*
+ru:капуста-морская	1	*
+fr:fume-naturellement-au-bois	1	*
+may-contain-peut-contenir	1	*
+Comté cheese	1	
+ro:proteină-animală-din-porc	1	*
+ro:pectine	1	*
+de:räuchertofu	1	*
+black-kalonji-seed	1	*
+ro:agenți-de-creștere	1	*
+fr:raisins-sultana	1	*
+E228	1	
+it:del-peso-dichiarato	1	*
+zh:抗氧化劑	1	*
+Natural tarragon flavouring	1	
+fr:encre-de-seiche	1	*
+bergamotaroma	1	*
+Low fat yogurt	1	
+Horse	1	
+hu:tepertő	1	*
+E242	1	
+de:farbstoff-ammonsulﬁt-zuckerkulör	1	*
+fr:nitrite-de-sodium-epaississant	1	*
+beel-stock	1	*
+fr:Pulpe de pomme	1	
+it:sfoglia	1	*
+fr:Sorbitols et glycérol	1	
+arabische-gomt-tragantgom	1	*
+fr:couleur	1	*
+fr:Purée et pulpe de tomates	1	
+it:arome-vanille	1	*
+96	1	*
+de:gereifter-käse	1	
+ro:unt-de-cacao-10	1	*
+de:mildgesäuerte-butter	1	*
+ja:油揚げめん（小麦粉	1	*
+soup-mix	1	*
+fr:scorze-di-limone	1	*
+fr:distribue-en-fra-e-par-maxi-sec	1	*
+ru:сайра	1	*
+fr:ferments-lactiques-dont-lb	1	*
+fr:cerises-confites	1	
+fr:anchois-engraulis-encrasicolus	1	*
+fr:figues-violettes	1	*
+fr:chair-et-puree-de-tomates-pelees	1	*
+Deep-sea shrimp	1	
+fr:cookie-pepite-de-chocolat	1	*
+fr:cloruro-di-potassio	1	*
+voir-le-fard-j-ten	1	*
+min	1	*
+Phylloquinone	1	
+less-than-2-of	1	*
+fr:os-et-extrait-de-veau	1	*
+fr:jus-concentre-de-fruits-de-la-passion	1	*
+nl:bio-kippenvleespoeder	1	*
+ru:молоко-восстаноленное	1	*
+dietary-supplement	1	*
+fr:triphosphate-de-pentasodium	1	*
+fr:voir-sur-le-bouchon	1	*
+fr:un-peu-de-concombre-presse	1	*
+fr:vinaigre-de-vin-rouge-au-jus-de-framboise	1	*
+fr:graines-de-tournesol-basilic	1	*
+fr:ingredients-100-jus-de-pomme	1	*
+ro:cu-conținut-scăzut-de-grăsime	1	*
+fr:5-de-vodka	1	*
+nl:monodiglyceriden-van-vetzuren	1	*
+de:verdickungmittel-johannisbrotkernmehl-und-pektin	1	*
+fr:Intérieur cône	1	
+fr:sauce-aux-epices	1	*
+fr:Mélange de pâtes alimentaires cuisinées	1	
+fr:Viande de poulet rôtie	1	
+pl:imbir-w-proszku-czerwona-papryka-chili-mielona	1	*
+fr:cusphes-w-rohzucker	1	*
+Rusk	1	
+fr:contient-au-minimum-49-d-huile-de-colza	1	*
+de:marillenpüree	1	*
+DL-alpha tocopheryl acetate	1	
+Marigold	1	
+fr:ingredients-riz-blanc-precuit	1	*
+fr:Blanc d'œuf frais	1	
+de:natriumnitriit	1	*
+sv:Lågpastöriserad mjölk	1	
+fr:pologne	1	*
+fr:aromes-dont-arome-de-peche-de-vigne	1	*
+fr:verdickungsmittel	1	*
+do-not-use-if-printed-inner-seal-imprinted-with-sealed-for-your-protection-is-broken-and-missing	1	*
+raising-agent-e450	1	*
+de:1-bourbon-vanillepulver	1	*
+fr:creme-fraiche-6-1-poireaux	1	*
+Crème fraîche	1	
+Natural cocoa flavouring	1	
+fr:0-5-mangue-mixee	1	*
+Feta	1	
+Malt flour	1	
+65-ml	1	*
+ru:гречневая-крупа	1	*
+fr:Jus de raisin rouge	1	
+ru:e124	1	*
+fr:rhamnosus	1	*
+zh:白毫烏龍茶	1	*
+Burnet	1	
+ro:usturoi-uscat	1	*
+fr:ferments-lactiques-selectionnes-dont-bifidus	1	*
+fr:arome-amande-amere	1	*
+Whole rice flour	1	
+it:grasso-butirrico	1	*
+e475-flavoring-dried-glucose-syrup-dried-skimmed-milk-stabiliser	1	*
+fr:tillia	1	*
+Onion flavouring	1	
+de:kakaopaste	1	*
+cheese-grana-padano-dairy	1	*
+cow-s-skimmed-milk-powder	1	*
+de:tannenhonig	1	*
+fr:organisme-genetiquement-modifie	1	*
+ru:сладкая-пищевая-смесь-мармикс-25	1	*
+fr:citrate-de-sodium-conservateur	1	*
+ru:кондитерская-декоративная-посыпка	1	*
+fr:gros-sel	1	*
+Alaskan Pollock fillet	1	
+fr:de	1	*
+fr:matiere-grasse-de-lait-anhydride	1	*
+fr:Figues séchées	1	
+de:himbeergeist	1	*
+www-pastiglieteone-com-pastigtieleone-lot-no	1	*
+es:Bifidobacterias y otros fermentos lácticos	1	
+fr:semoule-de-ble-dur-de-qualite-eau	1	*
+de:schwarzes-johannisbeer	1	*
+fr:huile-d-olive-vierge-extra-de-categorie-superieure-obtenue-directement-des-olives-et-uniquement-par-des-procedes-mecaniques	1	*
+ru:вода-минеральная-питьевая-природная-столовая-гидрокарбонатная-кальциево-магниевая	1	*
+fr:antiossidante	1	*
+it:pholiota-nameko-mutabi	1	*
+fr:tabasco	1	*
+fr:riz-de-type-japonica	1	*
+fr:riz-complet-6	1	*
+fr:pp	1	*
+glut-y-and-dairy-produced-in-a-facility-that-also-processes-products-containing-eggs	1	*
+ru:тмин	1	*
+tocopheryl-acetate	1	*
+Lemon pulpe	1	
+Hydrogenated palm oil	1	
+de:füllstoff-mikrokristtaline-cellulose	1	*
+dhal	1	*
+fr:jus-de-pomme-5	1	*
+monoglycerides	1	*
+fr:ouille-d-olive	1	*
+de:kaltegepresst	1	*
+fr:Huile végétale raffinée	1	
+contient-des-stabilisants-autorises	1	*
+fr:Épaule de porc	1	
+E336i	1	
+fr:huile-vierge-de-lin	1	*
+fr:anis-vert-grains	1	*
+304	1	*
+fr:moulue	1	*
+it:gli-ingredienti-evidenziati-possono-provocare-gras-reazioni-in-persone-allergiche-e-intolleranti	1	*
+fr:Maltodextrine de blé	1	
+fr:sucre-grain	1	*
+fr:Haricots verts très fins	1	
+nl:bio-specerijen	1	*
+it:yogurt-intero-con-fermenti-lattici	1	*
+fr:Olives vertes dénoyautées	1	
+fr:coscia-di-suino	1	*
+fr:traces-eventuelles-d-oeufs	1	*
+Whole wheat	1	
+de:mehlschwitze	1	*
+fr:concentres-de-fruits-et-de-pantes	1	*
+ja:加工でん粉	1	*
+alumina	1	*
+Pistachio nuts	1	
+de:mars	1	*
+fr:primevere	1	*
+hu:virágméz	1	*
+fr:afrique-de-l-ouest	1	*
+de:kräter-der-provence	1	*
+fr:helianthus-annuus	1	*
+ru:ароматизатор-крабовый	1	*
+Vegetable extract	1	
+ro:substanță-uscată-de-cacao	1	*
+ro:făină-albă-de-grâu	1	*
+fr:cacao-en-poudre-fine	1	*
+ro:corectori-de-aciditate	1	*
+ru:регулятор-кислотности-кислота-уксусная	1	*
+fr:infusion-de-the-vert	1	*
+fr:poitrine-de-porc-issue-d-animaux-eleves-sans-traitement-antibiotique-des-la-fin-du-sevrage-et-nourris-sans-ogm	1	*
+fr:saupoudres-de-farine-de-riz	1	*
+milk-chocolate-contains-min	1	*
+tamper-evident-feature	1	*
+Mallow	1	
+de:Orangeschalenextrakt	1	
+Skimmed cows milk	1	
+fr:thiamine-monoitrate	1	*
+ro:carne-de-pasăre	1	*
+fr:of-wnicn-saturates-i9g	1	*
+fr:geme-de-lait	1	*
+Wheat cakes	1	
+de:roggenvollkornschrot	1	
+the-noir	1	*
+fr:peche-de-vigne-23-jus	1	*
+White wine extract	1	
+it:trattato-con-alcol-ettilico	1	*
+fr:ecorce-naturelle-d-orange	1	*
+de:tilsiter-in-scheiben	1	*
+de:stabiliator-johannisbrotkernmehl	1	*
+Whole spelt	1	
+fr:issu-de-lait-de-vache	1	*
+es:min	1	*
+mono-and-diglicerydes-of-fatty-acids	1	*
+627	1	*
+de:natürlicher-ingwer-extrakt	1	*
+fr:sel-ferments-coagulants	1	*
+de:meeresrotalge	1	*
+de:milcheiweibkonzentrat	1	*
+de:enn-bei-übermàbigem-verzehr-abführend-wirken	1	*
+non-animal-rennet	1	*
+de:rogenkleie	1	*
+fr:certains-ingredients-de-ce-produit-ne-proviennent-pas	1	*
+fr:matiere-premiere-importee	1	*
+Celeriac	1	
+ja:ねぎ	1	*
+Spring water	1	
+fr:dont-10-orange-et-mandarine	1	*
+ja:ｐｈ調整剤	1	*
+fr:sorbet-fraises-et-framboises	1	*
+natural-and-nature-identical-flavourings	1	*
+ro:lapte-de-vacă-pasteurizat-la-temperatură-înaltă	1	*
+ja:魚介調味油	1	*
+ro:ulei-de-nuci-de-cocos	1	*
+de:zuckeraprikosen	1	*
+it:preparato-alla-vaniglia	1	*
+de:babymais	1	*
+de:baumwohlsaatöl	1	*
+sour-dough	1	*
+Whey permeate	1	
+fr:4-fraise-ecrasee	1	*
+zh:二氧化矽	1	*
+added-to-preserve-freshness	1	*
+fr:poudre-de-lait-ecreme-traces-da-rachides	1	*
+fr:extraits-aqueux-pour	1	*
+vowis-of-nutmeg-opow-d-the-secret-to-our-of-family-spirit-he-together	1	*
+sugar-dehydrated-garlic	1	*
+Stuffed pasta	1	
+huile-de-sesame	1	*
+Melted Emmental cheese	1	
+disteardimonium-hectorite	1	*
+E341i	1	
+chicken-seasoning	1	*
+ro:cacao-cu-conținut-redus-de-grăsime	1	*
+beef-bouillon-beef-gelatine	1	*
+fr:herbe-de-ble-moulue	1	*
+fr:rhum-dore-traditionnel	1	*
+fr:homogeneise	1	*
+Snail	1	
+glucides	1	*
+ru:чный	1	*
+de:Aroma Koffein	1	
+fr:eau-moutarde	1	*
+beet-root-powder	1	*
+fr:morus-nigra	1	*
+fr:max	1	*
+soya-lecithin-e322	1	*
+ro:lapte-degresat-reconstituit	1	*
+including-natural-extracts-of-fruits	1	*
+ro:icre-tarama	1	*
+fr:ble-tendre	1	*
+fr:peche-de-vigne	1	*
+Wafer	1	
+fr:bigarreaux-colores-avec-e127	1	*
+ru:эмульгатор-цитрат-натрия	1	*
+de:natriumnitritt	1	*
+Ribwort plantain	1	
+Traditional free-range chicken	1	
+butter-sauce	1	*
+fr:coeurs-de-confiserie	1	*
+calcium-panthothenate	1	*
+de:zwie-beln	1	*
+de:e-19-06-2018-rt	1	*
+ro:brânză-emmental	1	*
+fr:puree-de-manque	1	*
+fr:saumon-frais-et-fume	1	*
+verdikkingsmiddelen	1	*
+de:sekerpare	1	*
+ru:добавка-пищевая-комплексная	1	*
+it:marsala	1	*
+fr:huile-de-soja-raffinee	1	*
+fr:sauce-cremeuse	1	*
+de:fumet	1	*
+milk-derivative	1	*
+fr:preparation	1	*
+fr:fromage-blanc-au-lalt-pasteurise	1	*
+fr:pomme-rouge-deshydratee	1	*
+de:ckfrs-milchschokolade	1	*
+fr:ressins	1	*
+es:inosinato-sodico-y-quanilato-sodico	1	*
+fr:concentres-de-mineraux-du-lalt	1	*
+fr:melange-de-cereales	1	*
+de:essigzubereitung	1	*
+fr:epaule-de-porc-preparee	1	*
+fr:puree-de-goyave-blanche-a-base-de-concentre	1	*
+fr:sur-le-total	1	*
+Fenugreek leaf	1	
+fr:Cacao en poudre fortement dégraissé	1	
+ru:мука-пшеничная-хлебопекарная	1	*
+zh:棕櫚油	1	*
+ale	1	*
+fr:melk	1	*
+fr:Huile de colza totalement hydrogénée	1	
+fr:soja-de-farine	1	*
+it:cet-emballage-contient-8-portions-de-60g-environ	1	*
+Sesame paste	1	
+gemiddelde-satures	1	*
+rapeseed-oil-potato-starch-water-cornflour-thickener-e1422-palm-oil-dried-whey	1	*
+fr:preparation-de-poisson-pane	1	*
+de:leinsamen-hell	1	*
+fr:preparation-mousseline	1	*
+fr:voir-goulot	1	*
+sv:modifierat-majs	1	*
+sichuan-red-peppercorns	1	*
+it:funghi-misti	1	*
+Duck gizzards	1	
+fr:pavot-3396	1	*
+E151	1	
+fr:cetate-de-dl-alpha-tocopherol	1	*
+de:hähnchenfett	1	*
+fr:scorze-d-arancia	1	*
+rice-germ	1	*
+de:mindeston	1	*
+fr:farine-de-ble-t45-type-00	1	*
+sv:socker-fullhårdad-kokosolja	1	*
+Vegetable blend	1	
+fr:riz-rouget	1	*
+fr:bloc-de-foie-gras-de-canard	1	*
+it:kio-e	1	*
+fr:Lentilles vertes précuites	1	
+fr:himbeere	1	*
+Verbena	1	
+fr:extrait-de-mais-et-d-orge-maltee	1	*
+fr:farine-complete-damarante	1	*
+fr:malte	1	*
+ja:炭酸ｃａ	1	*
+ru:мука-из-твёрдой-пшеницы-для-макаронных-изделий-высшего-сорта	1	*
+de:gefüllt-mit-feiner-candy-creme	1	*
+ru:бактериальный-концентрат-5a	1	*
+fr:certifie-par-ch-blo-004	1	*
+E472d	1	
+Vanilla ice cream	1	
+ru:краситель-β-каротин	1	*
+de:karamellzubereitung	1	*
+fr:mehl	1	*
+silica-dimethyl-silylate	1	*
+fr:une-lichette-de-jus-de-citron-vert	1	*
+fr:sirop-de-fructose-a-haute-teneur	1	*
+fr:chocolat-noir-valrhona	1	*
+de:zitrusöle	1	*
+fr:fruits-rouges-lyophilses-19-r-framboise	1	*
+de:natriumcitate	1	*
+ro:coloranți	1	*
+Rose water	1	
+Semi-skimmed cow's milk	1	
+fr:phosphate-de-sodium-extrait-sec-lactique-degraisse	1	*
+fr:Jus de pamplemousse à base de concentré	1	
+de:chia-samen	1	*
+hu:savanyúságot-szabályozó	1	*
+Morels	1	
+Mung bean sprout	1	
+pl:dodatki-smakowe	1	*
+mono-and-diglycerides-of-fatty-acids-mono-and-diacetyl-tartaric-acid-esters-of-mono-and-diglycerides-of-fatty-acids	1	*
+fr:1-5-banane-ecrasee	1	*
+fr:creme-de-bresse	1	*
+Ginger powder	1	
+Coconut pulp	1	
+fr:dont-13-de-chevre-dans-les-cubes-chevre	1	*
+ru:заменитель-масла-какао-нетемперируемый-лауринового-типа	1	*
+ttah	1	*
+fr:Moût de raisin concentré rectifié	1	
+de:7-sonnenblumenöl	1	*
+Honey from Spain	1	
+fr:infusion-de-the-vert-matcha	1	*
+Müesli	1	
+Gingerbread	1	
+fr:bulots	1	*
+Surimi	1	
+fr:amidon-de-nz	1	*
+mixed-e307b	1	*
+de:stabilisator-johannisbrotkernmehl	1	*
+fr:Tomates semi-séchées	1	
+fr:flocons-de-poivron	1	*
+de:l-histidin-hydrochlorid	1	*
+de:kckc	1	*
+fr:viande-de-porc-iberique	1	*
+fr:gerstenmalz-sonnenblumenol	1	*
+c	1	*
+fr:Jaune d'œuf frais	1	
+Vanilla powder	1	
+de:cystein-hydrochlorid	1	*
+ask-a-health-professional-before-use	1	*
+fr:monopropylene-glycol	1	*
+de:marillensaft-aus-marillensaftkonzentrat	1	*
+de:gerôsteten-erdnüssen	1	*
+fr:gruau-d-avoine	1	*
+prebiotic-tapioca-fiber	1	*
+fr:petales-et-feuilles-de-tournesol	1	*
+fr:eneroie	1	*
+Crudités	1	
+zout-000389-le-poids-moyen-d-une-pastille-est-de	1	*
+Bolognese sauce	1	
+fr:minimum-dans-le-chocolat-au-lait-cacao	1	*
+matieres-grasses	1	*
+less-than	1	*
+fr:colza-et-dans-des	1	*
+fr:farine-de-ble-malte-toaste-lt	1	*
+fr:c02-agent-de-carbonatation-iv-colorant-acide-citique-regulateur-de-l-acidite-benzoate-de-sodium-agent-de-conservation	1	*
+hu:ételízesítő	1	*
+actual	1	*
+Meadowsweet	1	
+de:sojaeiweib-lsolat	1	*
+fr:le-chocolat-utilise-est-un-chocolat-pur-beurre-de-cacao	1	*
+ro:ulei-vegetal-nehidrogenat-de-palmier	1	*
+Tapioca syrup	1	
+Garlic extract	1	
+cocos	1	*
+zh:乳化劑	1	*
+fr:dextrose-sel-vinaigre-vinaigre-de-vin-persil-moutarde	1	*
+fr:jus-de-citrons-bonne-maman-buckes-durt-sucpe-pares-proences-59-g-concentre	1	*
+fr:tenir-au-frais-et-au-sec	1	*
+fr:conjonctif-de-porc	1	*
+sv:nötköttextrakt	1	*
+Breadmeal	1	
+ru:бактериальный	1	*
+Cardamom seed	1	
+propylene-carbonate	1	*
+fr:miel-d-oranger-de-valencia-originaire	1	*
+vimto-flavouring	1	*
+fr:farine-de-ble-t150	1	*
+fr:flocons-de-riz-complet-rehydrates	1	*
+poudre-de-lait-ecreme	1	*
+E340i	1	
+ro:icre-hering	1	*
+it:puo-contenere-tracce-di-altra-frutta-a-guscio	1	*
+es:leche-concentrada-reconstituida	1	*
+it:gluten-de-ble	1	*
+77	1	*
+Turkey breast	1	
+de:jogurt-mild-as-entrahmter-milch	1	*
+fr:vin-d-alsace-riesling	1	*
+fr:viande-et-george-de-porc	1	*
+de:lucker	1	*
+fr:pertoog	1	*
+it:orzo-solubile	1	*
+fr:huile-de-cocot	1	*
+Calcium pantothenate	1	
+sv:sorbital	1	*
+ru:сок-малины-концентрированный	1	*
+fr:epeautre-complet	1	*
+fr:farine-de-mais-lt	1	*
+palmisti-and-illipe	1	*
+coriander-flake	1	*
+Chorizo	1	
+de:emulgator-lecitnine	1	*
+Retinyl palmitate	1	
+Black beans	1	
+Varietal	1	
+fr:orange-douce	1	*
+Espelette chili pepper	1	
+de:halbfettstufe	1	*
+Extra mature cheddar	1	
+fr:Pousses de haricot mungo	1	
+Argentine shortfin squid	1	
+fr:teneur-en-legumes	1	*
+fr:0-8-9	1	*
+hu:tőkehalmáj	1	*
+for-freshness	1	*
+fr:jus-concentre-d-ananas	1	*
+Poultry broth	1	
+fr:emulsionnant	1	*
+acqua	1	*
+fr:Flocons d'épeautre	1	
+fr:graisses-vegetales-non-hydrogenees-de-palme-et-de-coprah	1	*
+de:mindestens-48-0179947-472-fett-i-tr	1	*
+de:in-scheiben	1	*
+Apple pieces	1	
+fr:dextrine-de-pommes-de-terre	1	*
+fr:eau-minerale-naturelle-gazeifiee-faustine	1	*
+de:rote-gemüsepaprika	1	*
+fr:surgele	1	*
+fr:oeuf-de-poule-elevee-au-sol	1	*
+mango-nettle	1	*
+Sour cream powder	1	
+fr:puree-d-ognons	1	*
+fr:l-teneur-en-fruits	1	*
+fr:si-k	1	*
+pl:pieprz-czarny-mielony	1	*
+fr:Bleu	1	
+sv:vete-gluten	1	*
+de:vollmilchschokoladeüberzug	1	*
+pasteurized-free-range-egg-sugar-blueberries	1	*
+ru:пищевые-добавки	1	*
+fr:muscade-dont-lait	1	*
+fr:cette-puree-peut-etre-consommee	1	*
+Eau de vie	1	
+fr:perles-de-sucre	1	*
+seasalt	1	*
+de:in-der-creme	1	*
+fr:6-et-celeri-feuille	1	*
+fr:huile-vierge-de-tournesol	1	*
+ru:изготовлен-из-концентрированного-сока	1	*
+fr:creme-33-mg	1	*
+Fishpowder	1	
+de:Steinsalz	1	
+fr:algue-calcaire-lithothamnium-calcareum	1	*
+ro:coacăze-negre-deshidratate	1	*
+fr:stearoyl-2-iactylate-de-sodium	1	*
+fr:extrait-concentre-de-ginseng	1	*
+fr:aromes-poudre-d-oignon	1	*
+it:conseil-de-conservation-craint-la-chaleur-et-l-humidite	1	*
+ru:смесь-зерновая	1	*
+Chicken egg white	1	
+de:gekörnte-brühe	1	*
+de:joghurt-mild-7	1	*
+fr:melange-de-fruits	1	*
+ru:высушенная-пшеничная-мука	1	*
+importe	1	*
+fr:Jambon de porc frais	1	
+fr:sel-arome-cacao	1	*
+it:bref-not-germon-oriain-important	1	*
+fr:lait-des-alpes	1	*
+fr:maltodextine	1	*
+ro:sare-mare	1	*
+fr:Flocons de blé malté	1	
+fr:levure-sans-ogm	1	*
+Linden	1	
+white-coating	1	*
+Sugar beet fibre	1	
+Cocoa processed with alkali	1	
+es:concentrado-de-sales-minerales-lacteas	1	*
+fr:tf-ffist	1	*
+fr:ingredient	1	*
+Omelette	1	
+de:trennmittel-magnesiumsalze-von-speisefettsäuren	1	*
+ru:малина-свежая-ипи-быстрозамороженная	1	*
+copra-fat	1	*
+fr:citrique-e330	1	*
+de:grün	1	*
+it:societa-per-azioni-sede-in-parma	1	*
+de:müffelmilch	1	*
+Filtered whey powder	1	
+ro:iactat-de-potasiu	1	*
+fr:Extrait de poisson	1	
+fr:lait-ecreme-0	1	*
+it:copertura-al-cacao-magro	1	*
+20℅	1	*
+gomme-adragante	1	*
+Ravioli	1	
+fr:sirop-de-glucose-caramelise	1	*
+fr:huile-d-olive-de-categorie-superieure	1	*
+Flower honey	1	
+ru:камедь-тары	1	*
+it:riso-fino	1	*
+fr:sucre-de-canne-fermente	1	*
+fr:couenne-et-gras-de-porc-issus-d-animaux-nourris-sans-ogm	1	*
+hu:folyékony-füstaroma	1	*
+fr:traces	1	*
+fr:Miel toutes fleurs	1	
+ru:сухой-глюкозный-сироп	1	*
+E501ii	1	
+fr:kcofr-fat-2-g	1	*
+fr:gerste	1	*
+fr:joghurterzeigns-ilcheweiss	1	*
+de:vanilin	1	*
+fr:Sauce blanche	1	
+fr:bisque-de-homard	1	*
+ru:масло-подсолнечное-рафинированноедезодорированное	1	*
+Salted butter caramel	1	
+it:e-r	1	*
+fr:oignons-frits-et-sauce-facon-cocktail	1	*
+fr:getamo	1	*
+it:latte-parzialmente-scremato-uht-a-lunga-conservazione	1	*
+zh:米粉	1	*
+de:natürliches-mineralwasser-mit-eigener-quellkohlensäure-versetzt	1	*
+contains-less-than-1-of	1	*
+ci-77491	1	*
+de:gefriergetrocknete-sanddornbeeren	1	*
+it:energ-18-fi-285g-e-na-modalita-di-consurio	1	*
+Pearl Barley	1	
+de:getrocknete	1	*
+fr:coloration-de-surface	1	*
+de:süßungsmittel-natriumcyclamat-und-natriumsaccharin	1	*
+fr:syringa-vulgaris	1	*
+fr:sirop-de-malitol	1	*
+fr:m	1	*
+Acerola juice	1	
+ru:соки-апельсина-и-манго-концентрированные	1	*
+fr:yaourt-0-de-matieres-grasses	1	*
+fr:881u	1	*
+it:adulcoranti	1	*
+de:getränkegrundstoff	1	*
+fr:agent	1	*
+monoglycerides-of-fatty-acids	1	*
+Rabbit	1	
+fr:sans-graisses-hydroge	1	*
+fr:cyenne	1	*
+de:orangensaft-aus-orangen	1	*
+E957	1	
+fr:epaule	1	*
+it:uova-da-allevamento-a-terra	1	
+fr:sorbet-framboise	1	*
+fr:me-cereales-fruits-rouges	1	*
+fr:specialite-cerealiere	1	*
+starter-culture	1	*
+fr:zestes-et-jus-de-citron-frais	1	*
+de:buchenholzreiberauch	1	*
+fr:farine-de-riz-8	1	*
+origan	1	*
+suiker	1	*
+fr:chips-de-banane	1	*
+Concentrated mushroom juice	1	
+Cooked pasta	1	
+la:Helix pomatia	1	
+fr:mer-du-nord	1	*
+fr:cellulose-de-methyle	1	*
+it:3-nel-prodotto-finito	1	*
+fr:fromage-blanc-a-0-de-matiere-grasse	1	*
+fr:antioxidant	1	*
+fr:flocons-de-sarrasin-complet-precuits-a-la-vapeur	1	*
+Shortcrust dough	1	
+it:farine-de-mais	1	*
+fr:germe-riz	1	*
+Millet seed	1	
+waarvan-suikers	1	*
+pt:pode-conter	1	*
+zh:葵花油	1	*
+fr:echalote-basilic	1	*
+fr:9-farine-de-sarrasin	1	*
+fr:ail-poudre	1	*
+fr:calibre-gros	1	*
+fr:gorge-de-porc-issue-de-porc-du-sud-ouest	1	*
+de:kräutermarinade	1	*
+Tagliatelle	1	
+ru:не-менее	1	*
+fr:Gorge de porc	1	
+Whole grain spelt flakes	1	
+it:malto-d-orzo-solubile	1	*
+fr:amidon-de-pomme-de-terres-sel	1	*
+es:para-elaborar-100-g-de-producto	1	*
+fr:malt-de-millet	1	*
+fr:versez-le-contenu-dans-un-plat-pour-micro-ondes-et-couvrez-i-minute	1	*
+Zinc oxide	1	
+it:farine-de-riz	1	*
+fr:miel-de-fleurs-sauvages-recolte-en-france	1	*
+fr:peches-en-atlantique-nord-est	1	*
+Calf rennet	1	
+ru:смесь-пряностей-для-корейских-салатов	1	*
+White grape juice	1	
+de:büffelmilchmozzarella	1	*
+ro:legume-și-extracte-de-legume	1	*
+cocoa-butter-cocoa-mass	1	*
+nl:graines-de-sésame	1	*
+essentjele-olie-van-piedmontese-pepermunt	1	*
+it:semi-di-colza	1	*
+Habanero chili	1	
+hu:kukarucadara	1	*
+fr:melange-de-13-herbes-ricola-comme-extrait-25mg	1	*
+Coconut chips	1	
+de:rindflesh	1	*
+Cheese sauce	1	
+Phosphate	1	
+hco-420	1	*
+fr:demi-gras	1	*
+Hulled soya bean	1	
+flakes	1	*
+de:mungbohnenstärke	1	*
+fr:Glucose de blé	1	
+and-we-should-do	1	*
+ci-77891	1	*
+Barley flakes	1	
+we-ve-been-proudly-making-them-for-over-a-hundred-years-by-staying-true-to-our-secret-irish-recipe-we-create-that-delicious-d-enjoy-o-cook-packaging-at-oven-to-190-c	1	*
+fr:haricots-rouges-kidney	1	*
+fr:sorbet-cassis	1	*
+E460ii	1	
+fr:raisins-au-rhum	1	*
+ci-77499	1	*
+de:marille	1	*
+ru:масло-рапсовое	1	*
+ro:caroteni	1	*
+fr:farine-de-riz-gluant	1	*
+de:in-eigenem-saft-und-aufguss-tuna	1	*
+hu:pritaminpaprika	1	*
+grill-to-medium	1	*
+fr:mattodextrine	1	*
+it:biscotto-ai-4-cereali	1	*
+de:andorn	1	*
+fr:flavonoides	1	*
+fr:farine-de-mais-sucre-sel-extrait-de-malt-d-orge-emulsifiant	1	*
+fr:scandinavie	1	*
+ja:昆布エキス	1	*
+sv:salt-gt	1	*
+de:feuchthal-temittel-glycerin	1	*
+fr:carvi-coriandre	1	*
+de:mini-wassermelone	1	*
+ro:cașcaval	1	*
+de:bandnudeln-gegart	1	*
+de:melisse	1	*
+fr:veronique	1	*
+Chicken breast	1	
+Rye flakes	1	
+fr:oeufs-par-kilo-de-semoule	1	*
+fr:vin-blanc-vendanges-tardives	1	*
+fr:piments-verts-doux-marines	1	*
+de:leinsamen-dunkel	1	*
+Ground roasted coffee	1	
+Propellent gas	1	
+fr:rhizoma-kaempferiae	1	*
+nl:farine-de-blé	1	*
+nl:bio-kruiden	1	*
+fr:Crème de riz	1	
+Sea-buckthorn	1	
+E518	1	
+fr:see-packaging-voedingswaarde-per	1	*
+ru:хлористый-натрий-gt	1	*
+active-yogurt-cultures	1	*
+it:olio-di-oliva-di-categoria-superiore-ottenuto-dirattamente-dalle-olive-e-unicamente-mediante-procedimenti-meccanici	1	*
+fr:ingredtents	1	*
+Orange leaves	1	
+cacao-nibs	1	*
+sv:cocos	1	*
+fr:rechauffer-2-a-3-minutes-a-la-casserole-a-feu-doux	1	*
+it:prodotto-nello-stabilimento-di-zona-industriale-campolungo	1	*
+fr:huile-de-cameline-vierge	1	*
+de:trìnkwasser	1	*
+fr:flocons-de-pomme-de-terre-gt	1	*
+ro:sara-iodată	1	*
+e	1	*
+grade-a-reduced-fat-milk	1	*
+de:haselnus-eme-scias-reisgrieb	1	*
+nl:levure	1	*
+Soya bean paste	1	
+ro:citrați-de-sodiu	1	*
+fr:issus-d-huiles-vegetales	1	*
+fr:de-soja-et-de-fruits-a-coque	1	*
+it:sole	1	*
+es:solidos-totales	1	*
+Mediterranean salt	1	
+piri-piri-seasoning	1	*
+hu:vöröshagyma-pép	1	*
+it:caffe-in-polvere-0	1	*
+fr:presure-caprine	1	*
+Hard cheese	1	
+fr:dates-du-jour-de-ponte	1	*
+fr:amidon-de-pomme-de-terre-sel	1	*
+fr:rogge	1	*
+zh:5-次黃嘌呤核甘磷二酸鈉	1	*
+Thaï brown rice	1	
+ru:сокосодержащая-основа	1	*
+fr:boulettes-pre-frites-a-base-de-pois-chiches-et-legumes-decongelees	1	*
+Sweet cherry	1	
+White grape	1	
+fr:specialite-cerealiere-gout-epinard	1	*
+Corn salad	1	
+de:reines-bourbon-vanille-aus-madagaskar	1	*
+fr:prepare-a-partir-de-double-distillation-de-plusieurs-plantes-et-aromates-dont-la-recette-est-gardee-secrete	1	*
+nl:Moutmeel	1	
+fr:Oignon grillé en poudre	1	
+Free range chicken	1	
+Hemp seed	1	
+de:glutenhaltiges-getreide	1	*
+it:valori-olio-di-semi-di-girasole	1	*
+de:gemahlene	1	*
+de:natun-thunfisch-skipjack	1	*
+ro:ciocolată	1	*
+fr:Oignons rissolés	1	
+fr:pqivre	1	*
+Rambutan	1	
+it:emulsifiant	1	*
+fr:beurre-issu-de-l	1	*
+fr:enzymes-coagulantes-naturelles	1	*
+ro:ardei	1	*
+de:schinkenbrühwurststreifen	1	*
+de:vanille-aroma	1	*
+fr:grillees-et-hachees	1	*
+fr:panais-du-val-de-loire	1	*
+fr:de-production-etrangere	1	*
+fr:maigre-et-gras	1	*
+ro:proteină-vegetală-de-soia	1	*
+it:5-nel-prodotto-finito	1	*
+E444	1	
+it:sodio-nitrito	1	*
+262	1	*
+E579	1	
+fr:cithines-de-soja	1	*
+fr:sel-fin-de-guerande	1	*
+Sheep	1	
+nl:bio-azijn	1	*
+de:schweinehinterschinken	1	*
+Vanilla seeds	1	
+fr:fumee-de-bois-d-erable	1	*
+de:weiße-joghurtschokolade	1	*
+ru:моно	1	*
+acidifiant	1	*
+zh:茶葉萃取物	1	*
+fr:peche-en-ocean-atlantique-centre-est	1	*
+fr:granen-bessenmix	1	*
+fr:Pruneaux d'agen	1	
+Soluble fibre	1	
+Mechanically separated meat of turkey	1	
+de:original-jamaica-rum	1	*
+Hydrogenated colza oil	1	
+fr:Légumes verts	1	
+Rose hip	1	
+fr:creme-dessert-au-chocolat-ingredients-lait-entier	1	*
+331	1	*
+Rocket	1	
+E129	1	
+fr:preparation-a-base-de-cacao	1	*
+Pasteurized sheeps milk	1	
+fr:riz-sauve-ingredlents-agricoles	1	*
+fr:moules-decoquillees-4	1	*
+fr:achillee	1	*
+fr:conservante	1	*
+Cocoa fat	1	
+fr:420q	1	*
+hu:zsíros-tejpor	1	
+de:färbendes-lebensmittel-rote-beetesaftkonzentrat-und-holundersaftkonzentrat	1	*
+de:orangenweinbrandlikör	1	*
+fr:poireaux-45-pommes-de-terre	1	*
+fr:roggen	1	*
+fr:arbonates-de-sodium	1	*
+Brown beans	1	
+fr:une-consommation-excessive-peut-avoir-des-effets-iayatifo	1	*
+nl:bio-macis	1	*
+Highly fat reduced cocoa	1	
+fr:pate-de-praline	1	*
+fr:ascorbato-di-sodio	1	*
+fr:banane-cavendish-categorie-1-calibre-14cm-mini	1	*
+Sheep's-milk cheese	1	
+Flaked almonds	1	
+Maltose syrup	1	
+de:cupuaçupüree	1	*
+es:zumo-de-uva-y-limon-a-partir-de-concentrado	1	*
+fr:cognac-hors-age	1	*
+de:limettenauszug	1	*
+fr:de-concentrat	1	*
+fr:pates-a-lasagne-seche	1	*
+fr:arome-vodka-pomme	1	*
+keep-out-of-reach-of-children	1	*
+ru:продукт-творожный-с-заменителем-молочного-жира	1	*
+E225	1	
+ro:suc-de-piersici-din-suc-concentrat-de-piersici	1	*
+E941	1	
+natural-smoke-and-grill-flavors	1	*
+Black radish	1	
+fr:mini-cone-vanille	1	*
+fr:tentacules-de-calamar	1	*
+de:branntweinessig-speisesalz	1	*
+Natural thyme flavouring	1	
+de:épices	1	*
+ro:roșii-uscate	1	*
+fr:huile-de-palme-completement-hydrogenee	1	*
+it:sel	1	*
+it:pari-all-5-nel-gelato-alla-panna	1	*
+fr:matieres-grasses-let-acides-gras-satcres-glgcides-sgcres-proteines	1	*
+Garam masala	1	
+fr:gelee-decor	1	*
+es:Derivado lacteo en polvo	1	
+Safflower concentrate	1	
+fr:Riz rond complet	1	
+ro:brânzeturi	1	*
+de:Quellkohlensäure	1	
+fr:vinaigrette-au-vinaigre-balsamique	1	*
+Mild whole kefir	1	
+fr:kokosflocken	1	*
+E559	1	
+ru:морковь-столовая	1	*
+ploce-sauscges-aking-tray-in-the-middle-oven-and-cook	1	*
+fr:guinness-th-tm-for-ign-extra-stout-bier-cervesa-extra-a-in-irelan-y	1	*
+fr:Haricots beurre	1	
+fr:arome-raisin	1	*
+de:korinthen	1	*
+fr:farine-de-ble-integrale	1	*
+de:naturbelassen	1	*
+fr:figues-sechee-pulled	1	*
+sprouted-sesame-seeds	1	*
+fr:fabrique-dans-un-atelier-utilisant-egalement	1	*
+de:trennmittel-maisstärke	1	*
+di	1	*
+it:streptococcus-thermophilus-e-lactobacillus-blugaricus	1	*
+E519	1	
+Green chili pepper	1	
+pumpkin-seed-protein	1	*
+fr:miel-cremeux-recolte-en-france	1	*
+de:fructo-01igosaccharide-sirup	1	*
+vegetable-glycerin	1	*
+fr:le-contenu-dans-une-casserole-tout-en-remuant	1	*
+fr:dont-42	1	*
+ja:糖類	1	*
+fr:calvados-modifie	1	*
+fr:extraits-aqueux	1	*
+fr:indemnes	1	*
+Artificial flavouring	1	
+fr:599-mandarines	1	*
+fr:grains-de-nougatine	1	*
+de:goudapulver	1	*
+E959	1	
+de:färbendes-karottenkonzentrat	1	*
+Tahini	1	
+Cassia	1	
+fr:Viande de poulet traitée en salaison	1	
+fr:poivre-noir-baies-de-genievre-cardamome-clous-de-girofle-extrait-de-racine-d-angelique	1	*
+fr:Cannelle de ceylan	1	
+fr:calibre-40	1	*
+Frying oil	1	
+E329	1	
+ro:piure-de-piersici	1	*
+fr:issue-de-lait-de-vache	1	*
+fr:lait-reconstitue-a-2	1	*
+fr:sel-epices	1	*
+fr:amidon-onset-era-l-abri-de-la-chaleur-et-de-l-humidite	1	*
+zh:乾燥馬鈴薯	1	*
+de:bourbon-vanilleschotenertraie-0	1	*
+de:foie-de-porc	1	*
+de:glasnudeln	1	*
+of-milk-mozzarella	1	*
+No1	1	*
+wholegrain	1	*
+fr:sel-acidifiant	1	*
+beef-and-ale-pie-filling	1	*
+the-noir-aromatise-bergamote-ingredients	1	*
+it:caffe-instantaneo	1	*
+ro:acidifianți	1	*
+fr:e259	1	*
+ru:барбарис	1	*
+fr:menthol-2-4mg	1	*
+E172ii	1	
+Chia seed	1	
+Hydrolysed soy protein	1	
+Humboldt squid	1	
+fr:les-conseils-du-chef	1	*
+fr:avoine-sirop-de-malt-d-orge	1	*
+Liquid egg yolk	1	
+fr:sulfites-amel	1	*
+fr:Morceaux de foie gras de canard	1	
+fr:a-l-encre-de-seiche	1	*
+ja:かまぼこ）	1	*
+Pork shoulder	1	
+68-77-f	1	*
+fr:valeurs-nutritionnall-doarmelding	1	*
+de:gouda-ringe	1	*
+fr:Jus de carotte noire concentré	1	
+E900	1	
+Retinyl acetate	1	
+fr:substances-vegetales	1	*
+fr:melange-d-au-moins-trois-varietes-de-salades-parmi-jeunes-pousses-de-laitue	1	*
+fr:Haricots verts extra-fins	1	
+Barbecue flavouring	1	
+fr:specialite-laitiere-a-tartiner-et-a-cuisiner	1	*
+it:da-uovo	1	*
+de:orangenzellen	1	*
+de:riesen-champignons-klasse-i	1	*
+fr:feuilles-de-the-vert	1	*
+fr:meion	1	*
+fr:jus-de-carotte-et-d-hibiscus-concentre	1	*
+de:native-maisstärke	1	*
+Curing salt	1	
+nl:sel	1	*
+de:delikatess-schinkenwurst	1	*
+it:matiere-grasse-de-lait-anhydre	1	*
+fr:schinus-terebinthifolius	1	*
+dried-gluten-free-sourdough	1	*
+fr:ngs-potato-whey-powder-imiik	1	*
+de:tomatenmark-14	1	*
+fr:bon	1	*
+de:instant-kaffee	1	*
+Ice	1	
+Desiccated coconut	1	
+ru:сыворотка	1	*
+fr:aubergine-variete-longue-categorie-ii	1	*
+fr:infusion-et-arome-nature-vegetal	1	*
+fr:Jambon cru fumé	1	
+Lavender	1	
+Chicken egg yolk powder	1	
+fr:sarrasin-sans-gluten	1	*
+fr:froide-en-dessert-et-chaude	1	*
+de:schlüsselblume	1	*
+fr:agents-de-couverture	1	*
+it:au-dos-du-paquet	1	*
+Orange blossom honey	1	
+ro:făină-de-secară-integrală	1	*
+fr:quenelles-de-volaille	1	*
+fr:assaisonnement-fromage	1	*
+fr:perles-de-confiserie-3-couleurs	1	*
+fr:passion-mangue	1	*
+de:sussungsmittel	1	*
+ru:соль-поваренная-пищевая-выварочная-йодированная	1	*
+sv:vegetabilisk-e471	1	*
+cheddar-cheese-and-paprika-crumb	1	*
+fr:nees	1	*
+Demerara sugar	1	
+fr:oranges-douces	1	*
+ro:pulpă-porc-cu-slănină-și-șorici	1	*
+it:pate-de-noisettes	1	*
+Sequestrant	1	
+Ice cream	1	
+ro:pastă-de-tomate	1	*
+cooking-cream	1	*
+ru:лосось	1	*
+fr:Miel d'oranger d'espagne	1	
+fr:poudes-a-lever	1	*
+contains-less-than-1-of-corn-starch	1	*
+ro:sirop-glucoză	1	*
+Natural cola flavouring	1	
+de:eibisch	1	*
+zh:5-鳥嘌呤核甘磷二酸鈉	1	*
+E337	1	
+ro:făină-de-malț-prăjit	1	*
+fr:framboos	1	*
+Elderberry juice concentrate	1	
+fr:eau-de-source-dromeline	1	*
+ru:отруби-овсяные	1	*
+fr:fromage-a-raclette	1	*
+Sweetened condensed semi-skimmed milk	1	
+fr:rosa-damascena	1	*
+Lamb meat	1	
+fr:7-3-cacao-maigre	1	*
+sv:persikojuice-från-koncentrat	1	*
+de:tm	1	*
+fr:vin-blanc-bourgogne-aligote	1	*
+fr:reduisez-la-quantite-d-eau-de-moitie-et-le-temps-de-cuisson-a-20mn	1	*
+Green asparagus	1	
+red-lettuce	1	*
+Pasteurised semi-skimmed cow's milk	1	
+fr:b	1	*
+fr:preparation-de-morceaux-de-framboise	1	*
+fr:salade-de-pommes-de-terre-cuites	1	*
+Fish sauce	1	
+Rice bran oil	1	
+de:gersten­malz	1	*
+sv:fermenterat-vete-mjöl	1	*
+hu:gyorsfagyasztott-zöldségkeverék-változó-arányban	1	*
+ru:стеароил-2-лактилат-кальция	1	*
+fr:granule-d-oignon	1	*
+E418	1	
+pl:suszony-szczypior	1	*
+Rehydrated soy protein	1	
+ru:симбиотическая-самоконсервированная-закваска-молочнокислого-симбиоза	1	*
+Chicken flavouring	1	
+fr:chocolat-au-lait-aux-noisettes-gjanduja	1	*
+de:kristallisierter-zuckerrohrsaft	1	*
+microbial-milk-coagulant	1	*
+ru:глюкоза-сироп	1	*
+zh:e471	1	*
+de:färbendes-lebensmittel-holundersaftkonzentrat	1	*
+white-chocolate-chunks	1	*
+Organic buckwheat	1	
+White quinoa	1	
+fr:Sirop de sucres issus de fruits	1	
+polyglycol	1	*
+de:kurkumaaroma	1	*
+it:zucchero-caramellizzato	1	*
+de:stabilisator-clycerin	1	*
+de:Getreideflocken	1	
+fr:comprenant-des-extraits-naturels-de-fruits	1	*
+Liquid sugar	1	
+fr:en	1	*
+Sorrel	1	
+fr:filets-tournants-et-souleves	1	*
+de:currypuler	1	*
+de:eicheln	1	*
+ru:пахта-сухая	1	*
+fr:Lait écrémé en poudre reconstitué	1	
+fr:preparation-speciale-chartreuse-verte-des-peres-chartreux	1	*
+sv:och-plantkoncentrat	1	*
+ru:лимонный-ароматизатор	1	*
+Lime flavouring	1	
+ru:дистиллированные-моноглицериды	1	*
+fr:peche-aux-chaluts-en-ocean-pacifique-nord-ouest-et-nord-est	1	*
+fr:Pommes de terre préfrites	1	
+hu:tapadásgátló-anyag	1	*
+de:Quinoa gepufft	1	
+fr:zucker	1	*
+fr:si-n	1	*
+de:Schmand	1	
+it:noccioli-dolci-di-albicocca	1	*
+fr:ribofalvine	1	*
+fr:0	1	*
+sv:koncentrat-av-morot-och-svartvinbär	1	*
+ru:aроматизатор	1	*
+ru:для-сыра-с-ветчиной	1	*
+de:essig-aus-agraralkohol	1	*
+it:conservante-iisozima-da-uovo	1	*
+Pleurotus ostreatus	1	
+de:chilis	1	*
+sv:juice	1	*
+Concentrated lemon extract	1	
+Cane sugar molasses	1	
+fr:cire-de-camauba	1	*
+ru:экстракт-цикория	1	*
+fr:graisse-de-pou-et	1	*
+ro:iaurt-partial-degresat	1	*
+fr:jeunes-pousses-de-redchard	1	*
+fr:contain-ble-entier	1	*
+de:tamarindensaft	1	*
+Iceberg lettuce	1	
+de:weiß	1	*
+reistarke	1	*
+ru:продукт-молочный-сгущенный-с-сахаром	1	*
+fr:pudre-de-serum-de-lait	1	*
+it:fermenti-latticci-vivi	1	*
+vitamin-e-for-added-freshness	1	*
+Aloe vera juice	1	
+fr:Noisettes décortiquées	1	
+ru:молоко-с-сахаром	1	*
+fr:18-raisins-blancs	1	*
+it:estratto-di-vaniglia-bacche	1	*
+contains-traces-of	1	*
+Hazelnut oil	1	
+de:mild-gesäuert	1	*
+de:weizenmehl-type-812	1	*
+fr:energy-1901-kj-454	1	*
+fr:vin-rouge-issu-de-vieilles-vignes-de-grenache	1	*
+fr:lait-partiellement-ecreme-a-1	1	*
+it:granella-di-nocciola	1	*
+fr:meel	1	*
+de:geröstete-vollkorn­getreideflocken	1	*
+ro:must-din-struguri	1	*
+white-chocolate-chunks-contains	1	*
+trimethylsiloxysilicate	1	*
+de:ehrenpreis	1	*
+ro:carbonat-hidrogen-de-sodiu	1	*
+fr:bleu-dans-les-cubes-bleu	1	*
+Lithothamnium calcareum	1	
+cracked-coriander-seed	1	*
+beef-collagen-casing	1	*
+fr:sauce-soja-fermentee	1	*
+hu:pulykahús	1	*
+ru:ферменты-микробного-происхождения	1	*
+fr:papillons-de-confiserie	1	*
+fr:keta-et-rouge-et-rose	1	*
+de:colanuss-extrakt	1	*
+fr:zout	1	*
+fr:farines-de-ble-diastasee	1	*
+nl:bio-palmvet	1	*
+de:natürliches-apfelsaft-aroma	1	*
+ja:七味唐辛子	1	*
+cafe-soluble	1	*
+fr:creme-de-lait-pasteurisee-sel-3-max	1	*
+fr:si-g	1	*
+fr:bvo-egokoevera-uag-lnjdairhclta-ohne-zuckerzusatzll-1-enthalt-von-natur-aus-zucker	1	*
+ci-42090	1	*
+ru:подсластитель-сахарин	1	*
+live-active-cultures	1	*
+Vinaigrette	1	
+Lemon balm	1	
+it:via-mantova	1	*
+de:zuckerkulör-150d	1	*
+mark-5	1	*
+Coriander seeds	1	
+nl:bio-lavas	1	*
+less-than-20-ppm-gluten	1	*
+fr:gerostete-g	1	*
+fr:fond-de-volaille-aromatise-viande-pt-graisse-de-poulet	1	*
+fr:creme-de-soja	1	*
+contents-may-settle-during-shipping-and-handling	1	*
+it:poudre-de-lait-ecreme	1	*
+nutritional-value-per-100-ml-per-bottle	1	*
+bromelain	1	*
+zinc-picolinate	1	*
+de:reinweinstein	1	*
+E450vii	1	
+fr:lait-de-bufflonne-pasteurise-provenant-de-l	1	*
+fr:guanylate-et-inosinate-disodiques	1	*
+fr:huile-de-colza-5	1	*
+ru:маслосмолы-паприки	1	*
+fr:destrosio	1	*
+fr:Miel de montagne d'Espagne	1	
+ro:monoglutamat-de-sodiu	1	*
+de:tomatenpaprika	1	*
+de:davon-40-edel-kakao	1	*
+de:gewürzextrakte-veganes-produkt	1	*
+fr:poulet-roti	1	
+hu:darált-marhahús	1	*
+fr:huile-de-tourneso	1	*
+Beef bones	1	
+fr:Menthe douce	1	
+fr:yoghurt	1	*
+fr:gras-de-canard	1	*
+fr:feves-de-soja-sel	1	*
+fr:Filets de poulet	1	
+Scallop	1	
+fr:tute-dynan-ique-cetti	1	*
+Hydrolysed corn protein	1	
+ru:рафинированные	1	*
+fr:piments-verts-doux	1	*
+fr:3-1	1	*
+fr:mais-sans-gluten	1	*
+set	1	*
+ensemble-reduisons-l-impact-environnemental	1	*
+red-7-lake	1	*
+proteines-i-eiwitten-og	1	*
+citric	1	*
+polyhydroxystearic-acid	1	*
+fr:Haricots verts coupés	1	
+via-haba	1	*
+fr:batonnet-sorbet-cassis-enrobage-framboise	1	*
+fr:extrait-d-epices-dont-celeri	1	*
+ru:полифосфат	1	*
+Split pea	1	
+Bamboo shoot	1	
+ru:соль-крупного-помола	1	*
+ru:пищевой-натуральный-антиокислитель	1	*
+nb:vaniljeekstrakt	1	*
+fr:agent-antioxydant	1	*
+fr:dont-48-framboises	1	*
+fr:galette-de-ble-noir	1	*
+it:malt-de-ble	1	*
+fr:lactose-lactoserum-en-poudre	1	*
+fr:brasse-st	1	*
+Natural spice extract	1	
+it:preparazione-al-gusto-di-caffe	1	*
+de:tierisches-lab-hergestellt-in-der-schweiz-schweizer-hartkäse-mit-schweizer-rohmilch-hergestellt	1	*
+fr:c	1	*
+nl:bio-pastinaak	1	*
+may-contain	1	*
+any-dreadfully-dull-dish-to-make-it-really-chippa	1	*
+Thyme extract	1	
+fr:Sirop de glucose de blé en poudre	1	
+it:cipolla-disidritata	1	*
+xanthan-gum-salt	1	*
+ru:печенье-сахарное	1	*
+ru:хлебопекарная	1	*
+fr:Jus de clémentine	1	
+fr:jus-de-raisin-clarifie-a-base-de-concentre	1	*
+ci-19140	1	*
+fr:une-pincee-d-extrait-de-spiruline	1	*
+g-fabrique-et-conftonne-par	1	*
+fr:pin	1	*
+fr:boulgour-fin-rehydrate	1	*
+it:lait	1	*
+fr:les-ingredients-de-vos-bons-petits-cubes	1	*
+fr:concentre-de-vegetaux	1	*
+zwarte-thee	1	*
+fr:sauce-cocktail	1	*
+Shea oil	1	
+ginger-powder-cheese-powder-mix	1	*
+fr:extrait-d-ognons-verts	1	*
+fr:melange-de-concentre-proteique	1	*
+fr:arome-grenade	1	*
+zh:柑橘果膠	1	*
+sv:fruktjuice-fràn-koncentrat	1	*
+emulsifier-soy-lecithin	1	*
+sv:natriumpyrofosfat	1	*
+de:feuchthaltenmittel	1	*
+casionally	1	*
+fr:puree-de-corossol	1	*
+Acerola powder	1	
+a	1	*
+fr:jus-concentre-d-os-et-viande-de-boeuf	1	*
+Diphosphates and sodium carbonates	1	
+fr:haricots-azuki	1	*
+fr:menthe-pomme	1	*
+de:sübungsrnittel	1	*
+fr:weizenkeime-detr-gefriergetrocknete-beeren	1	*
+sprouted-sunflower-seeds	1	*
+Seaweed	1	
+ro:extract-de-ardei	1	*
+E222	1	
+fr:Moutarde forte de dijon	1	
+fr:tarwekiemen-det-gevriesdroogde-bessen	1	*
+es:filetes-de-sardina	1	*
+Red cabbage	1	
+fr:teneur-en-fruits	1	*
+Lamb	1	
+fr:aubergines-prefrites-avec-peau	1	*
+Dried apple pieces	1	
+fr:acide-citrique-variete-vaccinium-macrocarpon	1	*
+produit-de-thdllande-no-de-lot	1	*
+Chocolate cream	1	
+de:färbendes-lebensmittelkonzentrat-aus-äpfeln-und-kürbis	1	*
+fr:p-pe-acide-citrique	1	*
+fr:limettes	1	*
+fr:crispies	1	*
+it:ginseng-in-polvere	1	*
+it:formaggio-stracchino-nonno-nanni	1	*
+fr:eucalyptus	1	*
+de:tomatenmark-14-einfach-konzentriert	1	*
+ci-77492	1	*
+de:gehärtete-pflanzliche-fette	1	*
+fr:tara	1	*
+fr:Lait en poudre enrichi en matière grasse	1	
+it:cereales-croustillantes	1	*
+ru:e122	1	*
+it:gelatina-alimentare	1	*
+fr:pate-d-amande	1	*
+fr:creme-de-chocolat	1	
+de:feiner-zucker	1	*
+ru:пастеризованное-коровье-молоко	1	*
+sausage-mix	1	*
+ru:e10	1	*
+de:farbstoff-ammonsulfit-zuckerkulör	1	*
+Bamboo fibre	1	
+Baby spinach	1	
+ro:proteină-vegetală	1	*
+de:molkeneiweibkonzentrat	1	*
+ru:арахис-измельчённый	1	*
+ro:emulsificator	1	*
+de:Kakao-Extrakt	1	
+ru:сыр-рассольный	1	*
+Oat fibre	1	
+de:grünkohl-6-aus-dynamischem-anbau-1-milchsauer-vergoren	1	*
+cinnamon-sticks	1	*
+fr:sorbet-mangue	1	*
+de:distelöl	1	*
+de:färbendes-karottenkonzentrat-und-hibiskuskonzentrat	1	*
+fr:Plasma de porc	1	
+fr:sauce-au-yaourt	1	*
+Soft white cheese	1	
+ro:extract-de-rosmarin	1	*
+sv:stekt-nötfärs	1	*
+fr:dont-ail-0	1	*
+ru:соль-lt	1	*
+Free range chicken egg yolk	1	
+fr:arome-naturel-de-cannelle-de-ceylan	1	*
+fr:ble-integral	1	*
+fr:peroreatde-petit-lait	1	*
+fr:avoine-hachee	1	*
+fr:fromage-a-pate-molle	1	*
+de:weizenröstmalz	1	*
+fr:Arôme naturel de vanille de madagascar	1	
+Anchovy filets	1	
+ferrous-sulfate-niacin	1	*
+egg-lysosyme	1	*
+fr:farine-d-avoine-extrudee	1	*
+store-sa	1	*
+de:gabelspaghetti-gekocht	1	*
+and-salt	1	*
+E142	1	
+Cooked chickpeas	1	
+Celery leaves	1	
+Lemon zest	1	
+Sultanas	1	
+l-see-bottle-for-production-and-expiry-date-eep-in-a-coong-تترسع-لحتاج-و-الانتهاء-انظر-الى-الزجهة-bottled-at-source-perrier-by-nws-sud-30310-vergeze-france-57-30310-lorie	1	*
+de:vanilllin	1	*
+White seedless grape	1	
+Carrot extract	1	
+Chicken egg yolk	1	
+Cockles	1	
+fr:Jus de poisson	1	
+fr:cyclopterus-lumpus	1	*
+fr:el41	1	*
+Laurel extract	1	
+fr:clavon-lsaveutsduclavon	1	*
+ru:мука-пшеничная-хлебопекарная-1-сорт	1	*
+E435	1	
+de:Frische fettarme Milch	1	
+101	1	*
+fr:aroma-bergamotto	1	*
+fr:i	1	*
+fr:extrait-de-paprika-antioxydant	1	*
+ru:стаб-ры	1	*
+fr:naturel-de-poivre	1	*
+electrolytic-iron	1	*
+Rice protein	1	
+esters-of-fatty-acids	1	*
+ja:小松菜	1	*
+fr:farine-de-ble-tendre-type-0	1	*
+fr:vollkornmehl	1	*
+de:grüne-paprika	1	*
+fr:creme-de-chataignes	1	*
+de:aus-nachhaltigem-tomatenanbau	1	*
+fr:dont-83-de-tequila	1	*
+de:in-brine	1	*
+fr:Eau de vie de vin	1	
+de:spirituose-arrak	1	*
+popping-corn	1	*
+fr:matiere-grasse-vegetale-de-noix-de-coco-non-hydrogenee	1	*
+de:karamellisierter-glucose-fructose-sirup	1	*
+Hibiscus	1	
+fr:ingredient-jus-de-pomme	1	*
+zh:茶葉	1	*
+Caribbean spiny lobster	1	
+fr:emulsifiant-sodium-de-stearate	1	*
+501	1	*
+fr:prune-rubinel	1	*
+fr:extraits-de-carotte-noire-et-d-hibiscus	1	*
+Rehydrated egg white	1	
+unsweetened-chocolatet	1	*
+ja:香辛料抽出物	1	*
+Chromium chloride	1	
+it:farina-di-grano-tenero-di-tipo-0	1	*
+fr:haricots-mange-tout	1	*
+fr:iv-c02	1	*
+de:eiweißmischung	1	*
+Natural onion flavouring	1	
+fr:volkorenmeel	1	*
+fr:feuilles-de-iugrec-deshydratees	1	*
+fr:gousses-de-vanille-bour	1	*
+fr:jarret-et-gorge-de-porc	1	*
+ru:ядро-подсолнечника-обжаренное	1	*
+fr:Gratinage	1	
+Apple flavouring	1	
+hu:kalcium-d-pantotenát-pantoténsav	1	*
+fruit-purees	1	*
+fr:contient-de-l-extrait-de-vanille	1	*
+ru:вкусоароматическая-добавка-ветчина	1	*
+contains-a-wheat-ingredient	1	*
+Natural caramel flavouring	1	
+de:Trockenhefe	1	
+fr:ce-produit-est-fabrique-a-partir-de-viande-de-volaille	1	*
+fr:naturel	1	*
+ro:mere	1	*
+ro:cacao-degresată	1	*
+1420	1	*
+Mint leaf	1	
+fr:sirop-de-menthe	1	*
+ja:かやく（味付油揚げ	1	*
+de:sardinenﬁlets	1	*
+de:süssungsmitr-aspartam	1	*
+pl:czerwona-szalotka-w-proszku	1	*
+fr:matricaria-chamomilla	1	*
+fr:blanc	1	*
+Natural strawberry flavouring	1	
+ro:amidon-de-grâu	1	*
+Chromium nicotinate	1	
+ru:смесь-токоферолов	1	*
+Fully hydrogenated vegetable oils	1	
+maodified-maize-starch	1	*
+fr:islande-et-feroe	1	*
+a-19	1	*
+arachides	1	*
+de:natürliches-dillaroma	1	*
+fr:f	1	*
+dragonfruit-extract	1	*
+Celtic sea salt	1	
+de:Dinkelmehl Type 630	1	
+de:Bourbonvanilleschotenextrakt	1	
+de:sel-de-guérande	1	*
+ru:соль-мальтодекстрин	1	*
+fr:vermicelles-de-chocolat	1	*
+a-consommer-de-preference-avant-le	1	*
+ghee-oil	1	*
+White sugar	1	
+fr:infusion-de-chinotto-de-sentinelle-slow-food-de-savone	1	*
+fr:Huile de colza non hydrogénée	1	
+fr:tagete	1	*
+it:prodotto-in-italia-nome-e-marchi-depositati-inf-bilmente-entro-il	1	*
+nl:bio-rozemarijnextract	1	*
+yellow-corn-grits	1	*
+eau	1	*
+fr:pour	1	*
+fr:tarwe	1	*
+fr:1-framboise-ecrasee	1	*
+fr:lentille-jaune	1	*
+light-brown-sugar	1	*
+sv:och-potatisstärkelse	1	*
+Raclette	1	
+fr:guinness-eland-irlaa	1	*
+fr:mentha-rotundifolla	1	*
+fr:epautre	1	*
+fr:melange-de-vitamine-joylent	1	*
+fr:sulfiltes	1	*
+Nitrite curing salt	1	
+Eggs from caged hens	1	
+Boletus edulis	1	
+fr:si-produit-dans-l-usine-indiquee-avec-la-lettre	1	*
+fr:vitamine-b1-vitamine-b5	1	*
+fr:caramel-aromatique-au-beurre-sale	1	*
+caprylyl-methicone	1	*
+fr:tagliatelles-aux-oeufs-cuites	1	*
+fr:Chapelure de blé	1	
+ru:стабилизатор-эмульгатор	1	*
+fr:ukraine	1	*
+ro:caramel	1	*
+b-carotene	1	*
+Free range egg yolk	1	
+milk-chocolates-contains-vegetable-fats-in-addition-to-cocoa-butter	1	*
+de:färbendes-konzentrat-aus-karotten-und-saflorblüten	1	*
+Hake	1	
+E505	1	
+Chocolate ice cream	1	
+fr:sechees	1	*
+fr:Sucres extraits de fruits	1	
+fr:tiges-de-citronnelle	1	*
+fr:Légumes frais	1	
+fr:poivrons-du-sud-ouest	1	*
+fr:jus-de-fruits-a-base-de-concentre-15-maximum	1	*
+whey-demineralized-powder	1	*
+de:bibernelle	1	*
+fr:diphosphates-antioxydant	1	*
+water-rapeseed-oil	1	*
+hemp-protein	1	*
+contains-lactobacillus-casei-shirota	1	*
+it:derivati	1	*
+mixed-fruit-juices-from-concentrate	1	*
+rooibos-tea	1	*
+lambs-lettuce	1	*
+fr:pyridoxine-chlorhydrate	1	*
+Jalapeno	1	
+nb:e316	1	*
+de:kutua	1	*
+Rabbit meat	1	
+fr:melange-de-miels-de-montagne-originaires-et-non-originaires-de-l-union-europeenne	1	*
+it:di-c-per-conservare-al-meglio-il-pane-si-consiglia-di-richiuderlo-cam-nella-confezione-e-di-riporlo-in-luogo-fresco-e-asciutto	1	*
+fr:vitamine-b	1	*
+fr:acide-ascorbique-et-farine-de-malt-de-ble	1	*
+hydrogenated-polyisobutene	1	*
+fr:extrait-de-coquillages	1	*
+zh:酵母萃取物	1	*
+de:raffinade	1	*
+Almonds pieces	1	
+ru:заменитель-какао-масла-лауринового-типа	1	*
+fr:arome-ananas	1	*
+de:viande-de-porc	1	*
+fr:base-aromatisante	1	*
+fr:pasteurise	1	*
+Modified wheat starch	1	
+nb:renskåret-svinekjøtt-av-skinke	1	*
+fr:Éclats de caramel au beurre salé	1	
+hu:ebből-chili	1	*
+semi-sweet-chocolate-chips	1	*
+nl:huile-de-colza	1	*
+ja:リン酸塩（ｎａ）	1	*
+fr:Mozzarella râpée	1	
+ro:fibră-vegetală-de-mazăre	1	*
+fr:elange-au-gingembre	1	*
+E526	1	
+fr:6-et-de-pasteque-2-a-base-de-jus-concentre	1	*
+Beef casing	1	
+fr:arome-naturel-kirsch	1	*
+de:papayas	1	*
+Iron fumarate	1	
+nl:bio-augurken	1	*
+it:youn-t-houe-00-smolt-sweets	1	*
+fr:12-oeufs-de-categorie-a-de-poules-elevees-en-cage	1	*
+ro:făină-neagră-de-grâu	1	*
+fr:proteines-de-lalt	1	*
+Ground white pepper	1	
+flour-locust-bean-seeds	1	*
+Extruded rice	1	
+fr:riz-long-complet-precuit-par-etuvage	1	*
+fr:melange-de-riz-precuit-avec-des-aiguillettes-de-poulet-cuites-traitees-en-salaison-dans-une-sauce-a-base-de-champignons-de-paris-et-de-creme	1	*
+fr:soja-ble	1	*
+fr:chair-de-morue-emiettee	1	*
+fr:gerst-ges-cacao	1	*
+piments	1	*
+lactic	1	*
+fr:calvados-denature	1	*
+de:antïoxidatiunsmittel-kaliummetabisulfit	1	*
+pl:anyż	1	*
+Salted anchovy filets	1	
+Lactose-free milk	1	
+Bourbon vanilla natural flavouring	1	
+de:kräuteressig	1	*
+Natural spices	1	
+de:ignwer	1	*
+fr:Jus de betterave rouge concentré	1	
+es:filetes-de-sardinas	1	*
+fr:ce-produit-contient-du-jambon-fabrique-a-partir-de-viande-de-porc	1	*
+Wakame	1	
+ru:солод-ячменный-молотый	1	*
+ro:fulgi-de-nucă-de-cocos	1	*
+ble	1	*
+of-milk-curd	1	*
+fr:caille-lait	1	*
+fr:texturant	1	*
+sheep-s-and-goats-milk	1	*
+fr:Arôme naturel de sucre roux	1	
+Coconut water	1	
+Camembert	1	
+de:designs	1	*
+f-2	1	*
+hu:sertésszalonna	1	*
+fr:7-tmodifiesel	1	*
+vegetable-fat-palm	1	*
+fr:nsel	1	*
+de:reine-eingesottene-butter	1	*
+fr:kan-sporen-van-schaaldieren-en-soja-bevatten	1	*
+ail	1	*
+cyclopentasiloxane	1	*
+fr:suiker-oo-zutaten	1	*
+de:pecorino-käse	1	*
+fr:fain-seigile	1	*
+E263	1	
+Cooked carrot	1	
+White rice	1	
+nature-identical-flavour	1	*
+fr:3-puree-de-banane	1	*
+Chard	1	
+fr:sucre-raffine	1	*
+sv:vete-skållning-och-förjäst-vete-mjöl	1	*
+fr:bicarbonate-et-pyrophosphate-de-sodium	1	*
+it:fermenti-latici	1	*
+de:kollagenhydrolysat	1	*
+mozzarella-milk	1	*
+it:puo-contenere-tracce-di	1	*
+fr:arome-sel	1	*
+fr:vermicelle-de-riz	1	*
+ro:concentrat-colorant-din-plante-si-fructe	1	*
+fr:conserver-au-sec	1	*
+casings-made-from-beef-collagen	1	*
+spices-garlic	1	*
+fr:amidon-modifie-de-mais-huile-de-tournesol	1	*
+zh:細磨烏龍茶葉	1	*
+ru:гидрогенизированное-пальмоядровое-масло	1	*
+fr:vinaigre-balsamique-demce-de-vin	1	*
+fr:peche-en-pacifique-nord-ouest-ou	1	*
+fr:raisin-sultanine	1	*
+fr:produit	1	*
+het-gemiddelde-geviicht-van-een-pastille-is	1	*
+fr:blauwe-bosbes	1	*
+zwarte-thee-met-bergamotaroma-ingredienten	1	*
+fr:180-crevettes	1	*
+Cooked beef meat	1	
+de:traubensüße	1	*
+fr:pcivre-de	1	*
+fr:d-autres-cereales-contenant-du-gluten-et-de-fruits-a-coque	1	*
+Beef heart	1	
+ro:polifosfați	1	*
+fr:Saucisses fumées	1	
+it:quot	1	*
+de:trennungsmittel	1	*
+ro:șoric	1	*
+fr:Miel de foret d'italie	1	
+fr:Moutarde à l'ancienne	1	
+fr:Lait en poudre demi-écrémé	1	
+Paprika powder	1	
+es:almidon-modificado-de-trigo	1	*
+de:oblate	1	*
+fr:lecithine-de-soja-aromes	1	*
+Red and yellow peppers	1	
+fr:beurre-lait-entier-en-poudre	1	*
+Dried thyme	1	
+de:l-l-carnitin	1	*
+E345	1	
+Meat patty	1	
+de:haseinüsse	1	*
+ru:массовая-доля-хлористого-натрия	1	*
+fr:pain-suedois	1	*
+fr:Jambon de porc français	1	
+de:quot	1	*
+503	1	*
+fr:jus-d-orange-frais-sans-pulpe	1	*
+de:branntweinessig-modifizierte-maisstärke	1	*
+E221	1	
+arome-bergamote	1	*
+fr:Purée de pommes concentrée	1	
+hu:keményítő-emulgeálószer	1	*
+fr:viande-de-tet-de-boeuf	1	*
+46	1	*
+fr:carottes-des-landes	1	*
+de:gebratener-frühstücksspeck	1	*
+ru:семена-кунжута	1	*
+fr:Jus de cranberry à base de concentré	1	
+natural-and-artificia-flavors	1	*
+Pholiota	1	
+es:harina-de-sorgo	1	
+whey-cheddar-cheese	1	*
+ro:lecitină-din-floarea-soarelui	1	*
+ru:обжаренное-ядро-подсолнечника	1	*
+ru:молокосвертывающий-ферментный-препарат	1	*
+de:hergestellt-in-den-vereinigten-arabischen-emiraten	1	*
+fr:mout-devaisin-concentre	1	*
+fr:Maïs doux en grains sans ogm	1	
+fr:ruwe-suiker	1	*
+zh:小蘇打	1	*
+stone-ground-corn	1	*
+E212	1	
+lait	1	*
+fr:filets-maillants-et-similaires	1	*
+fr:lait-ecremė-reconstitue-a-base-de-lait-en-poudre	1	*
+it:carni-bovine-cotte-35-equivalente-a-140g-di-carne-cruda-magra	1	*
+gluten-free-pasta	1	*
+fr:sachet-de-biscuits-feuilletes-sales	1	*
+fr:2-orange-pressee	1	*
+fr:vin-jaune	1	*
+fr:pates-alimentaires-fusilli-cuites-cuisinees	1	*
+ru-contenance	1	*
+Whole fresh eggs	1	
+fr:Extrait naturel de romarin	1	
+fr:fagricu	1	*
+Whole cow's milk	1	
+ru:отвердителя	1	*
+ru:сайра-т	1	*
+it:tournesol	1	*
+fr:la-lettre-indiquee-avec-la-date-de-durabilite-minimale-et-le-numero-de-lot-correspond-a-la-zone-de-peche-du-colin-d-alaska	1	*
+Banana flavouring	1	
+fr:du-pacifique	1	*
+protect-from-moisture	1	*
+de:fruktose-zwiebelextrakt	1	*
+electrolyte	1	*
+de:sw	1	*
+fr:mono-et-diglycerides-diacides-gras	1	*
+fr:Colorant de la croûte	1	
+de:kräuterauszug	1	*
+fr:tracos-possfblog-do-gluten	1	*
+emulsifier-from-plant	1	*
+ru:дрожжи-сух	1	*
+ru:шоколадная-глазурь-с-растительным-жиром	1	*
+fr:pates-iinguine	1	*
+Semi-skimmed mild yogurt	1	
+fr:mono-et-diglycerides-d-acides-gras-et-esters-monoacetyltartrique-et-diacetyltartrique-des-mono-et-diglycerides-d-acides-gras	1	*
+ru:глютен-пшеничный	1	*
+su-e	1	*
+Copper	1	
+de:proteinmischung	1	
+Candied orange peel	1	
+fr:3	1	*
+Patagonian scallop	1	
+de:tomaten-paprika-dip	1	*
+Aspic	1	
+fr:poivre-moutarde	1	*
+fr:lactose-et-derives-du-lait	1	*
+tri-and-polyphosphates	1	*
+fr:champignons-de-paris-blanc	1	*
+packaged-by-weight	1	*
+de:mohr-informationen	1	*
+fr:Arôme naturel de muscade	1	
+pentosodium-triphosphate	1	*
+fr:pepites-de-cranberries	1	*
+fr:rose	1	*
+fr:aromes-naturels-saccharose-sirop-de-glucose	1	*
+fr:creme-affinee	1	*
+Dried tomatoes	1	
+fr:Épinards en branches	1	
+Orange pulp	1	
+Thai long grain rice	1	
+fr:Noix de Saint-Jacques sans corail	1	
+fr:Pur boeuf	1	
+fr:Miel de montagne de France	1	
+Soy protein isolate	1	
+ru:сок-клубничный-концентрированный	1	*
+631	1	*
+wheat-dextrin-gluten-free	1	*
+phenoxyethanol	1	*
+fr:mer-celtique-et-manche-avec-sennes	1	*
+fr:viande-de-veau-fermier-d-aquitaine-et-du-limousin	1	*
+fr:eclats-de-biscuits-aux-amandes	1	*
+de:5-fett	1	*
+Raspberry flavouring	1	
+it:granella-di-meringhe	1	*
+Sweet paprika	1	
+fr:vin-issu-des-cepages-syrah-et-grenache	1	*
+fr:piment-rouge-de-murcie	1	*
+tchibo-arabica	1	*
+fr:Extrait de poulet	1	
+fr:eclats-de-pistaches-caramelises	1	*
+fr:creme-de-chataigne	1	*
+de:bourbonvanilleschote-gemahlen	1	*
+geproduceerd-en-pasulie-leone-s-d	1	*
+fr:alecontenu-non-utilise-dans-un-pot-avec-couvercle	1	*
+ro:din-lapte	1	*
+fr:Café moulu pur arabica	1	
+it:anidride-carbo	1	*
+fr:pour-la-cuisson	1	*
+ro:min	1	*
+fr:pommes-de-terre-vitelottes	1	*
+fr:curcuma-poudre	1	*
+Blueberry puree	1	
+fr:arome-vimto	1	*
+it:estratto-di-bacca-di-vaniglia-0	1	*
+fr:contient-de-l-amidon-de-pomme-de-terre-et-de-mais	1	*
+it-s-fair-to-say-we-know-a-thong-and-two-about-sausages	1	*
+ru:хлопья-кукурузы	1	*
+fr:creme-legere-a-12-de-matieres-grasses	1	*
+ou-moins	1	*
+ru:масло-подсолнечное-нерафинированное	1	*
+Arabica coffee	1	
+fr:ingrediens	1	*
+fr:b6-thiamine	1	*
+fr:sel-marin-certifiee	1	*
+de:paprikagewürzextrakt	1	*
+sauce-de-soja	1	*
+Forest honey	1	
+nl:bio-peterselie	1	*
+de:roggenvolkornmehl	1	*
+fr:Miel de châtaignier	1	
+Elderberry juice	1	
+Sour cherry	1	
+Artichoke	1	
+Dog rose	1	
+fr:Purée de tomate mi-réduite	1	
+fr:decoupe-de-poulet-fermier-cou-nu-jaune	1	*
+waarvan-verzadigde-vetzuren-og	1	*
+fr:a-consommer-de-preference-avant-la-date-iffiquee-sur-la-capsule	1	*
+pt:leite-magro-em-po-ou-concentrado	1	*
+fr:viande-de-dinde-avec-peau	1	*
+fr:feuilles-de-thym	1	*
+garlic-and-parsley-butter	1	*
+Natural spice flavouring	1	
+fr:Extraits naturels d'orange	1	
+Natural peach flavouring	1	
+de:stärkemehl	1	*
+fr:4-pommes-pressees	1	*
+fr:erdbeere	1	*
+es:grasa-anhidra-de-leche	1	*
+it:ascoli-piceno	1	*
+de:johannisbrotkemmehl-natriumalginat	1	*
+de:pasteur	1	*
+Cocoa bean	1	
+zh:磷酸鈣	1	*
+de:kernmehl	1	*
+ru:аминокислота-l-цистеин	1	*
+it:latte-italiano	1	*
+ja:クチナシ色素	1	*
+Slippery jack	1	
+Brown cane sugar	1	
+nl:bio-maïsmeel	1	*
+Bifidus actiregularis	1	
+de:erdbeersaft	1	
+ja:ゼラチンを含む）	1	*
+ro:sare-de-mare-fără-adaos-de-iod	1	*
+de:sojafasern	1	*
+fr:volume	1	*
+fr:eau-minerale-naturelle-source-adeline	1	*
+de:natriumsaccharin	1	*
+Nettle	1	
+fr:acide-citrique-regulateur-de-l-acidite	1	*
+ru:сыр-полутвердый	1	*
+Linden honey	1	
+ro:dovleac	1	*
+fr:kokosvlokken	1	*
+fr:autres	1	*
+de:sojacrisipies	1	*
+fr:jaunes-et-verts	1	*
+fr:mures-sauvages-sans-pepins	1	*
+de:natürliches-kräuter-aroma	1	*
+fr:russie	1	*
+Natural banana flavouring	1	
+de:Natürliche Quellkohlensäure	1	
+fr:Huile essentielle de menthe	1	
+de:verdickungsmittel-ohannisbrotkernmehl-und-pektin	1	*
+it:trattato-con-alcool-etilico-in-superficie	1	*
+de:italienischer-hartkäse	1	*
+fr:pate-fine	1	*
+ru:порошок-яичный	1	*
+quot	1	*
+Skim milk and pasteurized cream	1	
+ru:для-сыра-сливочного	1	*
+fr:Sauce aux fruits rouges	1	
+ro:sirop-de-glucoza-fructoza	1	*
+fr:2-mures-ecrasees	1	*
+it:con-frumento	1	*
+Whipping cream	1	
+fr:de-mais-de-triticale	1	*
+brown-rice-crisps	1	*
+fr:Viande de boeuf en poudre	1	
+fr:Origan déshydraté	1	
+de:peperoniwurst	1	*
+Cereals containing gluten	1	
+Lovage leaves	1	
+fr:coulis-de-tomate-de-provence-a-l-ancienne	1	*
+fr:fleurs-de-lilas	1	*
+de:i	1	*
+sv:e223-sulfit	1	*
+fr:Aiguillettes de poulet	1	
+ro:suc-concentrat-de-vișine	1	*
+de:tonijn-stukken	1	*
+ja:さば	1	*
+fr:puree-de-e-sechees-i-de	1	*
+alfalfa-protein	1	*
+Milkcap	1	
+fr:oranges-semi-confites	1	*
+ja:酸化防止剤（ビタミンｅ）	1	*
+Spelt flour	1	
+fr:lles-feroe	1	*
+fr:farine-de-ble-malte-lt	1	*
+it:pate-de-cacao	1	*
+stevia-extract	1	*
+soya-lecithine	1	*
+de:enthàlt-soja-sulfite	1	*
+ru:масло-рапсовое-рафинированное	1	*
+fr:ce-cvcnt-fin	1	*
+ru:ацесульфам-калия	1	*
+fr:concentre-proteique-de-lactoserum	1	*
+ru:хлористого-кальция	1	*
+fr:amerique-centrale-et-amerique-du-sud	1	*
+Forest mushroom	1	
+fr:Ail semoule	1	
+fr:e-extra	1	*
+ro:telemea-maturată-obținută-din-lapte-de-vacă-pasteurizat	1	*
+fr:foie-de-porc-francais	1	*
+fr:huile-de-coco-hydrogenee-et-non-hydrogenee	1	*
+fr:dublin-8	1	*
+formed-meat-from-chicken-breast-fillet	1	*
+fr:feuilles-de-mauve	1	*
+fr:Yogourt au lait pasteurisé	1	
+fr:Jambon de porc issu d'animaux nourris sans ogm	1	
+de:ammoniumsalze-von-phosphatidsäuren	1	*
+fr:amomum-tsaoko	1	*
+de:emulgator-sonnen­blimen-lecithine	1	*
+de:säuerungskultur	1	*
+not-volume	1	*
+it:estratto-di-carota-nera	1	*
+Taurine	1	
+s0-2530	1	*
+fr:teneur-en-matiere-grasse	1	*
+fr:decor-de-confiserie-colore	1	*
+rice-starch-raising-agents	1	*
+fr:te-nero	1	*
+pl:kurku-ma-w-proszku	1	*
+fr:cranberry-canneberge	1	*
+ru:о	1	*
+fr:farine-de-fromet	1	*
+fr:carboxymethyle-cellulose	1	*
+nl:bio-kerrie	1	*
+Turnip-rape	1	
+fr:raisins-secs-sultanine-11	1	*
+ru:фракционированное	1	*
+Hydrogenated vegetable fat	1	
+fr:sel-poivre-gris-moulu	1	*
+fr:des-aromes-naturels-dans-les-cubes-chorizo-et-jambon-cru	1	*
+de:dillspitzen	1	*
+fr:ingredient-issu-de-l	1	*
+fr:de-production-suisse	1	*
+Ginger extract	1	
+sv:rålakrits	1	*
+ru:консервант-сорбат-натрия	1	*
+fr:120	1	*
+fr:pate-de-cacao-beurre-de-cacao	1	*
+fr:feuilles-de-framboisier	1	*
+pl:teksturowany-gluten-pszenny	1	*
+Bamboo	1	
+ja:香味油）	1	*
+fr:lait-a-2-de-matieres-grasses	1	*
+Camomile	1	
+fr:Pain de mie complet	1	
+E1450	1	
+fr:acidiiant	1	*
+Cauliflower	1	
+fr:set-et-poivre	1	*
+es:grasa-vacuna-refinada	1	*
+fr:2-pomme-presse	1	*
+fr:batons-de-soja	1	*
+l	1	*
+fr:alchemille	1	*
+cheese-seasoning	1	*
+fr:eeau	1	*
+sv:xylitol-29	1	*
+Chinese hibiscus	1	
+ja:昆布パウダー	1	*
+Foaming agent	1	
+fr:pepites-de-chocolat-avec-edulcorant	1	*
+hu:napraforgó-étolaj	1	*
+de:verarbeitunghilfsstoffe	1	*
+de:sübungsmittel	1	*
+fr:echine	1	*
+fr:crepine-de-porc	1	*
+fr:Chair de morue	1	
+it:carragenine	1	*
+the-locust-bean-gum	1	*
+Pear puree	1	
+de:glucose-fructosesirup	1	*
+fr:chips-de-noix-de-coco-grilles	1	*
+ru:сорбат-натрия	1	*
+fr:miettes-75-et-pattes	1	*
+ru:продукт-творожный	1	*
+you-are-pregnant-and-nursing-a-baby	1	*
+de:milcheiweib	1	*
+it:preparazione-a-base-di-biscotto-ai-4-cereali	1	*
+fr:fleurs-de-camomille	1	*
+it:di-barilla-g	1	*
+sv:pepparmintsolja	1	*
+E160e	1	
+fr:lait-de-vache-ecreme	1	*
+store-at-controlled-room-temperature-20-25-c	1	*
+fr:rohzucker	1	*
+yellow-61	1	*
+it:minimum-dans-le-chocolat-seul	1	*
+de:junger-gouda	1	*
+ja:植物性たん白	1	*
+Dried fenugreek leaves	1	
+fr:disphosphate-disodique	1	*
+Churned butter	1	
+fr:amandes-blanchies-et-hachees	1	*
+fr:graines-d-epeautre-du-nord	1	*
+Garlic paste	1	
+ja:スープ（食塩	1	*
+to-preserve-freshness	1	*
+fr:quelques-graines-de-lin-moulues	1	*
+hu:nátrium-foszfátok	1	*
+zh:食用色素	1	*
+de:verarbeitungshilfsstoffe	1	*
+it:traces-eventuelles-d-autres-fruits-a-coque	1	*
+fr:teguments-de-graines-de-moutarde	1	*
+ammonium-salts-of-phosphatidic-acids	1	*
+it:italia	1	*
+hu:bőrös-libazsiradék	1	*
+fr:en-accompagnement-de-viandes	1	*
+fr:nitrito-di-sodio	1	*
+Quinoa flour	1	
+ru:крахмал-тапиоковый-модифицированный	1	*
+fr:446mi	1	*
+skimmied-milk	1	*
+fr:segments-de-mandarines	1	*
+sv:arabicakaffe	1	*
+maltodextrose	1	*
+fr:pates-alimentaires-torsades-cuites-aromatisees-a-la-tomate-et-a-la-betterave	1	*
+ja:（原材料の一部に乳成分	1	*
+vegetable-oi	1	*
+de:hydroxide	1	*
+D-pantothenate calcium	1	
+fr:cnstal	1	*
+fr:gardenia	1	*
+fr:e202-correcteur-d-acidite-e330	1	*
+fr:oeufs-durs-et-cornichons-avec-mayonnaise-allegee-en-matiere-grasse	1	*
+fr:epices-curcuma-et-paprika	1	*
+fr:Concentré de protéines de soja	1	
+ru:гемицеллюлоза	1	*
+zh:黃色4號	1	*
+fr:conservateurs-de-croute	1	*
+nl:sucre	1	*
+fr:gel-de-l-aloe-vera	1	*
+pandan-leaf	1	*
+ru:фарш-рыбный-сурими	1	*
+may-contain-traces-of	1	*
+de:6-6-korinthen	1	*
+iodized-speisesaltz	1	*
+by-cow-s-milk	1	*
+ja:ベニコウジ色素	1	*
+huile-essentieiie-de-menthe-poivree-du-piemont-ingredienten	1	*
+E954	1	
+lii-fl-a-consommer-de-preference-voir-date-sur-remballge	1	*
+fr:principe-actif	1	*
+ru:ацетат-кальция	1	*
+de:cayenne-pfeffer	1	*
+ethylhexylglycerin	1	*
+fr:Pétales de blé	1	
+Elderflower	1	
+ru:ферментная-группа	1	*
+nl:bio-knoflook	1	*
+ja:増粘剤（アラビアガム）	1	*
+ru:отборные-пастеризованные-сливки	1	*
+fr:cuite	1	*
+sprouted-flaxseed	1	*
+de:säurungsmittel-citronensäure	1	*
+ru:кунжут-обжаренный	1	*
+fr:sale	1	*
+ro:difosfați-și-trifosfați-de-sodiu	1	*
+de:o	1	*
+fr:farine-precuite-de-quinoa	1	*
+fr:voir-la-lettre-pres-de-la-date-sur-le-couvercle	1	*
+fr:dextrine-de-pomme-de-terre	1	*
+fr:teneur-totale-en-sucres	1	*
+boked-ail-the-guaranteed-taste-everyone-loves	1	*
+ro:zer-pudră	1	*
+fr:saveur-d-aloe	1	*
+soya-auce	1	*
+fr:pepites-de-chocolat-1	1	*
+fr:sorbet-a-la-framboise	1	*
+made-with-pasteurised-milk	1	*
+fr:fructose-de-betterave-sucriere	1	*
+de:cherry-roma-tomaten	1	*
+fr:verdikkingsmiddel	1	*
+fr:Extrait de céleri	1	
+fr:sel-de-salies	1	*
+it:beurre-de-cacao	1	*
+pl:przyprawa-pho	1	*
+sv:palmkärneolja	1	*
+fr:lait-de-brebis-a-3-de-matiere-grasse	1	*
+Onion Extract	1	
+fr:fabricado-por	1	*
+bittersweet-chocolate	1	*
+pl:goździk	1	*
+fr:poids-net	1	*
+hu:ízesítő-növényi-részek	1	*
+senia-712-94657-ovnet	1	*
+fr:coquillettes-precuites	1	*
+fr:jaune-d-oeuf-de-poule-elevee-en-plein-air	1	*
+fr:lb	1	*
+de:natürliches-aroma-inklusive-koffein	1	*
+nutritional-informati-typical-values-er-preservatives	1	*
+E122	1	
+fr:coppa	1	*
+fr:Billettes de céréales	1	
+dark-chocolate-filling	1	*
+fr:agents-de-brillance	1	*
+fr:truite-fumee-27-et-saumon	1	*
+E417	1	
+the-academy-of-nutrition-and-dietetics-recommends-a-healthy-diet-including-20-35-grams-of-fiber-a-day	1	*
+Sugared cranberries	1	
+fr:feves-de-cacao-natif	1	*
+ro:fâina	1	*
+fr:weizen	1	*
+de:gewürzaroma	1	*
+Chokeberry juice	1	
+fr:haferflocken	1	*
+Iodised sea salt	1	
+Liver	1	
+it:farina-di-grano-tenero-tipo-o	1	*
+fr:jus-de-cuisson-de-moule	1	*
+fr:concentres-vegetaux	1	*
+fr:corsee	1	*
+de:stückchen	1	*
+it:latte-scremato-condensato-zuccherato	1	*
+gluten-free-breadcrumbs	1	*
+green-rooibos	1	*
+fr:2-8	1	*
+ru:ароматизатор-натуральный-клюквенный	1	*
+ru:продукт-молокосодержащий-сгущенка-вареная	1	*
+d-calcium-pantothenate	1	*
+223	1	*
+fr:Extrait naturel de poivre	1	
+Casein	1	
+ja:魚介エキス	1	*
+ru:дезодорированные-растительные-жиры-и-масла	1	*
+fr:getreide-beerenmischung	1	*
+it:lecithines	1	*
+island-of-re-fleur-de-sel-sea-salt	1	*
+Powder skimmed milk	1	
+fr:Calmar géant	1	
+ru:концентрированный-сок-облепихи	1	*
+Kirsch	1	
+fr:pates-alimentaire-conchiglie-cuites-aromatisees-au-curcuma	1	*
+412	1	*
+fr:x2-steack-a-griller	1	*
+mono-and-diglicerides-of-fatty-acids	1	*
+pt:gordura-de-coco	1	*
+fr:orange-amere	1	*
+de:schweinesaitling	1	*
+de:orangelöl	1	*
+fr:malt-d-orge-reglisse	1	*
+ro:agenți-de-gelificare	1	*
+sheep-s-cheese-pecorino-romano	1	*
+fr:viande-precuite-8-equivalent-viand-crue	1	*
+nl:rood	1	*
+ru:сахаринат-натрия	1	*
+fr:extrait-d-orange-de-gargano-qualita-biondo	1	*
+fr:argentine-et-chlamys-opercularis	1	*
+fr:riz-complet-a-grains-moyens-etuve	1	*
+fr:Melons confits	1	
+fr:haverer-suiker	1	*
+ro:monogliceride-și-digliceride-ale-acizilor-grași	1	*
+ci-15850	1	*
+fr:puree-de-peche-de-vigne	1	*
+recenstituted	1	*
+ro:făină-neagră-de-grâu-tip-1350	1	*
+it:166	1	*
+fr:creme-de-riz-complet	1	*
+Crêpe	1	
+green-tea-essence	1	*
+fr:de-carignan-et-d-un-peu-de-syrah	1	*
+de:lupineneiweiss	1	*
+de:sorte	1	*
+Lemon flavouring	1	
+fr:2-crevettes-decortiquees	1	*
+fr:rijst	1	*
+ro:guma-xantan	1	*
+nl:bio-dille	1	*
+de:zucker-knoblauch	1	*
+de:geschält	1	*
+natural-mineral-water-co2-mineral-content-mg	1	*
+Roscoff onions	1	
+fr:Œufs entiers extra-frais	1	
+de:bei-unter-10-cmindestens-haltbar-bis	1	*
+Hydrogenated palm kernel oil	1	
+isododecane	1	*
+de:eier-aus-freilandhaltung	1	*
+it:fruits-a-coque	1	*
+Mandarin	1	
+nl:bio-rozemarijn	1	*
+fr:oeufs-frais-14-stabilisants	1	*
+ro:emulgator-lecitină-de-soia	1	*
+fr:lait-pasteurise-partiellement-ecreme	1	*
+de:schafsaitliing	1	*
+fr:Jus de mandarine	1	
+ja:ビタミンｂ１	1	*
+fr:dont-feuilles-de-basilic-deshydratees	1	*
+Apple vinegar	1	
+de:i2œen-von-gluten-und-hühnerei-eiweib-kônnen-nicht-ausgeschlossen-werden	1	*
+de:huhnfleisch-gegart	1	*
+ru:копчёная-килька-и-салака	1	*
