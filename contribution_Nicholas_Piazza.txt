@@ -1,0 +1,36 @@
+﻿contribution_Nicholas_Piazza.txt
+
+
+My contribution: I ended up doing almost all the coding.
+For the first version of the project(image classification), I did the image classification custom
+model training by myself, developing the web application for the project, making the Prolog
+knowledge base, and making a dictionary for recipes corresponding to links.
+The second version of the project(with a pretrained model), I did that on my own as well. It 
+consisted of trying to modify the first version of the project just for object detection instead
+of image classification.
+For the third and final version of the project(custom object detection model), I took care of 
+developing and deploying the React web application for The Lazy Chef. I also worked with
+tensorflow.js initially at this stage of the project, trying to figure out how to perform object
+detection with our custom trained model.
+Most of the commits and code contributions on the GitHub repository ended up being from me.
+My main contribution to this project was developing the web application for The Lazy Chef.
+
+
+
+
+Ethan Melero’s contribution: Ethan took care of training the custom object detection model.
+He manually labeled almost up to 1,000 images of food in CustomVision.
+He also scraped more than 200 of those images from the web.
+He also helped make the project proposal, write the project progress, and write the project report.
+He also made most of the presentation slides.
+He also helped modify and correctly format the Prolog knowledge base.
+He also helped clean up the GitHub repository.
+
+
+Brandon Martin’s contribution: Brandon took care of the dataset preparation.
+He was able to automate the scraping of several hundred images from the web.
+He also expanded the Prolog knowledge base and expanded the dictionary of recipes corresponding to links.
+The project was his idea.
+He suggested we try to find an API to help us with object detection which led us to finding
+the customvision-tfjs package; the package helped us get accurate object detection readings.
+He also helped record our YouTube video, write the paper, and finish the presentation slides.
