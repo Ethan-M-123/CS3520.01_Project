@@ -1,2 +1,21 @@
 customvision.ai : https://www.customvision.ai/ : used to make and train computer vision model
-youtube.com : https://www.youtube.com/watch?v=7gOYpT732ow&feature=youtu.be : TensorFlow object detection made easy
+youtube.com : https://www.youtube.com/watch?v=7gOYpT732ow&feature=youtu.be : TensorFlow.js Object Detection Made Easy
+youtube.com: https://youtu.be/ZTSRZt04JkY : Building a Real Time Sign Language Detection App with React.JS and Tensorflow.JS | Deep Learning
+teachable machine: https://teachablemachine.withgoogle.com/ : used to make custom image classification model for earlier version of the project
+
+References
+Dittmann, S. (2020, August 31). TensorFlow.js Object Detection Made Easy. YouTube. https://youtu.be/7gOYpT732ow
+Lee, D. (2020, January 2). Samsung and LG go head to head with AI-powered fridges that recognize food. The Verge. https://www.theverge.com/2020/1/2/21046822/samsung-lg-smart-fridge-family-hub-instaview-thinq-ai-ces-2020
+Renotte, N. (2020, November 22). Building a Real Time Sign Language Detection App with React.JS and Tensorflow.JS | Deep Learning. YouTube. https://youtu.be/ZTSRZt04JkY
+Train, T. C. (2018, August 2). ml5.js: Webcam Image Classification. YouTube. https://www.youtube.com/watch?v=D9BoBSkLvFo&feature=youtu.be
+Train, T. C. (2020, October 20). ml5.js: Object Detection with COCO-SSD. YouTube. https://youtu.be/QEzRxnuaZCk
+
+Code References:
+https://github.com/nicknochnack/ReactComputerVisionTemplate
+https://stackoverflow.com/questions/58806971/how-can-i-take-a-picture-in-react-web-application-not-native
+https://youtu.be/ZTSRZt04JkY?t=2335
+https://github.com/microsoft/customvision-tfjs
+https://github.com/ml5js/ml5-library/blob/main/examples/p5js/ObjectDetector/ObjectDetector_COCOSSD_Video/sketch.js
+https://editor.p5js.org/ml5/sketches/ImageClassification_Video
+http://tau-prolog.org/manual/compatibility-with-nodejs
+http://tau-prolog.org/manual/a-simple-tutorial
