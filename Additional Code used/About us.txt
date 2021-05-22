@@ -1,0 +1,4 @@
+The file ImageScraper.py was used to scrape google images for specific ingredients. Written in Python.
+
+The Simplify ingredients forlder contains a program written in Rust that took a VERY LONG list of ingredients that had very odd spacing
+and other random things mixed in and cleaned it up. 
